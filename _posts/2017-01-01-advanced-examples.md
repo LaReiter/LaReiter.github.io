@@ -1,5 +1,5 @@
 ---
-title:  "Advanced examples"
+title:  "Implement a playful life - and Win"
 mathjax: true
 layout: post
 categories: media
