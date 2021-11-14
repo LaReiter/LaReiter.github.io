@@ -52,7 +52,7 @@ Upload an image to the *assets* folder and embed it with `![title](/assets/name.
 
 A wrapper `div` with the class `large` can be used to increase the width of an image or iframe.
 
-![title](/assets/witcher_pic.png))
+'![title](/assets/game_pic.png))'
 
 [Flower](https://unsplash.com/photos/iGrsa9rL11o) by Tj Holowaychuk
 
