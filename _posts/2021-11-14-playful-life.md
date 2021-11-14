@@ -19,6 +19,8 @@ How does the game differ from real life? On a million points, yes. But lets gath
 * You are **not** the game (character)
 * You **know** that if you push on, the game will reward you
 
+If we could change our metaconginitive beliefs, to be more "game like", we just might have a recipe to live life in the playful manner that we all we want.
+
 ## Embedded content
 
 {% include embed.html url="https://www.youtube.com/embed/_C0A5zX-iqM" %}
