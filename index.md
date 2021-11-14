@@ -6,7 +6,7 @@ layout: page
 **Welcome to my homepage**\
 A pathway to the mind of a passionate Physics graduate, Statistics student and explorer of life. 
 
-![Swiss Alps](https://user-images.githubusercontent.com/4943215/55412536-edbba180-5567-11e9-9c70-6d33bca3f8ed.jpg)
+![Swiss Alps](https://p1.pxfuel.com/preview/288/983/737/space-cosmos-astro-astronomy-universe-galaxies.jpg)
 
 It is fun to witness how the curiosity of a toddler can sometimes checkmate several adults, when being confronted with questions about the natural order of the world. Eventually, our curiosity burns out, and we learn to stop asking questions. For me, there is nothing more meaningful, than experiencing life both on a hedonistic and intellectual level.\
 To do that, we need to be a toddler again. And start asking questions.
