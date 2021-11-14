@@ -16,8 +16,8 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "blog.md",title: "CV",icon:book-open}
-  - {title: "Blog", file: "blog.md",icon:chalkboard-teacher}
+  - {file: "blog.md",title: "CV",icon: acorn}
+  - {title: "Blog", file: "blog.md",icon: acorn}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:lars.reiter.nielsen@gmail.com"}
