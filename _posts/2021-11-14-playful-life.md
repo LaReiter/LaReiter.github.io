@@ -21,8 +21,9 @@ How does the game differ from real life? On a million points, yes. But lets gath
 
 If we could change our metaconginitive beliefs, to be more "game like", we just might have a recipe to live life in the playful manner that we all want.
 
-> External things are not the problem. It's your assessment of them. Which you can erase right now
-> - Marcus Aurelius
+> "External things are not the problem. It's your assessment of them. Which you can erase right now."
+> 
+> – _Marcus Aurelius_
 
 ## Embedded content
 
