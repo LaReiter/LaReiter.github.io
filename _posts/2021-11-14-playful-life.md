@@ -9,7 +9,7 @@ categories: media
 
 ## Gamifacation
 
-If you ever played a game (be it board or digital), you just might know the feeling. Hours gone by. Lots of amusement. Not a lot of worrying. It's like you escaped into some parallel realm, where the mundane problems and duties of everyday life ceased to exist. Once the illusion is broken, and you retire from the game after a few hours, life kicks in and you remember that you are baking potatoes in the oven.\
+If you ever played a game (be it board or digital), you just might know the feeling. Hours gone by. Lots of amusement. Not a lot of worrying. It's like you escape into some parallel realm, where the mundane problems and duties of everyday life cease to exist. Once the illusion is broken, and you retire from the game, life kicks in and the smell of burnt food reminds you of the dinner you put in the oven a few hours ago. \
 The troubles are back.
 
 I admit, it's not like you are amused *all the time*. Even in a game, you just might fail. But I'm sure you agree, that if you do fail, you are more likely to keep pushing on - to press "try again" - compared to a failure outside the game.
@@ -40,3 +40,11 @@ When you detach yourself from *you*, you will experience a number of things.  Si
 
 
 ## The game will reward you
+
+This is not a quickfix, it is an incremental path to a more joyful life, where external circumstances does not dictate the quality of the present moment. In the same way, that you are not overly concerned with the status of an actual game. You are in it to win it. And you can play the game of life your way.
+
+This playful adaption to life only works, the moment you realise that scrutinizing your life, comtemplating your existence and in general, focusing on **you**, doesn't bring you joy. I will argue it does only the opposite. 
+
+Once you realise this, you can easily detach from *you*, and take control (in a game-like manner) of your character to guide yourself through all the levels and obstacles that stand in your way (super mario style) in achieving whatever you set your mind to. But bear in mind, there will be failures. And what do you do then? Why you force your character to "try again". 
+
+As with progress in an actual game, your progress in the game of life will also be assesable. But rather than tracking points, you will use your intuition as your compas. Does this feel good? No? Then try something else. Navigate your way through life, until it does. The journey will be rewarding, if you choose to listen. Just don't the mistake of assessing your life, because that's where the game ends.
