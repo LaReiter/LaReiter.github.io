@@ -7,10 +7,17 @@ categories: media
 
 ![Game](/assets/game_pic.png)
 
-## MathJax
+## Gamifacation
+
+If you ever played a game (be it board or digital), you just might know the feeling. Hours gone by. Lots of amusement. Not a lot of worrying. It's like you escaped into some parallel realm, where the mundane problems and duties of everyday life ceased to exist.
+
+I admit, it's not like you are amused *all the time*. Even in a game, you just might fail. But I'm sure you agree, that if you do fail, you are more likely to keep pushing on - to press "try again" - compared to a failure outside the game.
+
+How does the game differ from real life? Well at least on 2 points:
+
+* You are **not** the game (character)
+* You **know** that if you push on, the game will reward you
 
 ## Embedded content
-
-You can also embed a lot of stuff, for example from YouTube, using the `embed.html` include.
 
 {% include embed.html url="https://www.youtube.com/embed/_C0A5zX-iqM" %}
