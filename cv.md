@@ -1,7 +1,7 @@
 ---
-title:  "my CV"
-mathjax: true
-layout: page
+layout: default
+title: "CV"
 ---
+
 
 test test test
