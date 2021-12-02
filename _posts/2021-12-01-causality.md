@@ -33,7 +33,7 @@ In fact, the possibilities are so enormous, that if we are not careful, we might
 One of the issues to be addressed in machine learning, is the intrinsic ‘black-box’ nature of algorithms, or as I like to call it “fitting incomplete pieces”-paradigm, stretching our lack of knowledge w.r.t. Causality.
 
 ## Making decision from incomplete or biased data
-> "If you feed your machine garbage data, it will give you garbage results"
+![ML](/assets/ml2.PNG)
 
 In supervised learning, a machine (program) is trained to make good predictions. In order to train the machine, we collect real world data and use (a subset of) the data to validate the performance.
 
