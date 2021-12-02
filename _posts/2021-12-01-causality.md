@@ -5,7 +5,7 @@ layout: post
 categories: media
 ---
 
-![ML](/assets/ml.png)
+![ML](/assets/ml.PNG)
 
 In 2008, Google launched a spectacular project called Google Flu Trends (GFT). The program was devised to collect search queries from users of their search engine, in order to predict the outbreaks of flu.
 It was a tremendous success, until it wasn’t anymore. From its birth in 2003 and up till the year of 2009 GFT had accurately predicted the outbreak of Flu several days in advance. 
