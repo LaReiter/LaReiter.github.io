@@ -11,7 +11,7 @@ I'm particular fascinated by the mathematical theory contained in statistical ma
 and find huge satisfication in tackling and succeeding with the big data
 puzzles (=problems) that pops up in this age of the machine.
 
-# Interest areas
+## Interest areas
 * Linear Algebra
 * Bayesian Statistics
 * Linear models, Generalized linear models, Mixed models
@@ -20,12 +20,12 @@ puzzles (=problems) that pops up in this age of the machine.
 * Probability theory
 * Programming (Python, R, SQL, Matlab, VBA)
 
-# Jobs
+## Jobs
 * Academic Employee | Data Science Lab | 2021 - NOW
 * Junior Analyst | Danish Utility Regulator | 2020 - 2021
 * Student developer | Cubris ApS | 2014 - 2015
 
-# Teaching
+## Teaching
 * Lecturer | Frederiksberg Gymnasium | 2018 - 2019
 * Lecturer | Virum Gymnasium | 2019 - 2020
 * Assistant Lecturer:
@@ -38,4 +38,8 @@ puzzles (=problems) that pops up in this age of the machine.
   * Statistics for Biochemistry | UCPH | 2020
   * Probability theory and Statistics | UCPH | 2020
 
-# Education
+## Education
+* Statistics (MSc) | UCPH |2020 - NOW
+* Mathematics (BSc) | UCPH | 2020
+* Physics (MSc) | UCPH | 2016 - 2018
+* Physics (BSc) | UCPH | 2012 - 2016
