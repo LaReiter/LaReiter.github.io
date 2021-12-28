@@ -3,8 +3,9 @@ title: ""
 mathjax: true
 layout: page
 ---
-**Welcome to my homepage**\
-<img align="right" alt="drawing" width="200" src="/assets/mig.png">
+<img align="right" alt="drawing" width="150" src="/assets/mig.png">
+
+**Welcome to my homepage**\  
 A pathway to the mind of a passionate Physics graduate, Statistics student 
 and explorer of life. 
 
