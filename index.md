@@ -21,7 +21,7 @@ puzzles (=problems) that pops up in this age of the machine.
 * Programming (Python, R, SQL, Matlab, VBA)
 
 ## Jobs
-* Academic Employee &#124; Data Science Lab | 2021 - NOW
+* Academic Employee &#124; Data Science Lab &#124; 2021 - NOW
 * Junior Analyst | Danish Utility Regulator | 2020 - 2021
 * Student developer | Cubris ApS | 2014 - 2015
 
