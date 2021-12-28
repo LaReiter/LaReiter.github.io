@@ -3,10 +3,9 @@ title: ""
 mathjax: true
 layout: page
 ---
+<img align="right" alt="drawing" width="200" src="/assets/mig.png">
 **Welcome to my homepage**\
 A pathway to the mind of a passionate Physics graduate, Statistics student and explorer of life. 
-
-<img align="right" alt="drawing" width="200" src="/assets/mig.png">
 
 It is fun to witness how the curiosity of a toddler can sometimes checkmate several adults, when being confronted with questions about the natural order of the world. Eventually, our curiosity burns out, and we learn to stop asking questions. For me, there is nothing more meaningful, than experiencing life both on a hedonistic and intellectual level.\
 To do that, we need to be a toddler again. And start asking questions.
