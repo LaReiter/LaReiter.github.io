@@ -3,7 +3,7 @@ title: ""
 mathjax: true
 layout: page
 ---
-<img align="left" src="/assets/mig.png" alt="My Image">&nbsp;&nbsp;&nbsp;&nbsp;
+<img align="left" src="/assets/mig.png" alt="My Image" padding: 5px;>
 
 **Welcome to my homepage**
 A pathway to the mind of a passionate Physics graduate, Statistics student and explorer   of life.
