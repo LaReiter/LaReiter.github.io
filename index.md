@@ -22,24 +22,24 @@ puzzles (=problems) that pops up in this age of the machine.
 
 ## Jobs
 * Academic Employee &#124; Data Science Lab &#124; 2021 - NOW
-* Junior Analyst | Danish Utility Regulator | 2020 - 2021
-* Student developer | Cubris ApS | 2014 - 2015
+* Junior Analyst &#124; Danish Utility Regulator &#124; 2020 - 2021
+* Student developer &#124; Cubris ApS &#124; 2014 - 2015
 
 ## Teaching
-* Lecturer | Frederiksberg Gymnasium | 2018 - 2019
-* Lecturer | Virum Gymnasium | 2019 - 2020
+* Lecturer &#124; Frederiksberg Gymnasium &#124; 2018 - 2019
+* Lecturer &#124; Virum Gymnasium &#124; 2019 - 2020
 * Assistant Lecturer:
-  * Linear Algebra and Optimisation | ITU | 2019, 2020
-  * Linear Algebra and Probability | ITU | 2019, 2020
-  * Statistics I | CBS | 2018
+  * Linear Algebra and Optimisation &#124; ITU &#124; 2019, 2020
+  * Linear Algebra and Probability &#124; ITU &#124; 2019, 2020
+  * Statistics I &#124; CBS &#124; 2018
 * Instructor:
-  * Introduction to mathematics in natural science | UCPH | 2020
-  * Linear Algebra in computer science | UCPH | 2020
-  * Statistics for Biochemistry | UCPH | 2020
-  * Probability theory and Statistics | UCPH | 2020
+  * Introduction to mathematics in natural science &#124; UCPH &#124; 2020
+  * Linear Algebra in computer science &#124; UCPH &#124; 2020
+  * Statistics for Biochemistry &#124; UCPH &#124; 2020
+  * Probability theory and Statistics &#124; UCPH &#124; 2020
 
 ## Education
-* Statistics (MSc) | UCPH |2020 - NOW
-* Mathematics (BSc) | UCPH | 2020
-* Physics (MSc) | UCPH | 2016 - 2018
-* Physics (BSc) | UCPH | 2012 - 2016
+* Statistics (MSc) &#124; UCPH &#124; 2020 - NOW
+* Mathematics (BSc) &#124; UCPH &#124; 2020
+* Physics (MSc) &#124; UCPH &#124; 2016 - 2018
+* Physics (BSc) &#124; UCPH &#124; 2012 - 2016
