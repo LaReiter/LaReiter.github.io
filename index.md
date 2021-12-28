@@ -4,7 +4,7 @@ mathjax: true
 layout: page
 ---
 **Welcome to my homepage**\
-<img align="right" alt="drawing" width="200" src="/assets/mig.png">
+<img style="float: right;" alt="drawing" width="200" src="/assets/mig.png">
 A pathway to the mind of a passionate Physics graduate, Statistics student and explorer of life. 
 
 It is fun to witness how the curiosity of a toddler can sometimes checkmate several adults, when being confronted with questions about the natural order of the world. Eventually, our curiosity burns out, and we learn to stop asking questions. For me, there is nothing more meaningful, than experiencing life both on a hedonistic and intellectual level.\
