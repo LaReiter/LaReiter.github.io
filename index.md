@@ -4,7 +4,7 @@ mathjax: true
 layout: page
 ---
 <p style="max-width: 50%; float: right;">
-![Alt Picture Text](/assets/mig.png)
+![Alt Picture Text]("/assets/mig.png")
 </p>
 
 **Welcome to my homepage**
