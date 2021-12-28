@@ -3,7 +3,9 @@ title: ""
 mathjax: true
 layout: page
 ---
-<img align="right" src="/assets/mig.png" alt="My Image" width="200">
+<p style="max-width: 50%; float: right;">
+![Alt Picture Text](/assets/mig.png)
+</p>
 
 **Welcome to my homepage**
 A pathway to the mind of a passionate Physics graduate, Statistics student and explorer   of life.
