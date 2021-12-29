@@ -17,6 +17,7 @@ puzzles (=problems) that pops up in this age of the machine.
 * Modern quantum mechanics
 * Theoretical machine learning
 * Probability theory
+* Insurance and risk
 * Programming (Python, R, SQL, Matlab, VBA)
 
 ## Jobs
