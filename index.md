@@ -10,7 +10,7 @@ I'm particular interested in the mathematical theory contained in statistical ma
 and find huge satisfication in tackling and succeeding with the big data
 puzzles (=problems) that pops up in this age of the machine.
 
-## Interest areas
+## Interest areas ![image](/assets/mig.png)
 * Linear Algebra
 * Bayesian Statistics
 * Linear models, Generalized linear models, Mixed models
