@@ -11,8 +11,7 @@ and find huge satisfication in tackling and succeeding with the big data
 puzzles (=problems) that pops up in this age of the machine.
 
 ## Interest areas
-<img align="right" src="/assets/mig.png">
-
+<img align="right" src="/assets/mig.png"> 
 * Linear Algebra 
 * Bayesian Statistics
 * Linear models, Generalized linear models, Mixed models
