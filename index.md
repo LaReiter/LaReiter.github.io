@@ -11,7 +11,7 @@ and find huge satisfication in tackling and succeeding with the big data
 puzzles (=problems) that pops up in this age of the machine.
 
 ## Interest areas (drop for buzzwords)
-<img align="right" src="/assets/mig.png" width="400">
+<img align="right" src="/assets/mig.png" width="350">
 
 <details>
 <summary>Linear algebra</summary>
