@@ -11,7 +11,7 @@ and find huge satisfication in tackling and succeeding with the big data
 puzzles (=problems) that pops up in this age of the machine.
 
 ## Interest areas (drop for buzzwords)
-<img align="right" src="/assets/mig.png">
+<img align="right" src="/assets/mig.png" width="200">
 
 <details>
 <summary>Linear algebra</summary>
@@ -19,32 +19,26 @@ Eigenanalysis, PCA, Projections, Matrix algebra, Vector spaces
 </details>
 <details>
 <summary>Statistics</summary>
-<br>
 Bayesian, Regression, Linear/Generalized/Mixed models, Missing values, Confounding-effects
 </details>
 <details>
 <summary>Physics</summary>
-<br>
 Modern quantum mechanics, Hilbert spaces, Power flow models, Electric circuits
 </details>
 <details>
 <summary>Machine learning</summary>
-<br>
 SVMs, Random forrests, Hard/soft bounds, Classifcation, Cross-validation, Data comprehension
 </details>
 <details>
 <summary>Probability theory</summary>
-<br>
 Modelling, simulation/sampling, distributional properties, limit theorems, approximation theory
 </details>
 <details>
 <summary>Insurance and risk</summary>
-<br>
 Composite poisson model, Future value, Law of large numbers, Impact of big data on insurance
 </details>
 <details>
 <summary>Programming</summary>
-<br>
 Python, R, SQL, Matlab, VBA, Maple, Stan
 </details>
 
