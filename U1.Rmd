@@ -2,7 +2,7 @@
 title: "U1 SS"
 author: "Lars"
 date: "30/11/2021"
-output: pdf_document
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
