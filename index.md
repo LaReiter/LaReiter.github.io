@@ -13,11 +13,12 @@ puzzles (=problems) that pops up in this age of the machine.
 ## Interest areas
 <img align="right" src="/assets/mig.png">
 
-<details open>
+<details>
 <summary>Linear algebra</summary>
 <br>
 Eigenanalysis, PCA, Projections, Matrix algebra, Vector spaces
 </details>
+<details>
 <summary>Statistics</summary>
 <br>
 Bayesian, Linear/Generalized/Mixed models, Missing values, Confounding-effects
