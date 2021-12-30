@@ -15,11 +15,11 @@ puzzles (=problems) that pops up in this age of the machine.
 
 <details>
 <summary>Linear algebra</summary>
-Eigenanalysis, PCA, Projections, Matrix algebra, Vector spaces
+Multivariate analysis, PCA, Projections, Model matrices, Vector spaces
 </details>
 <details>
 <summary>Statistics</summary>
-Bayesian, Regression, Linear/Generalized/Mixed models, Missing values, Confounding-effects
+Bayesian, Regression, Linear/Generalized/Mixed models, Missing values, Confounding-effects, Experimental design
 </details>
 <details>
 <summary>Physics</summary>
@@ -27,11 +27,11 @@ Modern quantum mechanics, Hilbert spaces, Power flow models, Electric circuits
 </details>
 <details>
 <summary>Machine learning</summary>
-SVMs, Random forrests, Hard/soft bounds, Classifcation, Cross-validation, Data comprehension
+SVMs, Random forrests, Hard/soft generalization bounds, Cross-validation, Data comprehension
 </details>
 <details>
 <summary>Probability theory</summary>
-Modelling, simulation/sampling, distributional properties, limit theorems, approximation theory
+Modelling, Simulation/sampling, Distributional properties, Limit theorems, Approximation theory
 </details>
 <details>
 <summary>Insurance and risk</summary>
