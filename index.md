@@ -18,8 +18,10 @@ puzzles (=problems) that pops up in this age of the machine.
 <br>
 Eigenanalysis, PCA, Projections, Matrix algebra, Vector spaces
 </details>
-* Bayesian Statistics
-* Linear models, Generalized linear models, Mixed models
+<summary>Statistics</summary>
+<br>
+Bayesian, Linear/Generalized/Mixed models, Missing values, Confounding-effects
+</details>
 * Modern quantum mechanics
 * Theoretical machine learning
 * Probability theory
