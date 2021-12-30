@@ -15,7 +15,6 @@ puzzles (=problems) that pops up in this age of the machine.
 
 <details>
 <summary>Linear algebra</summary>
-<br>
 Eigenanalysis, PCA, Projections, Matrix algebra, Vector spaces
 </details>
 <details>
