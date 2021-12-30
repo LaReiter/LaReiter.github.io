@@ -10,7 +10,7 @@ I'm particular interested in the mathematical theory contained in statistical ma
 and find huge satisfication in tackling and succeeding with the big data
 puzzles (=problems) that pops up in this age of the machine.
 
-## Interest areas
+## Interest areas (drop for buzzwords)
 <img align="right" src="/assets/mig.png">
 
 <details>
@@ -21,13 +21,33 @@ Eigenanalysis, PCA, Projections, Matrix algebra, Vector spaces
 <details>
 <summary>Statistics</summary>
 <br>
-Bayesian, Linear/Generalized/Mixed models, Missing values, Confounding-effects
+Bayesian, Regression, Linear/Generalized/Mixed models, Missing values, Confounding-effects
 </details>
-* Modern quantum mechanics
-* Theoretical machine learning
-* Probability theory
-* Insurance and risk
-* Programming (Python, R, SQL, Matlab, VBA)
+<details>
+<summary>Physics</summary>
+<br>
+Modern quantum mechanics, Hilbert spaces, Power flow models, Electric circuits
+</details>
+<details>
+<summary>Machine learning</summary>
+<br>
+SVMs, Random forrests, Hard/soft bounds, Classifcation, Cross-validation, Data comprehension
+</details>
+<details>
+<summary>Probability theory</summary>
+<br>
+Modelling, simulation/sampling, distributional properties, limit theorems, approximation theory
+</details>
+<details>
+<summary>Insurance and risk</summary>
+<br>
+Composite poisson model, Future value, Law of large numbers, Impact of big data on insurance
+</details>
+<details>
+<summary>Programming</summary>
+<br>
+Python, R, SQL, Matlab, VBA, Maple, Stan
+</details>
 
 ## Jobs
 * Academic Employee &#124; Data Science Lab &#124; 2021 - NOW
