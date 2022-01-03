@@ -15,7 +15,7 @@ puzzles (=problems) that pops up in this age of the machine.
 
 <details>
 <summary>Linear algebra</summary>
-Multivariate analysis, PCA, Projections, Model matrices, Vector spaces
+Multivariate analysis, PCA, Projections, Model matrices and parameter spaces, (General) vector spaces
 </details>
 <details>
 <summary>Statistics</summary>
@@ -35,7 +35,7 @@ Modelling, Simulation/sampling, Distributional properties, Limit theorems, Appro
 </details>
 <details>
 <summary>Insurance and risk</summary>
-Composite poisson model, Future value, Law of large numbers, Impact of big data on insurance
+Insurtech, Future value calculations, Law of large numbers, Risk mitigation and reinsurance, Composite (poisson) models
 </details>
 <details>
 <summary>Programming</summary>
