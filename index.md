@@ -42,10 +42,10 @@ Insurtech, Future value calculations, Law of large numbers, Risk mitigation and 
 Python, R, SQL, Matlab, VBA, Maple, Stan
 </details>
 
-## Jobs
+## Non-teaching jobs
 * Academic Employee &#124; Data Science Lab &#124; 2021 - NOW
 * Junior Analyst &#124; Danish Utility Regulator &#124; 2020 - 2021
-* Student developer &#124; Cubris ApS &#124; 2014 - 2015
+* Student Developer &#124; Cubris ApS &#124; 2014 - 2015
 
 ## Teaching
 * Lecturer &#124; Frederiksberg Gymnasium &#124; 2018 - 2019
