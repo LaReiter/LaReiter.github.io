@@ -52,13 +52,13 @@ Python, R, SQL, Matlab, VBA, Maple, Stan
 * Lecturer &#124; Virum Gymnasium &#124; 2019 - 2020
 * Assistant Lecturer:
   * Linear Algebra and Optimisation &#124; ITU &#124; 2019, 2020
-  * Linear Algebra and Probability &#124; ITU &#124; 2019, 2020
+  * Linear Algebra and Probability &#124; ITU &#124; 2020, 2021
   * Statistics I &#124; CBS &#124; 2018
 * Instructor:
   * Introduction to Mathematics in Science &#124; UCPH &#124; 2020
   * Linear Algebra in Computer science &#124; UCPH &#124; 2020
-  * Statistics for Biochemistry &#124; UCPH &#124; 2020
-  * Probability theory and Statistics &#124; UCPH &#124; 2020
+  * Statistics for Biochemistry &#124; UCPH &#124; 2021
+  * Probability theory and Statistics &#124; UCPH &#124; 2021
 
 ## Education
 * Statistics (MSc) &#124; UCPH &#124; 2021 - NOW
