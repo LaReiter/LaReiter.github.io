@@ -37,4 +37,4 @@ A common saying is, that the machine (program) is no better than the data used t
 
 We human make inductive reasoning all the time, but unlike the human, a machine can (probably not) adapt to extreme changes in the setting using any traditional learning paradigm. 
 
-Once again, I raise the the following question: If machines, and so-called AIs, are to perform complex tasks in the future, are we need forced to make machines, which goes beyond simple pattern recognition, and crunch data in new unknowns ways. We need to make models which understand the erratic nature of the world, as we humans do, and are not operating within some narrow probability-based scheme.  
+Once again, I raise the the following question: If machines, and so-called AIs, are to perform complex tasks in the future, we are forced to make machines, which goes beyond simple pattern recognition, and instead crunch data in new uncharted ways. We need to make models which understand both the causal and erratic order of the world, as we humans do, and are not operating within some narrow probability-based scheme.  
