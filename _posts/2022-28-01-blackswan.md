@@ -5,8 +5,6 @@ layout: post
 categories: media
 ---
 
-![Black Swan](/assets/black swan.jpg)
-
 ## Induction
 A way to understand the concept of induction, is through the popular example with swans. 
 
