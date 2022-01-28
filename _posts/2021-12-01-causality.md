@@ -1,5 +1,5 @@
 ---
-title: "Behind every smart machine, is a smart human"
+title: "The overconfident machine"
 mathjax: true
 layout: post
 categories: media
