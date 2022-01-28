@@ -23,7 +23,7 @@ The laws of physics are not bend or changed. And every natural mechanism behaves
 Whenever something ‘turn out’ to be radically different than we expected, we talk about a black swan event.   
 
 In the example with the actual black swan, the knowledge was shared over Europe, and the theory books was updated. 
-he impact was not critical, in the sense that the presumed (incorrect) wisdom of only white swans only limited our understanding of the bird.
+The impact was not critical, in the sense that the presumed (incorrect) wisdom of only white swans only limited our understanding of the bird.
 
 On the other hand, imagine that the year is 2050, and we are sitting comfortable in our self-driven Future AI-X Gesla. This is a car that has gone through immense (machine learning) training, to optimize decisions, and increase safety measures. It’s a car trained with state-of-the art AI technology, and it’s a car that is completely safe. 
 But what happens, if on the road, the Gesla now is faced with a black swan event. 
