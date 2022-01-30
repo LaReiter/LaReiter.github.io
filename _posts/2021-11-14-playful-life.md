@@ -5,7 +5,7 @@ layout: post
 categories: media
 ---
 
-![Game](/assets/game_pic.png)
+![Game](/assets/gamification.jpg)
 
 ## Gamification
 
