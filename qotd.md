@@ -3,7 +3,7 @@ layout: post
 title: "Quote of the Week"
 ---
 
-# Quote of the Week: "Normal" is irrelevant
+# "Normal" is irrelevant
 
 > "I don't particularly care about the usual. If you want to get an idea of a friend's temperament, ethics, and personal elegance, you need to look at him under the tests of 
 >  severe circumstances, not under the regular rosy glow of daily life. Can you assess the danger a criminal poses by examining only what he does on an ordinary day? Can we
