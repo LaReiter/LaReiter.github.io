@@ -65,3 +65,11 @@ Python, R, SQL, Matlab, VBA, Maple, Stan
 * Mathematics (BSc) &#124; UCPH &#124; 2020-2021
 * Physics (MSc) &#124; UCPH &#124; 2016 - 2018
 * Physics (BSc) &#124; UCPH &#124; 2012 - 2016
+
+## Personal projects (selected)
+* Extending the underlying model of the capacity map from Energinet (ongoing)
+* Devising statistical methods for estimating the behaviour of Artic narwhales (ongoing)
+* Investigating the Danish electric power system using a physical kuramoto-like model (2016-2018)
+* Creating a collection of probability exercises and lecture notes for use in undergrad and highschool level classes (2015-2017)
+* Developing game quizzes with mathematical content for use in start-up company EasyA+ (2014)
+
