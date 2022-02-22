@@ -42,7 +42,7 @@ Insurtech, Future value calculations, Risk mitigation and reinsurance, Composite
 Python, R, SQL, Matlab, VBA, Maple, Stan
 </details>
 
-## Non-teaching jobs
+## Non-teaching jobs (Selected)
 * Academic Employee &#124; Data Science Lab &#124; 2021 - NOW
 * Junior Analyst &#124; Danish Utility Regulator &#124; 2020 - 2021
 * Student Developer &#124; Cubris ApS &#124; 2014 - 2015
