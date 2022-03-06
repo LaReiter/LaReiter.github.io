@@ -14,8 +14,8 @@ puzzles (=problems) that pops up in this age of the machine.
 <img align="right" src="/assets/expl.png" width="350">
 
 <details>
-<summary>Linear algebra</summary>
-Multivariate analysis, Projections, Vector spaces
+<summary>Mathematics</summary>
+Linear Algebra, Multivariate analysis, Metric Spaces, Vector Spaces, Measure Theory
 </details>
 <details>
 <summary>Statistics</summary>
@@ -23,19 +23,19 @@ Bayesian, Linear/Generalized/Mixed regression models, Missing values, Confoundin
 </details>
 <details>
 <summary>Physics</summary>
-Modern quantum mechanics, Hilbert spaces, Power flow models, Dynamical systems
+Electrodynamics, Power flow models, Complex systems, General relativity, (Modern) quantum mechanics
 </details>
 <details>
 <summary>Machine learning</summary>
-State of the art classification/regression algorithms, Hard/soft generalization bounds, Statistical learning, Preparation and preprocessing of data
+SoA classification/regression algorithms, Hard/soft generalization bounds, Statistical learning, Preprocessing
 </details>
 <details>
 <summary>Probability theory</summary>
-Modelling, Simulations techniques, Distributional properties, Limit theorems, Approximation theory
+Modelling, Simulations techniques, Distributional properties, Asymptotic/approximation theory
 </details>
 <details>
 <summary>Insurance and risk</summary>
-Insurtech, Future value calculations, Risk mitigation and reinsurance, Composite (poisson) models
+Insurtech, Future value calculations, Risk mitigation and reinsurance, Composite models
 </details>
 <details>
 <summary>Programming</summary>
