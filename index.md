@@ -10,7 +10,7 @@ I'm particular interested in the mathematical theory contained in statistical ma
 and find huge satisfication in tackling and succeeding with the big data
 puzzles (=problems) that pops up in this age of the machine.
 
-## Subjects (dropdown list)
+## Subjects (click for dropdown list)
 <img align="right" src="/assets/expl.png" width="350">
 
 <details>
