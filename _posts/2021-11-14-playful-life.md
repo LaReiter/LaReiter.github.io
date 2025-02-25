@@ -27,9 +27,9 @@ If we could change our metaconginitive beliefs, to be more *game like*, we just 
 
 ## You are not the game
 
-It is with the game, as it is with life. You are not this life. You will always be less important, than you might believe or want yourself to be. But that realisation should strengthen you, and not diminish you. 
+It is with the game, as it is in life. You (and your character) will always be less important, than you might believe or want yourself to be. But that realisation should strengthen you, and not diminish you. 
 
-If **you** are not that important, then perhaps you should focus on what **you can do**. Detach yourself from you, and let that *you* be an instrument to own the game of life. 
+If **you** are not that important, then perhaps you should focus on external things. Detach yourself from you, and let that *you* be an instrument to own the game of life. 
 
 When you detach yourself from *you*, you will experience a number of things.  Since *you* are no longer the object of interest
 
