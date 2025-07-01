@@ -3,73 +3,67 @@ title: ""
 mathjax: true
 layout: page
 ---
-**Welcome to my homepage**.
-A pathway to the mind of a passionate Physics graduate, Statistics graduate and explorer of life.
-I am inquisitive and analytical by heart. I am deeply fascinated by the applicability of the rich mathematical theory that precedes numerous technological and intellectual achievements of today.
-I'm particular interested in the mathematical theory contained in statistical machine learning, and the adaption of causality as a primary focus area. I crunch numbers on a daily basis,
-and find huge satisfication in tackling and succeeding with the big data
-puzzles (=problems) that pops up in this age of the machine.
 
-## Subjects (click for dropdown list)
-<img align="right" src="/assets/expl.png" width="350">
+# Welcome to My World of Data & Discovery
+
+<img align="right" src="/assets/expl.png" width="300" style="margin-left: 20px; border-radius: 8px;">
+
+Hello! I'm a passionate explorer at the intersection of **Physics**, **Statistics**, and **Machine Learning**. With dual graduate degrees in Physics and Statistics, I spend my days unraveling the mathematical mysteries that power today's technological breakthroughs.
+
+What drives me? The elegant beauty of mathematical theory and its incredible power to solve real-world problems. From quantum mechanics to big data analytics, I'm fascinated by how abstract mathematical concepts become the foundation for revolutionary discoveries.
+
+## What I Do
+
+I'm a data scientist and researcher who transforms complex problems into actionable insights. My work spans from developing statistical models for Arctic wildlife research to analyzing power systems using cutting-edge mathematical frameworks.
+
+**My expertise covers:**
+- **Statistical Machine Learning** with a focus on causal inference
+- **Bayesian Methods** and advanced regression modeling  
+- **Complex Systems Analysis** in physics and data science
+- **Big Data Analytics** and algorithmic development
+
+## Current Research & Projects
+
+🔬 **Arctic Wildlife Analytics** - Developing novel statistical methods to understand narwhal behavior patterns in changing Arctic conditions
+
+⚡ **Power Grid Modeling** - Extending capacity mapping models for Denmark's national energy provider (Energinet)
+
+📊 **Causal Inference Research** - Advancing methodologies for understanding cause-and-effect relationships in complex datasets
+
+## Technical Arsenal
 
 <details>
-<summary>Mathematics</summary>
-Linear Algebra, Multivariate analysis, Metric Spaces, Vector Spaces, Measure Theory
-</details>
-<details>
-<summary>Statistics</summary>
-Bayesian, Linear/Generalized/Mixed regression models, Missing values, Confounding-effects, Experimental design
-</details>
-<details>
-<summary>Physics</summary>
-Electrodynamics, Power flow models, Complex systems, General relativity, (Modern) quantum mechanics
-</details>
-<details>
-<summary>Machine learning</summary>
-SoA classification/regression algorithms, Hard/soft generalization bounds, Statistical learning, Preprocessing
-</details>
-<details>
-<summary>Probability theory</summary>
-Modelling, Simulations techniques, Distributional properties, Asymptotic/approximation theory
-</details>
-<details>
-<summary>Insurance and risk</summary>
-Insurtech, Future value calculations, Risk mitigation and reinsurance, Composite models
-</details>
-<details>
-<summary>Programming</summary>
-Python, R, SQL, Matlab, VBA, Maple, Stan
+<summary><strong>🧮 Mathematics & Theory</strong></summary>
+<br>
+Advanced Linear Algebra • Multivariate Analysis • Measure Theory • Metric Spaces • Vector Spaces
 </details>
 
-## Non-teaching jobs (Selected)
-* Academic Employee &#124; Data Science Lab &#124; 2021 - NOW
-* Junior Analyst &#124; Danish Utility Regulator &#124; 2020 - 2021
-* Student Developer &#124; Cubris ApS &#124; 2014 - 2015
+<details>
+<summary><strong>📈 Statistics & Modeling</strong></summary>
+<br>
+Bayesian Statistics • Generalized Linear Models • Mixed Effects Models • Experimental Design • Causal Inference
+</details>
 
-## Teaching
-* Lecturer &#124; Frederiksberg Gymnasium &#124; 2018 - 2019
-* Lecturer &#124; Virum Gymnasium &#124; 2019 - 2020
-* Assistant Lecturer:
-  * Linear Algebra and Optimisation &#124; ITU &#124; 2019, 2020
-  * Linear Algebra and Probability &#124; ITU &#124; 2020, 2021
-  * Statistics I &#124; CBS &#124; 2018
-* Instructor:
-  * Introduction to Mathematics in Science &#124; UCPH &#124; 2020
-  * Linear Algebra in Computer science &#124; UCPH &#124; 2020
-  * Statistics for Biochemistry &#124; UCPH &#124; 2021
-  * Probability theory and Statistics &#124; UCPH &#124; 2021
+<details>
+<summary><strong>🤖 Machine Learning</strong></summary>
+<br>
+Classification & Regression Algorithms • Statistical Learning Theory • Generalization Bounds • Feature Engineering
+</details>
 
-## Education
-* Statistics (MSc) &#124; UCPH &#124; 2021 - NOW
-* Mathematics (BSc) &#124; UCPH &#124; 2020-2021
-* Physics (MSc) &#124; UCPH &#124; 2016 - 2018
-* Physics (BSc) &#124; UCPH &#124; 2012 - 2016
+<details>
+<summary><strong>⚛️ Physics</strong></summary>
+<br>
+Quantum Mechanics • General Relativity • Electrodynamics • Complex Systems • Network Theory
+</details>
 
-## Personal projects (selected)
-* Extending the underlying model of the capacity map from Energinet (ongoing)
-* Devising statistical methods for estimating the behaviour of Artic narwhales (ongoing)
-* Investigating the Danish electric power system using a physical kuramoto-like model (2016-2018)
-* Creating a collection of probability exercises and lecture notes for use in undergrad and highschool level classes (2015-2017)
-* Developing game quizzes with mathematical content for use in start-up company EasyA+ (2014)
+<details>
+<summary><strong>💻 Programming</strong></summary>
+<br>
+Python • R • SQL • MATLAB • Stan (Bayesian modeling) • VBA
+</details>
 
+---
+
+*"In the symphony of data and mathematics, every equation tells a story, and every dataset holds the key to understanding our world a little better."*
+
+Ready to collaborate on solving complex problems? Let's turn data into discoveries together.
