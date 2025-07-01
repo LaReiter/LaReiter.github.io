@@ -6,7 +6,7 @@ layout: page
 
 # Welcome to My World of Data & Discovery
 
-<img align="right" src="/assets/expl.png" width="300" style="margin-left: 20px; border-radius: 8px;">
+<img align="right" src="/assets/expl2.png" width="300" style="margin-left: 20px; border-radius: 8px;">
 
 Hello! I'm a passionate explorer at the intersection of **Physics**, **Statistics**, and **Machine Learning**. With dual graduate degrees in Physics and Statistics, I spend my days unraveling the mathematical mysteries that power today's technological breakthroughs.
 
