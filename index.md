@@ -8,27 +8,19 @@ layout: page
 
 <img align="right" src="/assets/expl2.png" width="300" style="margin-left: 20px; border-radius: 8px;">
 
-Hello! I'm a passionate explorer at the intersection of **Physics**, **Statistics**, and **Machine Learning**. With dual graduate degrees in Physics and Statistics, I spend my days unraveling the mathematical mysteries that power today's technological breakthroughs.
+With triple graduate degrees in Physics, IT and Statistics, I consider myself a exponential nerd.
 
-What drives me? The elegant beauty of mathematical theory and its incredible power to solve real-world problems. From quantum mechanics to big data analytics, I'm fascinated by how abstract mathematical concepts become the foundation for revolutionary discoveries.
-
-## What I Do
-
-I'm a data scientist and researcher who transforms complex problems into actionable insights. My work spans from developing statistical models for Arctic wildlife research to analyzing power systems using cutting-edge mathematical frameworks.
-
-**My expertise covers:**
-- **Statistical Machine Learning** with a focus on causal inference
-- **Bayesian Methods** and advanced regression modeling  
-- **Complex Systems Analysis** in physics and data science
-- **Big Data Analytics** and algorithmic development
+What drives me? The elegant beauty of mathematical theory and its incredible power to solve real-world problems. From the quantum problems of our universe to big data analytics of companies, I'm fascinated by how abstract mathematical concepts pushes us forward.
 
 ## Current Research & Projects
 
-🔬 **Arctic Wildlife Analytics** - Developing novel statistical methods to understand narwhal behavior patterns in changing Arctic conditions
+Given my different backgrounds I also enjoy interdisciplinary challenges, this includes
 
-⚡ **Power Grid Modeling** - Extending capacity mapping models for Denmark's national energy provider (Energinet)
+🔬 **Arctic Wildlife Analytics** - Developing novel statistical methods to understand narwhal behavior patterns in changing Arctic conditions, and population dynamics
 
-📊 **Causal Inference Research** - Advancing methodologies for understanding cause-and-effect relationships in complex datasets
+⚡ **Power Grid Modeling** - Extending the capacity map for Denmark's national energy provider (Energinet), and playing with physical kuramoto-like stochastic models to explore grid stability
+
+📊 **Behavioural Science** - Advancing methodologies for understanding cause-and-effect relationships in behavioural science
 
 ## Technical Arsenal
 
@@ -64,6 +56,4 @@ Python • R • SQL • MATLAB • Stan (Bayesian modeling) • VBA
 
 ---
 
-*"In the symphony of data and mathematics, every equation tells a story, and every dataset holds the key to understanding our world a little better."*
-
-Ready to collaborate on solving complex problems? Let's turn data into discoveries together.
+*"An approximate answer to the right question, is better than an exact answer to the wrong one."*
