@@ -7,14 +7,14 @@ categories: media
 
 ![ML](/assets/ml.PNG)
 
-In 2008, Google launched a spectacular project called Google Flu Trends (GFT). The program was devised to collect search queries from users of their search engine, in order to predict the outbreaks of flu.
-It was a tremendous success, until it wasn’t anymore. From its birth in 2003 and up till the year of 2009 GFT had accurately predicted the outbreak of Flu several days in advance. 
+In 2008, Google launched a spectacular project called Google Flu Trends (GFT). The program was devised to collect search queries from users, in order to predict the outbreaks of flu.
+It was a tremendous success, until it wasn’t anymore. From its launch in 2003 until 2009, GFT accurately predicted flu outbreaks several days in advance.
 You could almost hear the apostles of big data chant in unison: “The era of the machine has begun”.
 
 Then came the swine flu in the spring 2009, and GFT was beaten. But why?
 
-We know that Google trained the program between 2003 and up to 2008, in order to narrow down the search queries (45 was found) which correlated with the flu outbreak over this period. What was also the case in this 7 year period, was that flu outbreaks (in the U.S. where the program was trained) always started in the winter.
-One has to wonder, if GFT in fact was a ingenious model to predict the coming of winter. 
+We know that Google trained the program between 2003 and up to 2008, in order to narrow down the search queries (45 was found) which correlated with the flu outbreak over this period. What was also the case in this 7 year period, was that flu outbreaks in the united states, where the program was trained, always started in the winter.
+One has to wonder, if GFT was in fact a ingenious model to predict the coming of winter. 
 After its failure in 2009, GFT was updated, but failed once again in 2012-2013 with a heavy overestimation of the flu outbreaks. In 2015 GFT was ended. Also in 2009, Google had introduced its suggested query function. It is speculated that this function could potentially boost the queries for flu-related searches, hence resulting in a overly optimistic (or pessimistic) flu prediction.
 
 ![SQ](/assets/sq.png)
@@ -22,11 +22,11 @@ After its failure in 2009, GFT was updated, but failed once again in 2012-2013 w
 There are many speculations as to why GFT ended as a fallen star. But what seems to be beyond discussion, is that causation is at the core of the problem. 
 We simply, do not know enough about the causal structure behind the search pattern of individuals. 
 
-In particular, we do not know if correlations are in fact causations, and if the past correlations are only ‘by chance’, such that future realizations will not promote the same set of search queries as predictors.
+In particular, we do not know if correlations are in fact causations, and if the past correlations existed ‘by chance’, such that future realizations will not promote the same set of search queries as predictors.
 
 ## Big data. Deep learning. Artificial intelligence.
 
-These are words that can spark up enthusiastic conversations. And for good reason, the possibilities are endless: Self-driving vehicles. Image segmentation for locating pathologies, including cancer. Automatization across sectors. And so much more.
+The words in the title of this section can spark up enthusiastic conversations. And for good reason, the possibilities are endless: Self-driving vehicles. Image segmentation for locating pathologies, including cancer. Automatization across sectors. And so much more.
 
 In fact, the possibilities are so enormous, that if we are not careful, we might not even see the limitations. As the GFT example showed.
 
@@ -45,7 +45,7 @@ As another example, say you are training a missile program to recognize a milita
 
 ## Can we fix it?
 
-One would argue that we just need to expand our feature set, or equivalently sample more different data. In the example above, this would certainly help. But the issue arise, when we don’t know a priori what data is meaningful in the context of the machine learning problem. Such as with the GFT example.
+One would argue that we just need to expand our feature set, or equivalently sample more diverse data. In the example above, this would certainly help. But the issue arise, when we don’t know a priori what data is meaningful in the context of the machine learning problem. Such as with the GFT example.
 
 Can we fix it? This is one of the hot topics within data science, and a active field of research. Integrating causality, implies the possibility of adaption to new settings. For instance, a machine which could recognize the influence of “night-time”, even though it has not been explicitly served with data from this distribution. 
 
