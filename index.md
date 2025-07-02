@@ -14,7 +14,7 @@ What drives me? The elegant beauty of mathematical theory and its incredible pow
 
 ## Current Research & Projects
 
-Given my different backgrounds I also enjoy interdisciplinary challenges, this includes
+I enjoy interdisciplinary challenges, which at the moment includes
 
 🔬 **Arctic Wildlife Analytics** - Developing novel statistical methods to understand narwhal behavior patterns in changing Arctic conditions, and population dynamics
 
