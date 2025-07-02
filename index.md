@@ -36,19 +36,16 @@ Bayesian Statistics • Generalized Linear Models • Mixed Effects Models • E
 
 <details>
 <summary><strong>🤖 Machine Learning</strong></summary>
-<br>
 Classification & Regression Algorithms • Statistical Learning Theory • Generalization Bounds • Feature Engineering
 </details>
 
 <details>
 <summary><strong>⚛️ Physics</strong></summary>
-<br>
 Quantum Mechanics • General Relativity • Electrodynamics • Complex Systems • Network Theory
 </details>
 
 <details>
 <summary><strong>💻 Programming</strong></summary>
-<br>
 Python • R • SQL • MATLAB • Stan (Bayesian modeling) • C# • VBA
 </details>
 
