@@ -4,7 +4,7 @@ mathjax: true
 layout: page
 ---
 
-# Welcome to My World of Data & Discovery
+# Welcome to My World of Numbers
 
 <img align="right" src="/assets/expl2.png" width="300" style="margin-left: 20px; border-radius: 8px;">
 
@@ -22,11 +22,10 @@ Given my different backgrounds I also enjoy interdisciplinary challenges, this i
 
 📊 **Behavioural Science** - Advancing methodologies for understanding cause-and-effect relationships in behavioural science
 
-## Technical Arsenal
+## Technical skills
 
 <details>
 <summary><strong>🧮 Mathematics & Theory</strong></summary>
-<br>
 Advanced Linear Algebra • Multivariate Analysis • Measure Theory • Metric Spaces • Vector Spaces
 </details>
 
