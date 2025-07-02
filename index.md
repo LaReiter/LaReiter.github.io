@@ -4,7 +4,7 @@ mathjax: true
 layout: page
 ---
 
-# Welcome to My World of Numbers
+# Welcome
 
 <img align="right" src="/assets/expl2.png" width="300" style="margin-left: 20px; border-radius: 8px;">
 
