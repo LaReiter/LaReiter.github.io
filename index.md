@@ -26,12 +26,11 @@ Given my different backgrounds I also enjoy interdisciplinary challenges, this i
 
 <details>
 <summary><strong>🧮 Mathematics & Theory</strong></summary>
-Advanced Linear Algebra • Multivariate Analysis • Measure Theory • Metric Spaces • Vector Spaces
+Advanced Linear Algebra • Multivariate Analysis • Measure Theory • General Topology • Differential Geometry
 </details>
 
 <details>
 <summary><strong>📈 Statistics & Modeling</strong></summary>
-<br>
 Bayesian Statistics • Generalized Linear Models • Mixed Effects Models • Experimental Design • Causal Inference
 </details>
 
@@ -50,7 +49,7 @@ Quantum Mechanics • General Relativity • Electrodynamics • Complex Systems
 <details>
 <summary><strong>💻 Programming</strong></summary>
 <br>
-Python • R • SQL • MATLAB • Stan (Bayesian modeling) • VBA
+Python • R • SQL • MATLAB • Stan (Bayesian modeling) • C# • VBA
 </details>
 
 ---
