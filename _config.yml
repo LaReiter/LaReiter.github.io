@@ -16,9 +16,9 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
- - {file: "index.html", icon: house}
+ - {file: "index.html", icon: home}
  # - {title: Projects, file: "projects.md"}
- - {title: About me, icon: person,  file: "about.md"}
+ - {title: About me, icon: user,  file: "about.md"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:lars.reiter.nielsen@gmail.com"}
