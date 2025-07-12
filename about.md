@@ -1,5 +1,5 @@
 ---
-title: "About me"
+title: "Lars Nørtoft Reiter"
 mathjax: true
 layout: page
 ---
