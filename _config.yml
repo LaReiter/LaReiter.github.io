@@ -1,6 +1,6 @@
 title: "Home"
 author:  "Lars Nørtoft Reiter"
-description: "<i>To infinity and beyond.</i>"
+description: "<i>Posts about philosophy and statistics.</i>"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
