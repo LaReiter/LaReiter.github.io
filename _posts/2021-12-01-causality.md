@@ -1,5 +1,5 @@
 ---
-title: "The overconfident machine"
+title: "The Overconfident Machine"
 mathjax: true
 layout: post
 categories: media
