@@ -14,21 +14,21 @@ What drives me? The elegant beauty of mathematical theory and its incredible pow
 
 I enjoy interdisciplinary challenges, which at the moment includes
 
-🔬 **Arctic Wildlife Analytics** - Developing novel statistical methods to understand narwhal behavior patterns in changing Arctic conditions, and population dynamics
+🔬 **Arctic Wildlife** - Developing novel statistical methods to understand narwhal behavior patterns in changing Arctic conditions, and population dynamics
 
-⚡ **Power Grid Modeling** - Extending the capacity map for Denmark's national energy provider (Energinet), and playing with physical kuramoto-like stochastic models to explore grid stability
+⚡ **Danish Power Grid** - Extending the capacity map for Denmark's national energy provider (Energinet), and playing with physical kuramoto-like stochastic models to explore grid stability
 
 📊 **Behavioural Science** - Advancing methodologies for understanding cause-and-effect relationships in behavioural science
 
 ## Technical skills
 
 <details>
-<summary><strong>🧮 Mathematics & Theory</strong></summary>
+<summary><strong>🧮 Mathematics</strong></summary>
 Advanced Linear Algebra • Multivariate Analysis • Measure Theory • General Topology • Differential Geometry
 </details>
 
 <details>
-<summary><strong>📈 Statistics & Modeling</strong></summary>
+<summary><strong>📈 Statistics</strong></summary>
 Bayesian Statistics • Generalized Linear Models • Mixed Effects Models • Experimental Design • Causal Inference
 </details>
 
