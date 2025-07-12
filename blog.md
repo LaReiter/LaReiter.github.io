@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Blog"
+author: "Lars Nørtoft Reiter"
 ---
 
 {% if site.show_excerpts %}
