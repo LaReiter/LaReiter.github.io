@@ -9,3 +9,8 @@ $light: #ffffff !default
 
 @function reduce ($percent)
   @return rgba(mix($dark, $light), $percent / 100)
+
+// Fix navigation font size consistency
+nav a
+  font-size: 1em !important
+  font-weight: $font-weight !important
