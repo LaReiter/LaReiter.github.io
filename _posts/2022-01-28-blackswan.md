@@ -1,5 +1,5 @@
 ---
-title: "Black swans"
+title: "Black Swans"
 mathjax: true
 layout: post
 categories: media
