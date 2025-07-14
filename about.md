@@ -4,7 +4,7 @@ mathjax: true
 layout: page
 ---
 
-<img align="right" src="/assets/sprgjrgn.png" width="300" style="margin-left: 20px; border-radius: 8px;">
+<img align="right" src="/assets/spgjrgn.png" width="300" style="margin-left: 20px; border-radius: 8px;">
 
 With triple graduate degrees in Physics, IT and Statistics, I consider myself a exponential nerd.
 
