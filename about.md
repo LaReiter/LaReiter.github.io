@@ -4,6 +4,12 @@ mathjax: true
 layout: page
 ---
 
+<audio controls>
+  <source src="audio.mp3" type="audio/mpeg">
+  <source src="audio.ogg" type="audio/ogg">
+  Your browser does not support the audio element.
+</audio>
+
 <img align="right" src="/assets/spgjrgn.png" width="300" style="margin-left: 20px; border-radius: 8px;">
 
 "Why is my nail setting on my finger? If it was on my nose, it'd be fun"
