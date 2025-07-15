@@ -1,6 +1,15 @@
 <article>
   <header><h1>{{ include.title | default: page.title }}</h1></header>
-  <img align="right" src="/assets/expl2.png" width="300" style="margin-left: 20px; border-radius: 8px;">
+  <div style="float: right; width: 300px; margin-left: 20px;">
+    <div style="margin-bottom: 20px;">
+      <img src="/assets/expl.png" width="300" style="border-radius: 8px; display: block;">
+      <p style="margin: 5px 0 0 0; font-size: 14px; color: #666; text-align: center;">My original creation.</p>
+    </div>
+    <div>
+      <img src="/assets/expl2.png" width="300" style="border-radius: 8px; display: block;">
+      <p style="margin: 5px 0 0 0; font-size: 14px; color: #666; text-align: center;">After generative enhancement.</p>
+    </div>
+  </div>
   <ul class="archive">
     {% for post in site.posts %}
     <li>
