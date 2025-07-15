@@ -10,7 +10,7 @@ layout: page
 
 <div style="text-align: center; padding: 30px; background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); border-radius: 10px; margin: 20px 0; margin-right: 320px;">
   <p style="font-size: 1.2em; font-style: italic; color: #2c3e50; margin: 0; line-height: 1.6;">
-    "Why is my nail on my finger? If it were on my nose, it would be fun."
+    "Why is my nail on my finger? If it were on my nose, it would be fun." - Spørge Jørgen
   </p>
 </div>
 
