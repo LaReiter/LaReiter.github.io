@@ -4,7 +4,9 @@ mathjax: true
 layout: page
 ---
 
-[Listen on Spotify](https://open.spotify.com/track/1n7Od0mCOgveulrwUOiB9l?si=33ebb3d2198241a7)
+<iframe width="100%" height="166" scrolling="no" frameborder="no" 
+        src="https://soundcloud.com/kim-larsen-official/sp-rge-j-rgen-1?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">
+</iframe>
 
 <img align="right" src="/assets/spgjrgn.png" width="300" style="margin-left: 20px; border-radius: 8px;">
 
