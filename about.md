@@ -8,7 +8,11 @@ layout: page
 
 <img align="right" src="/assets/spgjrgn.png" width="300" style="margin-left: 20px; border-radius: 8px;">
 
-"Why is my nail on my finger? If it were on my nose, it would be fun."
+<div style="text-align: center; padding: 30px; background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); border-radius: 10px; margin: 20px 0;">
+  <p style="font-size: 1.2em; font-style: italic; color: #2c3e50; margin: 0; line-height: 1.6;">
+    "Why is my nail on my finger? If it were on my nose, it would be fun."
+  </p>
+</div>
 
 This was one of the many questions asked in the children's book "Spørge Jørgen" - a tale of a boy whose endless questions drove his parents mad. I loved this book as a kid. And I love it even more as an adult. Not only because it is silly and fun, but also because it reminds me how wondrous life is - and how many things we do not fully understand. As we grow older, our curiosity surrounding the small splendors of life seems to fade, and if we are not careful, life becomes dull.
 
