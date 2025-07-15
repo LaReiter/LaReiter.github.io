@@ -73,17 +73,18 @@ layout: page
 /* Mobile styles */
 @media (max-width: 767px) {
   .quote-container {
-    margin-right: 0;
-    padding: 20px;
+    margin-right: 110px; /* Leave space for smaller image */
+    padding: 15px;
   }
   
-  .image-right,
+  .image-right {
+    width: 100px;
+    margin-left: 10px;
+  }
+  
   .image-left {
-    float: none;
-    display: block;
-    margin: 20px auto;
-    width: 90%;
-    max-width: 250px;
+    width: 80px;
+    margin-right: 10px;
   }
   
   .content-text {
@@ -94,18 +95,23 @@ layout: page
 /* Very small screens */
 @media (max-width: 480px) {
   .quote-container {
-    padding: 15px;
+    padding: 10px;
     margin: 15px 0;
+    margin-right: 90px; /* Adjust for even smaller image */
   }
   
   .quote-container p {
-    font-size: 1em;
+    font-size: 0.9em;
   }
   
-  .image-right,
+  .image-right {
+    width: 80px;
+    margin-left: 8px;
+  }
+  
   .image-left {
-    width: 100%;
-    max-width: 200px;
+    width: 70px;
+    margin-right: 8px;
   }
 }
 </style>
