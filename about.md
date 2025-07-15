@@ -18,3 +18,5 @@ This was one of the many questions asked in the children's book "Spørge Jørgen
 Life fascinates me, and I dedicate much of my time to explore every bit of it. From the synchronized movements of fish schools to the invisible dark matter that makes up most of our universe, from the unspoken rules that govern social interaction to the mysteries of human consciousness.
               
 <img align="left" src="/assets/mig_mat.png" width="200" style="margin-right: 10px; border-radius: 8px;">
+
+What I particularly love about life, is that it offers a buffet of intellectual problems waiting to be solved or better understood. This requires critical thinking and analytical skills, and for me usually results in reader's letters, research based projects as well as other creative projects. 
