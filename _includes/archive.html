@@ -1,15 +1,142 @@
+<style>
+/* Article styles */
+article {
+  position: relative;
+}
+
+article::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Image container styles */
+.image-container {
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.image-item {
+  margin-bottom: 20px;
+}
+
+.image-item:last-child {
+  margin-bottom: 0;
+}
+
+.image-item img {
+  border-radius: 8px;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.image-caption {
+  margin: 5px 0 0 0;
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+}
+
+/* Archive list improvements */
+.archive li {
+  margin-bottom: 10px;
+  padding: 10px;
+  background: #f8f9fa;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.archive time {
+  font-family: monospace;
+  color: #666;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.archive a {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.archive a:hover {
+  text-decoration: underline;
+}
+
+/* Desktop styles */
+@media (min-width: 768px) {
+  .image-container {
+    width: 300px;
+  }
+  
+  .image-item img {
+    width: 300px;
+  }
+}
+
+/* Mobile styles - maintain side-by-side but smaller */
+@media (max-width: 767px) {
+  .image-container {
+    width: 35%;
+    min-width: 150px;
+    margin-left: 15px;
+  }
+  
+  .image-item {
+    margin-bottom: 15px;
+  }
+  
+  .image-caption {
+    font-size: 12px;
+  }
+  
+  .archive li {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+  
+  .archive time {
+    font-size: 12px;
+  }
+}
+
+/* Very small screens */
+@media (max-width: 480px) {
+  .image-container {
+    width: 40%;
+    min-width: 120px;
+    margin-left: 10px;
+  }
+  
+  .image-item {
+    margin-bottom: 10px;
+  }
+  
+  .image-caption {
+    font-size: 11px;
+  }
+}
+</style>
+
 <article>
   <header><h1>{{ include.title | default: page.title }}</h1></header>
-  <div style="float: right; width: 300px; margin-left: 20px;">
-    <div style="margin-bottom: 20px;">
-      <img src="/assets/expl.png" width="300" style="border-radius: 8px; display: block;">
-      <p style="margin: 5px 0 0 0; font-size: 14px; color: #666; text-align: center;">My original creation.</p>
+  
+  <div class="image-container">
+    <div class="image-item">
+      <img src="/assets/expl.png" alt="Original creation">
+      <p class="image-caption">My original creation.</p>
     </div>
-    <div>
-      <img src="/assets/expl2.png" width="300" style="border-radius: 8px; display: block;">
-      <p style="margin: 5px 0 0 0; font-size: 14px; color: #666; text-align: center;">After generative enhancement.</p>
+    <div class="image-item">
+      <img src="/assets/expl2.png" alt="Enhanced version">
+      <p class="image-caption">After generative enhancement.</p>
     </div>
   </div>
+  
   <ul class="archive">
     {% for post in site.posts %}
     <li>
