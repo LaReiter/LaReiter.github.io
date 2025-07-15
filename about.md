@@ -4,7 +4,7 @@ mathjax: true
 layout: page
 ---
 
-[Listen on Spotify](https://open.spotify.com/track/1n7Od0mCOgveulrwUOiB9l)
+[Listen on Spotify](https://open.spotify.com/track/1n7Od0mCOgveulrwUOiB9l?si=33ebb3d2198241a7)
 
 <img align="right" src="/assets/spgjrgn.png" width="300" style="margin-left: 20px; border-radius: 8px;">
 
