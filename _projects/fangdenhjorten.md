@@ -1,7 +1,9 @@
 ---
+layout: default
 title: "Fang Den Hjorten"
-date: 2025-07-01
-layout: post
+image: "/assets/projects/hjort-thumbnail.jpg"
+excerpt: "PyGame-based 2D game, where we have to get to the castle and defeat the deer by kicking balls at it."
+date: 2025-06-01
 ---
 
-Summerhouse PyGame.
+# Fang Den Hjorten
