@@ -73,17 +73,17 @@ layout: page
 /* Mobile styles */
 @media (max-width: 767px) {
   .quote-container {
-    margin-right: 110px; /* Leave space for smaller image */
+    margin-right: 140px; /* Leave space for larger image */
     padding: 15px;
   }
   
   .image-right {
-    width: 100px;
+    width: 130px;
     margin-left: 10px;
   }
   
   .image-left {
-    width: 80px;
+    width: 110px;
     margin-right: 10px;
   }
   
@@ -97,7 +97,7 @@ layout: page
   .quote-container {
     padding: 10px;
     margin: 15px 0;
-    margin-right: 90px; /* Adjust for even smaller image */
+    margin-right: 110px; /* Adjust for larger image */
   }
   
   .quote-container p {
@@ -105,12 +105,12 @@ layout: page
   }
   
   .image-right {
-    width: 80px;
+    width: 100px;
     margin-left: 8px;
   }
   
   .image-left {
-    width: 70px;
+    width: 85px;
     margin-right: 8px;
   }
 }
