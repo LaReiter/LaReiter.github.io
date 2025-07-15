@@ -4,7 +4,7 @@ mathjax: true
 layout: page
 ---
 
-[Listen on SoundCloud](https://soundcloud.com/kim-larsen-official/sp-rge-j-rgen-1?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing)
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/253856343&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/kim-larsen-official" title="Kim Larsen" target="_blank" style="color: #cccccc; text-decoration: none;">Kim Larsen</a> · <a href="https://soundcloud.com/kim-larsen-official/sp-rge-j-rgen-1" title="Spørge Jørgen" target="_blank" style="color: #cccccc; text-decoration: none;">Spørge Jørgen</a></div>
 
 <img align="right" src="/assets/spgjrgn.png" width="300" style="margin-left: 20px; border-radius: 8px;">
 
