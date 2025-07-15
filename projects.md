@@ -34,8 +34,9 @@ title: Projects
   background: #f8f9fa;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   overflow: hidden;
+  padding: 10px;
 }
 .project-image {
   max-width: 100%;
