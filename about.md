@@ -10,6 +10,6 @@ layout: page
 
 "Why is my nail on my finger? If it were on my nose, it would be fun."
 
-This was one of the many questions asked in the children's book "Spørge jørgen" - a tale of a boy whose endless questions drove his parents mad. I loved this book as a kid. And I love it even more as an adult. Not only because it is silly and fun, but also because it reminds me how marvelous life really is - and how many things we do not fully understand. As we grow older, our curiosity surrounding the small splendors of life seems to fade, and if we are not careful, life becomes dull.
+This was one of the many questions asked in the children's book "Spørge Jørgen" - a tale of a boy whose endless questions drove his parents mad. I loved this book as a kid. And I love it even more as an adult. Not only because it is silly and fun, but also because it reminds me how marvelous life really is - and how many things we do not fully understand. As we grow older, our curiosity surrounding the small splendors of life seems to fade, and if we are not careful, life becomes dull.
 
 Life fascinates me, and I dedicate much of my time to explore every bit of it. From the synchronized movements of fish schools to the invisible dark matter that makes up most of our universe, from the unspoken rules that govern social interaction to the mysteries of human consciousness.
