@@ -4,11 +4,7 @@ mathjax: true
 layout: page
 ---
 
-<audio controls>
-  <source src="audio.mp3" type="audio/mpeg">
-  <source src="audio.ogg" type="audio/ogg">
-  Your browser does not support the audio element.
-</audio>
+[Listen on Spotify](https://open.spotify.com/track/1n7Od0mCOgveulrwUOiB9l)
 
 <img align="right" src="/assets/spgjrgn.png" width="300" style="margin-left: 20px; border-radius: 8px;">
 
