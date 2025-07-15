@@ -65,10 +65,14 @@ title: Projects
   margin: 0;
 }
 .projects-intro {
-  font-size: 1.1em;
+  font-size: 1.3em;
   line-height: 1.6;
   color: #2c3e50;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
+  margin-top: 30px;
+  font-weight: 500;
+  text-align: center;
+  padding: 0 20px;
 }
 /* Mobile responsiveness */
 @media (max-width: 768px) {
