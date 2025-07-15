@@ -95,7 +95,7 @@ title: Projects
 }
 </style>
 <div class="projects-container">
-  <p class="projects-intro">Here you can find my selected machine learning and data science projects.</p>
+  <p class="projects-intro">A selection of my creative projects.</p>
   
   <div class="projects-grid">
     {% for project in site.projects %}
