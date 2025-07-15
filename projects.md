@@ -2,20 +2,17 @@
 layout: default
 title: Projects
 ---
-
 <style>
 /* Projects grid styling */
 .projects-container {
   margin-top: 20px;
 }
-
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 30px;
   margin-top: 30px;
 }
-
 .project-card {
   background: #fff;
   border-radius: 12px;
@@ -25,52 +22,53 @@ title: Projects
   text-decoration: none;
   color: inherit;
 }
-
 .project-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
   text-decoration: none;
   color: inherit;
 }
-
-.project-image {
+.project-image-container {
   width: 100%;
   height: 200px;
-  object-fit: cover;
+  background: #f8f9fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.project-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
   display: block;
 }
-
 .project-content {
   padding: 20px;
 }
-
 .project-title {
   font-size: 1.3em;
   font-weight: 600;
   margin: 0 0 10px 0;
   color: #2c3e50;
 }
-
 .project-date {
   font-size: 0.9em;
   color: #7f8c8d;
   margin-bottom: 15px;
 }
-
 .project-excerpt {
   font-size: 0.95em;
   line-height: 1.5;
   color: #34495e;
   margin: 0;
 }
-
 .projects-intro {
   font-size: 1.1em;
   line-height: 1.6;
   color: #2c3e50;
   margin-bottom: 10px;
 }
-
 /* Mobile responsiveness */
 @media (max-width: 768px) {
   .projects-grid {
@@ -78,7 +76,7 @@ title: Projects
     gap: 20px;
   }
   
-  .project-image {
+  .project-image-container {
     height: 150px;
   }
   
@@ -91,14 +89,15 @@ title: Projects
   }
 }
 </style>
-
 <div class="projects-container">
   <p class="projects-intro">Here you can find my selected machine learning and data science projects.</p>
   
   <div class="projects-grid">
     {% for project in site.projects %}
       <a href="{{ project.url }}" class="project-card">
-        <img src="{{ project.image }}" alt="{{ project.title }}" class="project-image">
+        <div class="project-image-container">
+          <img src="{{ project.image }}" alt="{{ project.title }}" class="project-image">
+        </div>
         <div class="project-content">
           <h3 class="project-title">{{ project.title }}</h3>
           <p class="project-date">{{ project.date | date: "%B %d, %Y" }}</p>
