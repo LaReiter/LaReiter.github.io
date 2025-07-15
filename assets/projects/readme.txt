@@ -1,0 +1,1 @@
+Thumbnails for project folder
