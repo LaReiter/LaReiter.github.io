@@ -5,6 +5,17 @@ layout: page
 ---
 
 <style>
+/* Import crisp web font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+/* Global font settings for crisp text */
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
 /* Mobile-first responsive styles */
 .soundcloud-container {
   width: 100%;
@@ -25,6 +36,7 @@ layout: page
   color: #2c3e50;
   margin: 0;
   line-height: 1.6;
+  font-weight: 500; /* Make quotes slightly bolder for better readability */
 }
 
 .image-right {
@@ -48,6 +60,7 @@ layout: page
 .content-text {
   text-align: justify;
   line-height: 1.6;
+  font-weight: 450; /* Slightly heavier than normal for better readability */
 }
 
 /* Desktop styles */
