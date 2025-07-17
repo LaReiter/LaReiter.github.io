@@ -95,7 +95,7 @@ title: Projects
 }
 </style>
 <div class="projects-container">
-  <p class="projects-intro">A selection of my creative projects.</p>
+ <p class="projects-intro">Selected creative projects. A full list can be <a href="https://docs.google.com/document/d/1HXOMjqJpiRDGu4M3EIVrFs6nKMEAouZK_JijJE5TLFg/edit?usp=sharing"> found here</a></p>
   
   <div class="projects-grid">
     {% for project in site.projects %}
