@@ -11,7 +11,7 @@ date: 2025-07-17
   <img src="/assets/projects/FangDenHjorten_Intro.png" alt="Game Start Screen" width="600">
 </figure>
 
-The game was developed during the summer, 2013. My small nephew was chasing my brother Morten, who had taken his soccer ball. Kids sometimes misspronounce names, and Morten easily came out sounding like "Hjorten". The title of the game thus became "Fang Den Hjorten" (Catch that Hjorten). At this point in time, I was on my first year of Natural Science and IT (NATIT), and wanted to familiarize myself with game programming using Python. This became my first personal python project.
+The game was developed during the summer, 2013. My small nephew was chasing my brother Morten, who had taken his soccer ball. Kids sometimes misspronounce names, and Morten easily came out sounding like "Hjorten". The title of the game thus became "Fang Den Hjorten" (Catch that Hjorten). At this point in time, I was on my first year of Natural Science and IT (NatIt), and wanted to familiarize myself with game programming using Python. This became my first personal python project.
 
 ### PyGame
 
@@ -19,7 +19,7 @@ PyGame is a Python package that makes it easy to create 2D games and other inter
 
 ### What I learned?
 
-During my first year on NATIT, I been doing a lot of functional programming. This was my first big object-oriented project where I quickly discovered the strength of classes and objects. I also learned about new concepts, such as sprites and making user interfaces. I leraned about collision detection algorithms, event handling and general game architecture. Since this project involved many versions and multiple lines of code, I also learned a fair share about version-control and code management/documentation.
+During my first year on NatIt, I been doing a lot of functional programming. This was my first big object-oriented project where I quickly discovered the strength of classes and objects. I also learned about new concepts, such as sprites and making user interfaces. I leraned about collision detection algorithms, event handling and general game architecture. Since this project involved many versions and multiple lines of code, I also learned a fair share about version-control and code management/documentation.
 
 <figure>
   <img src="/assets/projects/FangDenHjorten.png" alt="First part of the Game" width="600">
