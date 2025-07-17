@@ -4,7 +4,7 @@ title: "What should we call our child?"
 image: "/assets/projects/kidsname-thumbnail.png"
 mathjax: true
 layout: post
-excerpt: "R&reg; A survey-based look at how different generation weights certain factors when naming childs. Article in Danish."
+excerpt: "A survey-based look at how different generation weights certain factors when naming childs. Article in Danish."
 date: 2025-07-17
 ---
 
