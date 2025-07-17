@@ -7,7 +7,7 @@ excerpt: "A survey-based look at how different generation weights certain factor
 date: 2025-07-17
 ---
 
-### Moderne forældre vælger mellem flere børnenavne
+## Moderne forældre vælger mellem flere børnenavne
 
 Hvis man er født i 90’erne kan man måske genkende følelsen af at møde sin navnebror eller -søster i parallelklassen. Særligt hvis man hed Louise, Mette, Martin eller Christian. Den tid er måske forbi, for tallene fra Danmarks Statistik taler sit tydelige sprog: Forældre bevæger sig i stigende grad væk fra de mest populære navne, når børn skal navngives. Figuren nedenfor viser at for børn født mellem 1985 og 2005, var der blandt de 20 mest populære navne, en klar tendens til at de første navne på listen var næsten dobbelt så populære som de sidste. Bevæger vi os frem til år 2015 eller 2023, ser vi at der blandt de 20 mest populære navne ikke er nogen markant forskel på om man tildeles det mest populære eller det tyvende mest populære navn. 
 
@@ -18,7 +18,7 @@ Hvis man er født i 90’erne kan man måske genkende følelsen af at møde sin 
  </figcaption>
 </figure>
 
-### Lad os spørge forældrene
+## Lad os spørge forældrene
 
 Om forældrene bevidst søger mere unikke navne til deres børn, eller om der er andre årsager til fordelingen observeret ovenfor kan være svært  at besvare. Alligevel var det præcis det jeg forsøgte, da jeg sendte et spørgeskema ud i 5 forskellige lokale facebook grupper fordelt over landet: Allerød (ca. 80 respondenter), Smørum (ca. 50 respondenter), Kerteminde (ca. 20 respondenter), Fredericia (ca. 50 respondenter), Thisted (ca. 10 respondenter). Det førte til i alt 213 svar. Spørgeskemaet findes nedenfor.
 
@@ -93,8 +93,10 @@ Om forældrene bevidst søger mere unikke navne til deres børn, eller om der er
 
 Bemærk at spørgsmål 2 og 12 blev tilføjet undervejs, efter ca. 100 registrede svar. Jeg forsøgte at sætte forældrene i situationen hvor de skulle navngive deres barn ("priming"), ved at formulere spørgeskemaet **Hvad var vigtigt, da du valgte dit barns navn?** og tilføje teksten *Tænk så tilbage på dengang du skulle vælge navn til dit barn.*
 
-### Forældrene har talt
+## Forældrene har talt
 
 <figure style="text-align: center;">
  <img src="/assets/projects/taethed_svar.png" alt="Fordelinger i forældrene svar på spørgeskema efter generation" width="800">
 </figure>
+
+Figuren viser hvordan respondenterne i hver årgang har svaret. Steder med høje toppe, betyder at flere respondenter har angivet dette pointtal. Dale betyder omvendt at der er få respondenter. Det første jeg bemærkede, er at der generelt er stor spredning i svarene, pånær enkelte spørgsmål som om navnet skal passe til barnets køn (betyder generelt meget), om navnet baserer sig på traditioner (betyder generelt ikke meget) og evt. navnets signalværdi (betyder generelt ikke meget).
