@@ -20,7 +20,7 @@ Hvis man er født i 90’erne kan man måske genkende følelsen af at møde sin 
 
 ### Lad os spørge forældrene
 
-Om forældrene bevidst søger mere unikke navne til deres børn, eller om der er andre årsager til fordelingen observeret ovenfor kan være svært  at besvare. Alligevel var det præcis det jeg forsøgte, da jeg sendte et spørgeskema ud i 5 forskellige lokale facebook grupper fordelt over landet: Allerød (ca. 80 respondenter), Smørum (ca. 50 respondenter), Kerteminde (ca. 20 respondenter), Fredericia (ca. 50 respondenter), Thisted (ca. 10 respondenter). Det førte til i alt 213 svar. Spørgeskemaet havde titlen **Hvad var vigtigt, da du valgte dit barns navn?** og med undertitel (forklaring):
+Om forældrene bevidst søger mere unikke navne til deres børn, eller om der er andre årsager til fordelingen observeret ovenfor kan være svært  at besvare. Alligevel var det præcis det jeg forsøgte, da jeg sendte et spørgeskema ud i 5 forskellige lokale facebook grupper fordelt over landet: Allerød (ca. 80 respondenter), Smørum (ca. 50 respondenter), Kerteminde (ca. 20 respondenter), Fredericia (ca. 50 respondenter), Thisted (ca. 10 respondenter). Det førte til i alt 213 svar. Spørgeskemaet var henvendt forældre og havde titlen **Hvad var vigtigt, da du valgte dit barns navn?** og med undertitel (forklaring):
 
 > Vælg først din årgang og landsdel. Tænk så tilbage på dengang du skulle vælge navn til dit barn. Giv hvert udsagn nedenfor en vurdering fra 1 til 10 – hvor meget betød det for dig dengang?
 
