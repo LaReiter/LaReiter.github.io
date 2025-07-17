@@ -7,3 +7,5 @@ date: 2025-06-01
 ---
 
 # Fang Den Hjorten
+
+<img src="/assets/projects/FangDenHjorten_Intro.png" alt="Alt text" width="500">
