@@ -96,5 +96,5 @@ Bemærk at spørgsmål 2 og 12 blev tilføjet undervejs, efter ca. 100 registred
 ### Forældrene har talt
 
 <figure style="text-align: center;">
- <img src="/assets/projects/taethed_svar.png" alt="Fordelinger i forældrene svar på spørgeskema efter generation" width="600">
+ <img src="/assets/projects/taethed_svar.png" alt="Fordelinger i forældrene svar på spørgeskema efter generation" width="800">
 </figure>
