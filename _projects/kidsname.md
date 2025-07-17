@@ -99,6 +99,6 @@ Bemærk at spørgsmål 2 og 12 blev tilføjet undervejs, efter ca. 100 registred
  <img src="/assets/projects/taethed_svar_grov.png" alt="Fordelinger i forældrene svar på spørgeskema efter generation" width="800">
 </figure>
 
-Figuren viser hvordan respondenterne i hver årgang har svaret. Steder med høje toppe, betyder at flere respondenter har angivet dette pointtal. Dale betyder omvendt at der er få respondenter. Det første jeg bemærkede, er at der generelt er stor spredning i svarene, pånær enkelte spørgsmål som *hvorvidt navnet skal passe til barnets køn* (betyder generelt meget), *om navnet baserer sig på traditioner* (betyder generelt ikke meget) og evt. *navnets signalværdi* (betyder generelt ikke meget).
+Figuren viser hvordan respondenterne i hver tre forældre generationer (før 1970, 1970-1990, og 1990 og frem) har svaret. Steder med høje toppe, betyder at flere respondenter har angivet dette pointtal. Dale betyder omvendt at der er få respondenter. Det første jeg bemærkede, er at der generelt er stor spredning i svarene, pånær enkelte spørgsmål som *hvorvidt navnet skal passe til barnets køn* (betyder generelt meget), *om navnet baserer sig på traditioner* (betyder generelt ikke meget) og evt. *navnets signalværdi* (betyder generelt ikke meget).
 
 Der ses dog enkelte interessante mønstre. For eksempel svarer de ældre generationer at de er meget uinteresserede i om andre synes om deres valg af navn. For de nyere generationer, ser det ud til at betyde mere. 
