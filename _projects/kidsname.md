@@ -4,7 +4,7 @@ title: "What should we call our child?"
 image: "/assets/projects/kidsname-thumbnail.png"
 layout: post
 excerpt: "A survey-based look at how different generation weights certain factors when naming childs. Article on Danish."
-date: 2025-06-01
+date: 2025-07-17
 ---
 
 ### Moderne forældre vælger mellem flere børnenavne
