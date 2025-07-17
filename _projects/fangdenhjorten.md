@@ -10,5 +10,5 @@ date: 2025-06-01
 
 <figure>
   <img src="/assets/projects/FangDenHjorten_Intro.png" alt="Description of image" width="600">
-  <figcaption>Your caption text here</figcaption>
+  <figcaption>Introduction screen for "Fang Den Hjorten".</figcaption>
 </figure>
