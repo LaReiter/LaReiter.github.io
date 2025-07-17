@@ -20,11 +20,9 @@ Hvis man er født i 90’erne kan man måske genkende følelsen af at møde sin 
 
 ### Lad os spørge forældrene
 
-Om forældrene bevidst søger mere unikke navne til deres børn, eller om der er andre årsager til fordelingen observeret ovenfor kan være svært  at besvare. Alligevel var det præcis det jeg forsøgte, da jeg sendte et spørgeskema ud i 5 forskellige lokale facebook grupper fordelt over landet: Allerød (ca. 80 respondenter), Smørum (ca. 50 respondenter), Kerteminde (ca. 20 respondenter), Fredericia (ca. 50 respondenter), Thisted (ca. 10 respondenter). Det førte til i alt 213 svar. Spørgeskemaet var henvendt forældre og havde titlen **Hvad var vigtigt, da du valgte dit barns navn?** og med undertitel (forklaring):
+Om forældrene bevidst søger mere unikke navne til deres børn, eller om der er andre årsager til fordelingen observeret ovenfor kan være svært  at besvare. Alligevel var det præcis det jeg forsøgte, da jeg sendte et spørgeskema ud i 5 forskellige lokale facebook grupper fordelt over landet: Allerød (ca. 80 respondenter), Smørum (ca. 50 respondenter), Kerteminde (ca. 20 respondenter), Fredericia (ca. 50 respondenter), Thisted (ca. 10 respondenter). Det førte til i alt 213 svar. Spørgeskemaet (længere nede) var henvendt til forældre og havde titlen **Hvad var vigtigt, da du valgte dit barns navn?** og med undertitel (forklaring):
 
 > Vælg først din årgang og landsdel. Tænk så tilbage på dengang du skulle vælge navn til dit barn. Giv hvert udsagn nedenfor en vurdering fra 1 til 10 – hvor meget betød det for dig dengang?
-
-Forældrene blev så præsenteret for følgende spørgsmål:
 
 <div style="border: 2px solid #e0e0e0; border-radius: 10px; padding: 20px; background-color: #f9f9f9;">
   <h3 style="color: #2c3e50; margin-bottom: 15px;">📊 Spørgeskema om navnevalg</h3>
@@ -38,33 +36,59 @@ Forældrene blev så præsenteret for følgende spørgsmål:
     <strong>2. Hvor er du fra?</strong><br>
     Hovedstaden • Sjælland • Syddanmark • Midtjylland • Nordjylland
   </div>
+
+  <div style="background-color: white; padding: 15px; border-radius: 8px; margin-bottom: 15px;">
+    <strong>3. At andre (familie, venner mfl.) synes godt om navnet</strong><br>
+    0 • 1 • 2 • 3 • 4 • 5 • 6 • 7 • 8 • 9 • 10
+  </div>
+  
+  <div style="background-color: white; padding: 15px; border-radius: 8px; margin-bottom: 15px;">
+    <strong>4. At det har en personlig betydning for os/mig</strong><br>
+    0 • 1 • 2 • 3 • 4 • 5 • 6 • 7 • 8 • 9 • 10
+  </div>
+  
+  <div style="background-color: white; padding: 15px; border-radius: 8px; margin-bottom: 15px;">
+    <strong>5. At det er unikt (kun få har samme navn)</strong><br>
+    0 • 1 • 2 • 3 • 4 • 5 • 6 • 7 • 8 • 9 • 10
+  </div>
+  
+  <div style="background-color: white; padding: 15px; border-radius: 8px; margin-bottom: 15px;">
+    <strong>6. At det er nemt at stave og udtale</strong><br>
+    0 • 1 • 2 • 3 • 4 • 5 • 6 • 7 • 8 • 9 • 10
+  </div>
+  
+  <div style="background-color: white; padding: 15px; border-radius: 8px; margin-bottom: 15px;">
+    <strong>7. At det fungerer internationalt</strong><br>
+    0 • 1 • 2 • 3 • 4 • 5 • 6 • 7 • 8 • 9 • 10
+  </div>
+  
+  <div style="background-color: white; padding: 15px; border-radius: 8px; margin-bottom: 15px;">
+    <strong>8. At det passer til barnets køn</strong><br>
+    0 • 1 • 2 • 3 • 4 • 5 • 6 • 7 • 8 • 9 • 10
+  </div>
+  
+  <div style="background-color: white; padding: 15px; border-radius: 8px; margin-bottom: 15px;">
+    <strong>9. At det lyder sødt eller smukt</strong><br>
+    0 • 1 • 2 • 3 • 4 • 5 • 6 • 7 • 8 • 9 • 10
+  </div>
+  
+  <div style="background-color: white; padding: 15px; border-radius: 8px; margin-bottom: 15px;">
+    <strong>10. At det signalerer bestemte personlighedstræk</strong><br>
+    0 • 1 • 2 • 3 • 4 • 5 • 6 • 7 • 8 • 9 • 10
+  </div>
+  
+  <div style="background-color: white; padding: 15px; border-radius: 8px; margin-bottom: 15px;">
+    <strong>11. At det viderefører en tradition (fx slægtsnavn)</strong><br>
+    0 • 1 • 2 • 3 • 4 • 5 • 6 • 7 • 8 • 9 • 10
+  </div>
+  
+  <div style="background-color: white; padding: 15px; border-radius: 8px;">
+    <strong>12. Beskriv i én sætning eller med et par stikord hvad der fyldte mest da du skulle vælge barnets navn</strong><br>
+    <textarea rows="3" style="width:100%; border: 1px solid #ccc; border-radius: 4px; padding: 8px;" placeholder="Eks: Traditionelt, Internationalt… eller ‘Det var min bedstemors navn’"></textarea>
+  </div>
+
 </div>
 
-**1.** Hvilken årgang tilhører du? 50'erne eller før, 60'erne, 70'erne, 80'erne, 90'erne, 00'erne
-
-**2.** Hvor er du fra? Hovedstaden (København og Nordsjælland + Bornholm), Sjælland (Resten af Sjælland og øer), Syddanmark (Fyn og Syd-/Sønderjylland), Midtjylland, Nordjylland  
-
-**3.** At andre (familie, venner mfl.) synes godt om navnet (0-10)
-
-**4.** At det har en personlig betydning for os/mig (0-10)
-
-**5.** At det er unikt (kun få har samme navn) (0-10)
-
-**6.** At det er nemt at stave og udtale (0-10)
-
-**7.** At det fungerer internationalt (0-10)
-
-**8.** At det passer til barnets køn (0-10)
-
-**9.** At det lyder sødt eller smukt (0-10)
-
-**10.** At det signalerer bestemte personlighedstræk (0-10)
-
-**11.** At det viderefører en tradition (fx slægtsnavn) (0-10)
-
-**12.** Beskriv i én sætning eller med et par stikord hvad der fyldte mest da du skulle vælge barnets navn
-(Eksempel 1: Traditionelt, Internationalt)
-(Eksempel 2: Det var min bedstemors navn)
 
 Bemærk at spørgsmål 2 og 12 blev tilføjet undervejs, efter ca. 100 registrede svar.
 
