@@ -99,7 +99,7 @@ Bemærk at spørgsmål 2 og 12 blev tilføjet undervejs, efter ca. 100 registred
 <figure style="text-align: center;">
  <img src="/assets/projects/taethed_svar_grov.png" alt="Fordelinger i forældrene svar på spørgeskema efter generation" width="800">
   <figcaption style="text-align: center;">
-    <strong style="font-size: 1.2em;">Figurforklaring:</strong> Respondenterne fordeler sig i én af tre forældre generationer (før 1970, 1970 - 1990, og 1990 og frem) har svaret. Steder med høje toppe, betyder at flere respondenter har angivet dette pointtal. Dale betyder omvendt at der er få respondenter.
+    <strong style="font-size: 1.2em;">Forældrenes svar:</strong> Respondenterne fordeler sig i én af tre forældre generationer (før 1970, 1970 - 1990, og 1990 og frem) har svaret. Steder med høje toppe, betyder at flere respondenter har angivet dette pointtal. Dale betyder omvendt at der er få respondenter.
  </figcaption>
 </figure>
 
