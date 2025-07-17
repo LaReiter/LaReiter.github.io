@@ -8,4 +8,7 @@ date: 2025-06-01
 
 # Fang Den Hjorten
 
-<img src="/assets/projects/FangDenHjorten_Intro.png" alt="Alt text" width="500">
+<figure>
+  <img src="path/to/image.jpg" alt="Description of image" width="600">
+  <figcaption>Your caption text here</figcaption>
+</figure>
