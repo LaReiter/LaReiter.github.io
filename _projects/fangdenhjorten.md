@@ -11,7 +11,7 @@ date: 2025-07-17
   <img src="/assets/projects/FangDenHjorten_Intro.png" alt="Game Start Screen" width="600">
 </figure>
 
-The game was developed during the summer, 2013. My small nephew was chasing my brother Morten, who had taken his soccer ball. Kids sometimes misspronounce names, and Morten easily came out sounding like "Hjorten" which is danish for "The Deer". The title of the game thus became "Fang Den Hjorten" (Catch that Hjorten). At this point in time, I was on my first year of Natural Science and IT (NatIt), and wanted to familiarize myself with game programming using Python. This became my first personal python project. The standalone (python) file and assets is available <a href="https://github.com/LaReiter/PyGame---FangDenHjorten" target="_blank">on my Github</a>.
+The game was developed during the summer, 2013. My small nephew was chasing my brother Morten, who had taken his soccer ball. Kids sometimes misspronounce names, and Morten easily came out sounding like "Hjorten" which is danish for "The Deer". The title of the game thus became "Fang Den Hjorten" (Catch that The Deer). At this point in time, I was on my first year of Natural Science and IT (NatIt), and wanted to familiarize myself with game programming using Python. This became my first personal python project. The standalone (python) file and assets is available <a href="https://github.com/LaReiter/PyGame---FangDenHjorten" target="_blank">on my Github</a>.
 
 ### PyGame
 
