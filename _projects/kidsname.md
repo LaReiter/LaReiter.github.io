@@ -27,16 +27,27 @@ Om forældrene bevidst søger mere unikke navne til deres børn, eller om der er
 Forældrene blev så præsenteret for følgende spørgsmål (bemærk spørgsmål 2 og 12 blev tilføjet undervejs, efter ca. 100 registrede svar):
 
 **1.** Hvilken årgang tilhører du? 50'erne eller før, 60'erne, 70'erne, 80'erne, 90'erne, 00'erne
+
 **2.** Hvor er du fra? Hovedstaden (København og Nordsjælland + Bornholm), Sjælland (Resten af Sjælland og øer), Syddanmark (Fyn og Syd-/Sønderjylland), Midtjylland, Nordjylland  
+
 **3.** At andre (familie, venner mfl.) synes godt om navnet (0-10)
+
 **4.** At det har en personlig betydning for os/mig (0-10)
+
 **5.** At det er unikt (kun få har samme navn) (0-10)
+
 **6.** At det er nemt at stave og udtale (0-10)
+
 **7.** At det fungerer internationalt (0-10)
+
 **8.** At det passer til barnets køn (0-10)
+
 **9.** At det lyder sødt eller smukt (0-10)
+
 **10.** At det signalerer bestemte personlighedstræk (0-10)
+
 **11.** At det viderefører en tradition (fx slægtsnavn) (0-10)
+
 **12.** Beskriv i én sætning eller med et par stikord hvad der fyldte mest da du skulle vælge barnets navn
 (Eksempel 1: Traditionelt, Internationalt)
 (Eksempel 2: Det var min bedstemors navn)
