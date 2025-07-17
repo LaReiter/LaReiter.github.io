@@ -2,6 +2,7 @@
 layout: default
 title: "What should we call our child?"
 image: "/assets/projects/kidsname-thumbnail.png"
+mathjax: true
 layout: post
 excerpt: "A survey-based look at how different generation weights certain factors when naming childs. Article on Danish."
 date: 2025-07-17
