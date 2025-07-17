@@ -98,13 +98,14 @@ Bemærk at spørgsmål 2 og 12 blev tilføjet undervejs, efter ca. 100 registred
 
 <figure style="text-align: center;">
  <img src="/assets/projects/taethed_svar_grov.png" alt="Fordelinger i forældrene svar på spørgeskema efter generation" width="800">
+  <figcaption style="text-align: center;">
+    Figuren viser hvordan respondenterne i hver tre forældre generationer (før 1970, 1970 - 1990, og 1990 og frem) har svaret. Steder med høje toppe, betyder at flere respondenter har angivet dette pointtal. Dale betyder omvendt at der er få respondenter.
+ </figcaption>
 </figure>
-
-Figuren viser hvordan respondenterne i hver tre forældre generationer (før 1970, 1970 - 1990, og 1990 og frem) har svaret. Steder med høje toppe, betyder at flere respondenter har angivet dette pointtal. Dale betyder omvendt at der er få respondenter. Det første jeg bemærkede, er at der generelt er stor spredning i svarene, pånær enkelte spørgsmål som *hvorvidt navnet skal passe til barnets køn* (betyder generelt meget), *om navnet baserer sig på traditioner* (betyder generelt ikke meget) og evt. *navnets signalværdi* (betyder generelt ikke meget).
 
 ### Visuel undersøgelse
 
-Der ses dog enkelte interessante mønstre. For eksempel svarer de ældre generationer at de er meget uinteresserede i om andre synes om deres valg af navn. For de nyere generationer, ser det ud til at betyde mere. For den ældre generation, lader det heller ikke til at være et kriterium at navnet er unikt. For de nyere generationer er det mere blandet. Generelt lader det til at de ældre generationer er mere enige om betydningen af de forskellige kriterier. Kigger vi på spørgsmålet, om hvorvidt navnet skal passe til køn, er det en smule interessant at der måske er sket en lille forskydning mod at det betyder mindre for de nye generationer. Måske et udtryk for det moderne kønsbegreb. Det hele er dog visuelle observationer, og skal tages med et gran salt. Særlig kan vi bemærke, at der blandt den ældste generation kun er 32 respondenter. 
+Det første jeg bemærkede, er at der generelt er stor spredning i svarene, pånær enkelte spørgsmål som *hvorvidt navnet skal passe til barnets køn* (betyder generelt meget), *om navnet baserer sig på traditioner* (betyder generelt ikke meget) og evt. *navnets signalværdi* (betyder generelt ikke meget). Der ses dog enkelte interessante mønstre. For eksempel svarer de ældre generationer at de er meget uinteresserede i om andre synes om deres valg af navn. For de nyere generationer, ser det ud til at betyde mere. For den ældre generation, lader det heller ikke til at være et kriterium at navnet er unikt. For de nyere generationer er det mere blandet. Generelt lader det til at de ældre generationer er mere enige om betydningen af de forskellige kriterier. Kigger vi på spørgsmålet, om hvorvidt navnet skal passe til køn, er det en smule interessant at der måske er sket en lille forskydning mod at det betyder mindre for de nye generationer. Måske et udtryk for det moderne kønsbegreb. Det hele er dog visuelle observationer, og skal tages med et gran salt. Særlig kan vi bemærke, at der blandt den ældste generation kun er 32 respondenter. 
 
 ### Statistisk undersøgelse
 
