@@ -26,6 +26,20 @@ Om forældrene bevidst søger mere unikke navne til deres børn, eller om der er
 
 Forældrene blev så præsenteret for følgende spørgsmål:
 
+<div style="border: 2px solid #e0e0e0; border-radius: 10px; padding: 20px; background-color: #f9f9f9;">
+  <h3 style="color: #2c3e50; margin-bottom: 15px;">📊 Spørgeskema om navnevalg</h3>
+  
+  <div style="background-color: white; padding: 15px; border-radius: 8px; margin-bottom: 15px;">
+    <strong>1. Hvilken årgang tilhører du?</strong><br>
+    50'erne eller før • 60'erne • 70'erne • 80'erne • 90'erne • 00'erne
+  </div>
+  
+  <div style="background-color: white; padding: 15px; border-radius: 8px; margin-bottom: 15px;">
+    <strong>2. Hvor er du fra?</strong><br>
+    Hovedstaden • Sjælland • Syddanmark • Midtjylland • Nordjylland
+  </div>
+</div>
+
 **1.** Hvilken årgang tilhører du? 50'erne eller før, 60'erne, 70'erne, 80'erne, 90'erne, 00'erne
 
 **2.** Hvor er du fra? Hovedstaden (København og Nordsjælland + Bornholm), Sjælland (Resten af Sjælland og øer), Syddanmark (Fyn og Syd-/Sønderjylland), Midtjylland, Nordjylland  
