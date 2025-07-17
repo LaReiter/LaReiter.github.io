@@ -93,3 +93,8 @@ Om forældrene bevidst søger mere unikke navne til deres børn, eller om der er
 
 Bemærk at spørgsmål 2 og 12 blev tilføjet undervejs, efter ca. 100 registrede svar. Jeg forsøgte at sætte forældrene i situationen hvor de skulle navngive deres barn ("priming"), ved at formulere spørgeskemaet **Hvad var vigtigt, da du valgte dit barns navn?** og tilføje teksten *Tænk så tilbage på dengang du skulle vælge navn til dit barn.*
 
+### Forældrene har talt
+
+<figure style="text-align: center;">
+ <img src="/assets/projects/taethed_svar.png" alt="Fordelinger i forældrene svar på spørgeskema efter generation" width="600">
+</figure>
