@@ -3,7 +3,7 @@ layout: default
 title: "Fang Den Hjorten"
 layout: post
 image: "/assets/projects/hjort-thumbnail.png"
-excerpt: ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) PyGame-based 2D game, where we have to get to the castle and defeat the deer by kicking balls at it.
+excerpt: 🐍 PyGame-based 2D game, where we have to get to the castle and defeat the deer by kicking balls at it.
 date: 2025-07-17
 ---
 
