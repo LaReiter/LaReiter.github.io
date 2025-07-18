@@ -144,7 +144,7 @@ body {
 
 <div class="content-text">
 This was one of the many questions asked in the children's book "Spørge Jørgen" - a tale of a boy whose endless questions drove his parents mad. I loved this book as a kid. And I love it even more as an adult. It turns out I never outgrew being the person who needs to know how everything works, and 'Spørge Jørgen' reminds me that the most interesting questions are often about the ordinary things we're used to taking for granted.
-The world is a fascinating place, and I dedicate much of my time to explore every bit of it. From the synchronized movements of fish schools to the invisible dark matter that makes up most of our universe, from the unspoken rules that govern social interaction to the mysteries of human consciousness.
+And there's no shortage of things to question. I find myself drawn to everything from the synchronized movements of fish schools to the invisible dark matter that makes up most of our universe, from the unspoken rules that govern social interaction to the mysteries of human consciousness.
 </div>
 
 <img class="image-left" src="/assets/mig_mat.png" alt="Personal photo">
