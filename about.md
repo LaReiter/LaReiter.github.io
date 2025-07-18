@@ -143,8 +143,7 @@ body {
 </div>
 
 <div class="content-text">
-This was one of the many questions asked in the children's book "Spørge Jørgen" - a tale of a boy whose endless questions drove his parents mad. I loved this book as a kid. And I love it even more as an adult. Not only because it is silly and fun, but also because it reminds me how wondrous life is - and how weird everything is. As we grow older, our curiosity surrounding the small splendors of life seem to decline, and if we are not careful, we become indifferent to what was once intriguing.
-
+This was one of the many questions asked in the children's book "Spørge Jørgen" - a tale of a boy whose endless questions drove his parents mad. I loved this book as a kid. And I love it even more as an adult. It turns out I never outgrew being the person who needs to know how everything works. "Spørge Jørgen" also reminds me that the best way to stay engaged with life is to keep asking questions, even about seemingly ordinary things.
 The world is a fascinating place, and I dedicate much of my time to explore every bit of it. From the synchronized movements of fish schools to the invisible dark matter that makes up most of our universe, from the unspoken rules that govern social interaction to the mysteries of human consciousness.
 </div>
 
