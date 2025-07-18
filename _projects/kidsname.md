@@ -92,7 +92,7 @@ I håbet om at kunne forklare det observerede skifte i popularitetsfordelingen, 
 </div>
 
 
-Bemærk at spørgsmål 2 og 12 blev tilføjet undervejs, efter ca. 100 registrede svar. Jeg forsøgte at sætte forældrene i situationen hvor de skulle navngive deres barn ("priming"), ved at formulere spørgeskemaet **Hvad var vigtigt, da du valgte dit barns navn?** og tilføje teksten *Tænk så tilbage på dengang du skulle vælge navn til dit barn.*
+Bemærk at spørgsmål 2 og 12 blev tilføjet undervejs, efter ca. 100 registrede svar.
 
 ## Forældrene har talt
 
