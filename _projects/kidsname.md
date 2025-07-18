@@ -114,4 +114,4 @@ $$d_{jk} = \sum_{i=1}^{10} |x_{ij} - x_{ik}|$$. Jeg udførte testen i programmet
 
 ### Blev vi klogere? Hvad med spørgsmål 12?
 
-Spørgeskemaundersøgelsen bekræfter at generationerne har forskellige kriterier når det kommer til navngivning, men præcis hvilke forskelle der driver den ændring i popularitetsfordelingen, som vi så i den øverste figur, forbliver spekulativt. Jeg har dog endnu ikke behandlet Spørgsmål 12, som enten kan tilgås kvalitativt (læse sig igennem de mange svar og fastslå mønstre) eller gennem maskinlæring, som fx. *sentiment analyse*/*opinion mining*. Artiklen vil i så fald blive opdateret.
+Undersøgelsen bekræfter generationsforskelle i navngivningskriterier, men hvilke præcise forskelle der driver popularitetsændringerne, forbliver uklart. Jeg har dog endnu ikke behandlet Spørgsmål 12, som enten kan tilgås kvalitativt (læse sig igennem de mange svar og fastslå mønstre) eller gennem maskinlæring, som fx. *sentiment analyse*/*opinion mining*. Artiklen vil i så fald blive opdateret.
