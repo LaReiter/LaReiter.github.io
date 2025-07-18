@@ -19,7 +19,7 @@ PyGame is a Python package that makes it easy to create 2D games and other inter
 
 ### What I learned?
 
-During my first year on NatIt, I been doing a lot of functional programming. This was my first big object-oriented project where I quickly discovered the strength of classes and objects. I also learned about new concepts, such as sprites and making user interfaces. I leraned about collision detection algorithms, event handling and general game architecture. Since this project involved many versions and multiple lines of code, I also learned a fair share about version-control and code management/documentation.
+During my first year at NatIt, I had been doing mostly functional programming. This was my first big object-oriented project, where I quickly discovered the strength of classes and objects. I also learned about new concepts like sprites and user interfaces. I dove into collision detection algorithms, event handling, and general game architecture. Since the project involved many iterations and hundreds of lines of code, I also picked up valuable skills in version control and code documentation
 
 <figure>
   <img src="/assets/projects/FangDenHjorten.png" alt="First part of the Game" width="600">
