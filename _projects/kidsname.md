@@ -21,7 +21,7 @@ Hvis man er født i 90’erne kan man måske genkende følelsen af at møde sin 
 
 ## Lad os spørge forældrene
 
-Om forældrene bevidst søger mere unikke navne til deres børn, eller om der er andre årsager til fordelingen observeret ovenfor kan være svært  at besvare. Alligevel var det præcis det jeg forsøgte, da jeg sendte et spørgeskema ud i 5 forskellige lokale facebook grupper fordelt over landet: Allerød (ca. 80 respondenter), Smørum (ca. 50 respondenter), Kerteminde (ca. 20 respondenter), Fredericia (ca. 50 respondenter), Thisted (ca. 10 respondenter). Det førte til i alt 213 svar. Spørgeskemaet findes nedenfor.
+I håbet om at kunne forklare det observerede skifte i popularitetsfordelingen, sendte jeg et spørgeskema ud i 5 forskellige lokale facebook grupper fordelt over landet: Allerød (ca. 80 respondenter), Smørum (ca. 50 respondenter), Kerteminde (ca. 20 respondenter), Fredericia (ca. 50 respondenter), Thisted (ca. 10 respondenter). Det førte til i alt 212 svar. Spørgeskemaet findes nedenfor.
 
 <div style="border: 2px solid #e0e0e0; border-radius: 10px; padding: 20px; background-color: #f9f9f9;">
   <h3 style="color: #2c3e50; margin-bottom: 5px;">📊 Hvad var vigtigt, da du valgte dit barns navn?</h3>
