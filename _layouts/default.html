@@ -32,6 +32,23 @@
   {% include menu.html menu=pages %}
 </header>
 
+<head>
+  <!-- Regular head content -->
+  
+  <!-- Open Graph tags -->
+  <meta property="og:title" content="{{ page.title | default: site.title }}">
+  <meta property="og:description" content="{{ page.excerpt | default: page.description | default: site.description }}">
+  <meta property="og:image" content="{{ site.url }}{{ page.image }}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:type" content="article">
+  
+  <!-- Twitter Card tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page.title | default: site.title }}">
+  <meta name="twitter:description" content="{{ page.excerpt | default: page.description | default: site.description }}">
+  <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
+</head>
+
 {{ content }}
 
 {% if site.external %}
