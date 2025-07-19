@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "What should we call our child?"
+title: "De super populære fornavne er forsvundet"
 image: "/assets/projects/kidsname-thumbnail.png"
 mathjax: true
 layout: post
