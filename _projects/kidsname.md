@@ -98,9 +98,6 @@ Bemærk at spørgsmål 2 og 12 blev tilføjet undervejs, efter ca. 100 registred
 
 <figure style="text-align: center;">
  <img src="/assets/projects/empirisk_svar_fordeling.png" alt="Fordelinger i forældrene svar på spørgeskema efter generation" width="800">
-  <figcaption style="text-align: center;">
-    <strong style="font-size: 1.2em;">Forældrenes svar:</strong> Respondenterne fordeler sig i én af tre forældre generationer (før 1970, 1970 - 1990, og 1990 og frem) har svaret.
- </figcaption>
 </figure>
 
 ### Visuel undersøgelse
