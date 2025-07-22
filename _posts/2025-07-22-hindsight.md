@@ -1,5 +1,5 @@
 ---
-title: "Bagklogskaben gør os Fremtidsdumme"
+title: "Bagklogskaben Gør Os Fremtidsdumme"
 mathjax: true
 layout: post
 categories: media
