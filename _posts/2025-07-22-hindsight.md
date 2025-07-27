@@ -5,4 +5,4 @@ layout: post
 categories: media
 ---
 
-[Artiklen kan findes på min GitHub her](/assets/pdfs/hindsight.pdf)
+[Artiklen findes her (link til GitHub)](/assets/pdfs/hindsight.pdf)
