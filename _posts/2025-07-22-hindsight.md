@@ -1,5 +1,5 @@
 ---
-title: "Når bagklogskab gør os fremtidsdumme (Post on Danish)"
+title: "When hindsight makes ignorance (Post on Danish)"
 mathjax: true
 layout: post
 categories: media
