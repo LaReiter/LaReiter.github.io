@@ -1,5 +1,5 @@
 ---
-title: "When hindsight makes ignorance (Post on Danish)"
+title: "When Hindsight Makes You Blind (Post on Danish)"
 mathjax: true
 layout: post
 categories: media
