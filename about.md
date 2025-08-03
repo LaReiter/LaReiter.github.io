@@ -130,18 +130,17 @@ layout: page
 <img class="image-right" src="/assets/spgjrgn.png" alt="Spørge Jørgen illustration">
 
 <div class="quote-container">
-  <p>"Why is my nail on my finger? If it were on my nose, it would be fun." - Spørge Jørgen</p>
+  <p>"Why is my nail on my finger?" - Spørge Jørgen</p>
 </div>
 
 <div class="content-text">
-This was one of the many questions asked in the children's book "Spørge Jørgen" - a tale of a boy whose endless questions drove his parents mad. I loved this book as a kid. And I love it even more as an adult. It turns out I never outgrew being the person who needs to know how everything works, and "Spørge Jørgen" reminds me that the most interesting questions are often about the ordinary things we're used to taking for granted.
-And there's no shortage of things to question. I find myself drawn to everything from the synchronized movements of fish schools to the invisible dark matter that makes up most of our universe, from the unspoken rules that govern social interaction to the mysteries of human consciousness.
+This was one of the many questions asked in the children's book "Spørge Jørgen" - a tale of a boy whose endless questions drove his parents mad. I loved this book as a kid. I still love it today. "Spørge Jørgen" reminds me that the world is full of perplexing problems waiting to be solved. Like Spørge Jørgen, I love to ask questions and I find myself drawn to everything from the synchronized movements of fish schools to the invisible dark matter that makes up most of our universe, from the unspoken rules that govern social interaction to the mysteries of human consciousness.
 </div>
 
 <img class="image-left" src="/assets/mig_mat.png" alt="Personal photo">
 
 <div class="content-text">
-What I particularly love about our world is that it offers a multitude of intellectual problems waiting to be solved or better understood. This draws on critical thinking and analytical skills, leading me to create <a href="https://docs.google.com/document/d/1HNlWmee09NzI91BIYdXOkZkit7mQ04RWhcG_BsYdxLg/edit?usp=sharing">reader's letters</a>, research-based projects, and other creative experiments. For example, I sat on my terrace and tracked the movement of a harvestman carefully to understand its movement patterns through stochastic modeling. I made my own survey to understand which criteria parents value when they choose their kids names, and how this has changed over generations. I also made my own Python-based game (using PyGame) during my summer vacation - a game inspired by a soccer variant we came up with in the summerhouse. A overview of my projects and reader's letters can be found <a href="https://docs.google.com/document/d/1HXOMjqJpiRDGu4M3EIVrFs6nKMEAouZK_JijJE5TLFg/edit?usp=sharing">here</a>, with selected projects presented on the homepage. You can find many of my thoughts and reader's letters <a href="https://docs.google.com/document/d/1HNlWmee09NzI91BIYdXOkZkit7mQ04RWhcG_BsYdxLg/edit?usp=sharing">here</a>.
+The world offers a multitude of intellectual problems that demands critical thinking and analytical skills, leading me to create <a href="https://docs.google.com/document/d/1HNlWmee09NzI91BIYdXOkZkit7mQ04RWhcG_BsYdxLg/edit?usp=sharing">reader's letters</a>, research-based projects, and other creative experiments. For example, I sat on my terrace and tracked the movement of a harvestman carefully to understand its movement patterns through stochastic modeling. I made my own survey to understand which criteria parents value when they choose their kids names, and how this has changed over generations. I also made my own Python-based game (using PyGame) during my summer vacation - a game inspired by a soccer variant we came up with in the summerhouse. A overview of my projects and reader's letters can be found <a href="https://docs.google.com/document/d/1HXOMjqJpiRDGu4M3EIVrFs6nKMEAouZK_JijJE5TLFg/edit?usp=sharing">here</a>, with selected projects presented on the homepage. You can find many of my thoughts and reader's letters <a href="https://docs.google.com/document/d/1HNlWmee09NzI91BIYdXOkZkit7mQ04RWhcG_BsYdxLg/edit?usp=sharing">here</a>.
 
 
 </div>
