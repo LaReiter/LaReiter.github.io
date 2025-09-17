@@ -7,8 +7,10 @@ categories: media
 
 <figure>
   <img src="/assets/flynn.png" alt="Flynn effect visualization">
-  <figcaption>**Figure:** Top row shows (fictitious) distributions of number of correct answers in an intelligence test — the higher the curve, the more people score in that interval. Bottom row shows the same results translated to a standardized intelligence scale (bell curve). (A) Most get few correct; to be in top 2% requires >30 correct. The distance between a typical person (median) and top 2% is 15 answers. (B) The distribution is symmetrical around 22 correct; top 2% requires >34 correct, and the difference from the median is 12. (C) Many score high; top 2% requires >43 correct, and the difference from the median is 9. Conclusion: When more people score higher on the test, the threshold for reaching the top 2% increases, while the difference in number of correct answers between a typical person and the highly gifted becomes smaller.</figcaption>
+  <figcaption><strong>Figure:</strong>  Top row shows (fictitious) distributions of number of correct answers in an intelligence test — the higher the curve, the more people score in that interval. Bottom row shows the same results translated to a standardized intelligence scale (bell curve). (A) Most get few correct; to be in top 2% requires >30 correct. The distance between a typical person (median) and top 2% is 15 answers. (B) The distribution is symmetrical around 22 correct; top 2% requires >34 correct, and the difference from the median is 12. (C) Many score high; top 2% requires >43 correct, and the difference from the median is 9. Conclusion: When more people score higher on the test, the threshold for reaching the top 2% increases, while the difference in number of correct answers between a typical person and the highly gifted becomes smaller.</figcaption>
 </figure>
+
+<br>
 
 Intelligence is measured by comparing the number of correct answers in an intelligence test with the number of correct answers among a representative sample of people today. If you now sort all test participants from lowest to highest according to how many correct answers they have, and look at the lowest number of correct answers among the top 2%, then you have the admission requirement for Mensa.
 
