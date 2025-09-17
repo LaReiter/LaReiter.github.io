@@ -16,5 +16,3 @@ There are studies that suggest the effect is environmentally determined, and tha
   <figcaption><strong>Figure:</strong>  Top row shows (fictitious) distributions of number of correct answers in an intelligence test — the higher the curve, the more people score in that interval. Bottom row shows the same results translated to a standardized intelligence scale (bell curve). (A) Most get few correct; to be in top 2% requires >30 correct. The distance between a typical person (median) and top 2% is 15 answers. (B) The distribution is symmetrical around 22 correct; top 2% requires >34 correct, and the difference from the median is 12. (C) Many score high; top 2% requires >43 correct, and the difference from the median is 9. Conclusion: When more people score higher on the test, the threshold for reaching the top 2% increases, while the difference in number of correct answers between a typical person and the highly gifted becomes smaller.</figcaption>
 </figure>
 
-
-written by Lars Nørtoft Reiter
