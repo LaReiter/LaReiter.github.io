@@ -5,6 +5,8 @@ layout: post
 categories: media
 ---
 
+![flynn](/assets/flynn.png)
+
 Intelligence is measured by comparing the number of correct answers in an intelligence test with the number of correct answers among a representative sample of people today. If you now sort all test participants from lowest to highest according to how many correct answers they have, and look at the lowest number of correct answers among the top 2%, then you have the admission requirement for Mensa.
 
 Note that I wrote a representative sample of people today. What happens if you instead measure your score against a representative sample of people from 10 years ago? What you find is that the number of correct answers required to gain admission to Mensa will be lower than today. In fact, your intelligence quotient will (on average) be about 3 points higher if you took the test back then. If you instead took your score and compared it against people from 20 years ago, the increase is on average about 6 points. If you compare with people from 30 years ago, it's about 9 points, and so on. This is called the Flynn effect.
