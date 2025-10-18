@@ -1,13 +1,12 @@
 ---
 layout: default
-title: "Workplace surveys"
+title: "Workplace Surveys"
 image: "/assets/projects/kidsname-thumbnail.png"
 mathjax: true
 layout: post
 excerpt: "How do we properly analyze workplace surveys?"
 date: 2025-10-18
 ---
-# Workplace Survey Reflections: Exact Intervals and Uncertainty
 
 ## Part 1: Exact Interval in Workplace Well-being Surveys
 
