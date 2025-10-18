@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Workplace Surveys"
-image: "/assets/projects/kidsname-thumbnail.png"
+image: "/assets/projects/survey-thumbnail.png"
 mathjax: true
 layout: post
 excerpt: "How do we properly analyze workplace surveys?"
