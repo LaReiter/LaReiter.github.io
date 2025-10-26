@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Paper planes"
+title: "Paper Planes"
 image: "/assets/projects/paper-thumbnail.png"
 mathjax: true
 layout: post
