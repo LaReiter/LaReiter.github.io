@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Workplace Surveys"
+title: "Workplace surveys"
 image: "/assets/projects/survey-thumbnail.png"
 mathjax: true
 layout: post
