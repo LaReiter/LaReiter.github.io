@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Paperplanes"
-image: "/assets/projects/survey-thumbnail.png"
+image: "/assets/projects/paper-thumbnail.png"
 mathjax: true
 layout: post
 excerpt: "Origami: Folding paper planes and optimizing number of folds."
