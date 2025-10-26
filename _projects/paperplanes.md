@@ -12,9 +12,13 @@ date: 2025-10-18
   <tr>
     <td><img src="img1.png" width="200"/></td>
     <td><img src="img2.png" width="200"/></td>
-  </tr>
-  <tr>
     <td><img src="img3.png" width="200"/></td>
     <td><img src="img4.png" width="200"/></td>
+  </tr>
+  <tr>
+    <td><img src="img5.png" width="200"/></td>
+    <td><img src="img6.png" width="200"/></td>
+    <td><img src="img7.png" width="200"/></td>
+    <td><img src="img8.png" width="200"/></td>
   </tr>
 </table>
