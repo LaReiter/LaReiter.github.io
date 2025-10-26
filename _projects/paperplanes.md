@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Paperplanes"
+title: "Paper planes"
 image: "/assets/projects/paper-thumbnail.png"
 mathjax: true
 layout: post
@@ -27,7 +27,7 @@ date: 2025-10-18
   </div>
 
   <figcaption style="margin-top: 12px; font-style: italic; font-size: 0.95em;">
-    From top-left to bottom-right:
+    Some of my (re)creations showing different types of paper planes. Some are small, some are big. Some are pointy, and some with a large wingspans. Finally, some are bionic and flaps their wings like a bird of bat. The paper plane with the rockets has limited flight capability but looks amazing.
   </figcaption>
 
 </figure>
