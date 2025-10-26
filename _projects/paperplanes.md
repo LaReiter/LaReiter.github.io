@@ -32,6 +32,6 @@ date: 2025-10-18
 
 </figure>
 
-As a kid I loved to fold paper airplanes. So much, that I bought myself a textbook on the mechanics and aerodynamics of paper planes. The book also included several colorful templates to be used. Now that my kid reached has reached the same age and independently shown an interest in the subject, I’ve found it deeply satisfying to revisit my old hobby.
+As a kid I loved to fold paper airplanes. So much, that I bought myself a textbook on the mechanics and aerodynamics of paper planes. The book also included several colorful templates to be used. Now that my kid has reached the same age and independently shown an interest in the subject, I’ve found it deeply satisfying to revisit my old hobby.
 
 Despite my satisfaction in simply folding the planes, the academic within me wanted to do some experimenting. So I decided I wanted to test how the number of folds on a standard paper plane influence the flight duration. 
