@@ -27,25 +27,7 @@ date: 2025-10-18
   </div>
 
   <figcaption style="margin-top: 12px; font-style: italic; font-size: 0.95em;">
-    Figure 1. Elemental distributions from LA-ICP-MS scans of narwhal tusk dentin.  
-    Each panel shows a different isotope signal, revealing cyclical variations aligned with annual growth layers.
+    From top-left to bottom-right:
   </figcaption>
 
 </figure>
-
-  
-
-<table>
-  <tr>
-    <td><img src="/assets/projects/paper1.jpg" width="200"/></td>
-    <td><img src="/assets/projects/paper2.jpg" width="200"/></td>
-    <td><img src="/assets/projects/paper3.jpg" width="200"/></td>
-    <td><img src="/assets/projects/paper4.jpg" width="200"/></td>
-  </tr>
-  <tr>
-    <td><img src="/assets/projects/paper5.jpg" width="200"/></td>
-    <td><img src="/assets/projects/paper6.jpg" width="200"/></td>
-    <td><img src="/assets/projects/paper7.jpg" width="200"/></td>
-    <td><img src="/assets/projects/paper8.jpg" width="200"/></td>
-  </tr>
-</table>
