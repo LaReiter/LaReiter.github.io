@@ -18,6 +18,8 @@ body
 
 h1, h2, h3, h4, h5, h6
   font-weight: $heading-weight
+  letter-spacing: -0.01em
+  line-height: 1.3
 
 b, strong, th
   font-weight: $font-weight + 200
@@ -28,8 +30,10 @@ p
 a
   color: $link-color
   text-decoration: inherit
+  transition: .15s color, .15s opacity
   &:hover
     text-decoration: underline
+    opacity: .8
 
 header a, footer a, aside a
   color: inherit
@@ -45,10 +49,10 @@ article:not(:last-of-type)
   border-bottom: 1px solid reduce(14)
 
 blockquote
-  background: reduce(6)
-  border-left: 3px solid reduce(90)
+  background: reduce(4)
+  border-left: 3px solid $link-color
   padding: 1px 1.5em
-  opacity: .75
+  opacity: .8
 
 blockquote, figure
   margin: 1em 0
