@@ -1,5 +1,9 @@
 <link rel="stylesheet" href="{{ "/assets/css/sidebar.css" | relative_url }}" media="screen and (min-width: 70em)">
 <aside style="display: none">
+  <div class="sidebar-header">
+    <a href="{{ "/" | relative_url }}" class="sidebar-title">{{ site.title }}</a>
+    <div class="sidebar-subtitle">{{ site.tagline | default: "philosophy &amp; statistics" }}</div>
+  </div>
   <nav>
   {%- for item in site.navigation -%}
     {%- assign node = site.pages | where: "name", item.file | first -%}
@@ -8,19 +12,18 @@
     {%- assign icon = item.icon | default: item.sidebaricon -%}
     <a aria-label="{{ title }}" href="{{ url | relative_url }}" {% if url == page.url %}class="selected"{% endif %}>
       <svg aria-hidden="true" class="icon"><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#{{ icon }}"></use></svg>
-      <span aria-hidden="true">{{ title }}</span>
-    </a>
-  {%- endfor -%}
-  {%- for item in site.external -%}
-    {%- assign node = site.pages | where: "name", item.file | first -%}
-    {%- assign url = item.url | default: node.url -%}
-    {%- assign title = item.title | default: node.title -%}
-    {%- assign icon = item.icon | default: item.sidebaricon -%}
-    <a aria-label="{{ title }}" href="{{ url | relative_url }}" {% if url == page.url %}class="selected"{% endif %}>
-      <svg aria-hidden="true" class="icon"><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#{{ icon }}"></use></svg>
-      <span aria-hidden="true">{{ title }}</span>
+      <span>{{ title }}</span>
     </a>
   {%- endfor -%}
   </nav>
-  <div class="description">{{ site.description }}</div>
+  <div class="sidebar-external">
+  {%- for item in site.external -%}
+    {%- assign url = item.url -%}
+    {%- assign title = item.title -%}
+    {%- assign icon = item.icon -%}
+    <a aria-label="{{ title }}" href="{{ url }}" target="_blank" rel="noopener noreferrer">
+      <svg aria-hidden="true" class="icon"><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#{{ icon }}"></use></svg>
+    </a>
+  {%- endfor -%}
+  </div>
 </aside>

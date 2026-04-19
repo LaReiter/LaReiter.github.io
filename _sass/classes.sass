@@ -1,29 +1,40 @@
 .title
   font-size: 1.25em
+  font-weight: 700
+  letter-spacing: -0.02em
+  color: #f1f5f9
 
 .more
   margin: 2em 0 1em
 
 .more a
-  border-radius: 5px
-  border: 1.5px solid $link-color
+  border-radius: 6px
+  border: 1px solid rgba(56, 189, 248, 0.45)
   padding: .45em 1em
+  color: #38bdf8
+  font-size: .9em
+  font-weight: 500
   transition: .2s background, .2s color, .2s border-color
 
 .more a:hover
-  color: #fff
-  background: $link-color
-  border-color: $link-color
+  color: $dark
+  background: #38bdf8
+  border-color: #38bdf8
   text-decoration: inherit
 
 .archive
-  font-size: 1.1em
+  list-style: none
+  padding: 0
+  margin: 0
+  font-size: 1em
 
 .archive time
   display: inline-block
-  min-width: 10ch
-  min-height: 1.75em
-  margin: 0 .2em
+  min-width: 7.5em
+  font-family: $mono-family
+  font-size: .78em
+  color: rgba(56, 189, 248, 0.52)
+  white-space: nowrap
 
 .icon
   height: 1em
@@ -34,7 +45,7 @@
   margin-bottom: .15em
 
 a:hover .icon
-  color: reduce(100)
+  color: #38bdf8
 
 .full table
   display: table
@@ -56,86 +67,87 @@ a:hover .icon
     margin: 0 1.5em 0 .25em
     opacity: .5
 
-.highlight // https://github.com/richleland/pygments-css/blob/master/monokai.css <http://unlicense.org>
+.highlight
   pre
-    background: rgba(lighten($dark, 6%), 0.9)
-    color: white
+    background: #0d1117
+    color: #e2e8f0
+    border: 1px solid rgba(56, 189, 248, 0.15)
+    border-radius: 6px
   .c
-    color: #a29f90
+    color: #4b5563
   .err
-    color: #960050
-    background-color: #1e0010
+    color: #f87171
   .k
-    color: #66d9ef
+    color: #38bdf8
   .l
-    color: #ae81ff
+    color: #a78bfa
   .n
-    color: #f8f8f2
+    color: #e2e8f0
   .o
-    color: #f92672
+    color: #f472b6
   .p
-    color: #f8f8f2
+    color: #e2e8f0
   .cm, .cp, .c1, .cs
-    color: #75715e
+    color: #4b5563
   .ge
     font-style: italic
   .gs
     font-weight: bold
   .kc, .kd
-    color: #66d9ef
+    color: #38bdf8
   .kn
-    color: #f92672
+    color: #f472b6
   .kp, .kr, .kt
-    color: #66d9ef
+    color: #38bdf8
   .ld
-    color: #e6db74
+    color: #34d399
   .m
-    color: #ae81ff
+    color: #fb923c
   .s
-    color: #e6db74
+    color: #34d399
   .na
-    color: #a6e22e
+    color: #86efac
   .nb
-    color: #f8f8f2
+    color: #e2e8f0
   .nc
-    color: #a6e22e
+    color: #86efac
   .no
-    color: #66d9ef
+    color: #38bdf8
   .nd
-    color: #a6e22e
+    color: #86efac
   .ni
-    color: #f8f8f2
+    color: #e2e8f0
   .ne, .nf
-    color: #a6e22e
+    color: #86efac
   .nl, .nn
-    color: #f8f8f2
+    color: #e2e8f0
   .nx
-    color: #a6e22e
+    color: #86efac
   .py
-    color: #f8f8f2
+    color: #e2e8f0
   .nt
-    color: #f92672
+    color: #f472b6
   .nv
-    color: #f8f8f2
+    color: #e2e8f0
   .ow
-    color: #f92672
+    color: #f472b6
   .w
-    color: #f8f8f2
+    color: #e2e8f0
   .mf, .mh, .mi, .mo
-    color: #ae81ff
+    color: #fb923c
   .sb, .sc, .sd, .s2
-    color: #e6db74
+    color: #34d399
   .se
-    color: #ae81ff
+    color: #fb923c
   .sh, .si, .sx, .sr, .s1, .ss
-    color: #e6db74
+    color: #34d399
   .bp, .vc, .vg, .vi
-    color: #f8f8f2
+    color: #e2e8f0
   .il
-    color: #ae81ff
+    color: #fb923c
   .gu
-    color: #75715e
+    color: #4b5563
   .gd
-    color: #f92672
+    color: #f472b6
   .gi
-    color: #a6e22e
+    color: #86efac

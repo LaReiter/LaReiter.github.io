@@ -4,22 +4,36 @@
 @import index, font, basic, layout, classes
 
 html
-  background: lighten($dark, 70%)
-  padding: 0 calc(38% - 22em)
+  background: #050709
 
-body
-  box-shadow: 0 0 .3em lighten($dark, 65%)
+body > header
+  background: rgba(7, 9, 15, 0.97)
+  border-bottom: 1px solid rgba(56, 189, 248, 0.12)
+  position: sticky
+  top: 0
+  z-index: 100
+  backdrop-filter: blur(8px)
 
-body > header, body > footer
-  background: lighten($dark, 5%)
-  color: $light
+body > footer
+  background: rgba(7, 9, 15, 0.97)
+  border-top: 1px solid rgba(56, 189, 248, 0.1)
+  color: rgba(196, 212, 224, 0.5)
+  font-size: .88em
+
+a.title
+  font-weight: 700
+  letter-spacing: -0.02em
+  color: #f1f5f9
+
+nav a
+  font-weight: 500
+  font-size: .9em
 
 @media (min-width: 32em)
   body > header, body > article, body > footer
-    padding: 1.75em calc(22% - 6em)
+    padding: 1.25em 2.5em
 
-@media (prefers-color-scheme: dark)
-  body, body > header, body > footer
-    box-shadow: 0 0 0 1px lighten($dark, 8%)
-  html, body > header, body > footer
-    background: $dark
+@media (min-width: 52em)
+  body
+    max-width: 52em
+    margin: 0 auto

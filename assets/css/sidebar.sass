@@ -5,10 +5,11 @@
 
 html
   padding: 0
+  background: #050709
 
 body
-  font-size: 1.06em
-  margin: 0 0 0 16.5em
+  font-size: 1em
+  margin: 0 0 0 17em
   max-width: inherit
   overscroll-behavior: none
 
@@ -16,41 +17,121 @@ body > header, body > footer
   display: none
 
 body > article
-  margin: 0 5em
-  padding: 2em 0
-  max-width: 50em
+  margin: 0 auto
+  padding: 3em 4em
+  max-width: 48em
 
 aside
-  display: block!important
+  display: flex!important
+  flex-direction: column
   position: fixed
-  overflow: auto
-  background: darken($dark, 3%)
-  color: rgba(255,255,255,0.88)
-  padding: 2.25em
-  width: 12em
+  overflow: hidden
+  background: #050709
+  background-image: radial-gradient(circle, rgba(56, 189, 248, 0.055) 1px, transparent 1px)
+  background-size: 22px 22px
+  color: rgba(196, 212, 224, 0.8)
+  width: 17em
   top: 0
   bottom: 0
   left: 0
-  border-right: 1px solid rgba(255,255,255,0.06)
+  border-right: 1px solid rgba(56, 189, 248, 0.1)
+
+.sidebar-header
+  padding: 2.2em 1.8em 1.5em
+  border-bottom: 1px solid rgba(56, 189, 248, 0.08)
+  flex-shrink: 0
+
+.sidebar-title
+  display: block
+  font-size: 1.05em
+  font-weight: 700
+  color: #f1f5f9
+  letter-spacing: -0.02em
+  line-height: 1.4
+  margin-bottom: .5em
+  text-decoration: none
+  transition: .15s color
+  &:hover
+    color: #38bdf8
+    text-decoration: none
+
+.sidebar-subtitle
+  font-family: "JetBrains Mono", "Fira Code", monospace
+  font-size: 0.68em
+  color: rgba(56, 189, 248, 0.62)
+  letter-spacing: 0.06em
+  text-transform: uppercase
 
 article header h1
-  font-size: 2em
+  font-size: 2.2em
+  letter-spacing: -0.03em
 
 nav
-  margin: 0 -2.25em
+  margin: 0
+  padding: .8em 0
+  flex: 1
+  overflow-y: auto
 
 nav a
-  display: block
+  display: flex
+  align-items: center
+  gap: .9em
   margin: 0
-  padding: .5em 2.25em
+  padding: .65em 1.8em
+  font-size: .9em
+  font-weight: 500
+  color: rgba(196, 212, 224, 0.62)
+  transition: .15s background, .15s color, .15s border-left-color
+  border-left: 2px solid transparent
+  text-decoration: none
 
-nav a:hover, nav a.selected
-  background: rgba(255,255,255,0.07)
-  text-decoration: inherit
+nav a span
+  letter-spacing: 0.01em
+
+nav a:hover
+  background: rgba(56, 189, 248, 0.05)
+  color: #e2e8f0
+  border-left-color: rgba(56, 189, 248, 0.4)
+  text-decoration: none
+
+nav a.selected
+  background: rgba(56, 189, 248, 0.07)
+  color: #38bdf8
+  border-left-color: #38bdf8
+
+.sidebar-external
+  flex-shrink: 0
+  padding: 1.4em 1.8em
+  border-top: 1px solid rgba(56, 189, 248, 0.08)
+  display: flex
+  gap: 1.4em
+  align-items: center
+
+.sidebar-external a
+  color: rgba(196, 212, 224, 0.42)
+  transition: .15s color
+  font-size: 1.1em
+  line-height: 1
+  display: inline-flex
+  &:hover
+    color: #38bdf8
+    text-decoration: none
 
 .icon
-  margin-right: 1.2em
-  color: inherit!important
+  height: 1em
+  width: 1em
+  fill: currentColor
+  vertical-align: middle
+  flex-shrink: 0
+  margin: 0
+  display: inline-block
 
-.description
-  margin: 2em 0
+@media (max-width: 69.99em)
+  body
+    margin-left: 0
+  aside
+    display: none!important
+  body > header, body > footer
+    display: flex
+  body > article
+    padding: 1.5em

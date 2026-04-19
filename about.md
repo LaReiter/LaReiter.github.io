@@ -5,29 +5,29 @@ layout: page
 ---
 
 <style>
-
-
-/* Mobile-first responsive styles */
 .soundcloud-container {
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid rgba(56, 189, 248, 0.15);
 }
 
 .quote-container {
   text-align: center;
-  padding: 20px;
-  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-  border-radius: 10px;
+  padding: 20px 24px;
+  background: rgba(56, 189, 248, 0.04);
+  border: 1px solid rgba(56, 189, 248, 0.18);
+  border-radius: 8px;
   margin: 20px 0;
 }
 
 .quote-container p {
-  font-size: 1.1em;
+  font-size: 1.05em;
   font-style: italic;
-  color: #2c3e50;
+  color: #c4d4e0;
   margin: 0;
-  line-height: 1.6;
-  font-weight: 500; /* Make quotes slightly bolder for better readability */
+  line-height: 1.7;
 }
 
 .image-right {
@@ -35,6 +35,7 @@ layout: page
   margin-left: 20px;
   margin-bottom: 20px;
   border-radius: 8px;
+  border: 1px solid rgba(56, 189, 248, 0.18);
   max-width: 100%;
   height: auto;
 }
@@ -44,75 +45,64 @@ layout: page
   margin-right: 20px;
   margin-bottom: 20px;
   border-radius: 8px;
+  border: 1px solid rgba(56, 189, 248, 0.18);
   max-width: 100%;
   height: auto;
 }
 
 .content-text {
   text-align: justify;
-  line-height: 1.6;
-  font-weight: 450; /* Slightly heavier than normal for better readability */
+  line-height: 1.75;
+  color: #c4d4e0;
 }
 
-/* Desktop styles */
 @media (min-width: 768px) {
   .quote-container {
     margin-right: 320px;
-    padding: 30px;
+    padding: 24px 30px;
   }
-  
   .quote-container p {
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
-  
   .image-right {
     width: 300px;
   }
-  
   .image-left {
     width: 200px;
   }
 }
 
-/* Mobile styles */
 @media (max-width: 767px) {
   .quote-container {
-    margin-right: 140px; /* Leave space for larger image */
-    padding: 15px;
+    margin-right: 140px;
+    padding: 14px;
   }
-  
   .image-right {
     width: 130px;
     margin-left: 10px;
   }
-  
   .image-left {
     width: 110px;
     margin-right: 10px;
   }
-  
   .content-text {
     text-align: left;
   }
 }
 
-/* Very small screens */
 @media (max-width: 480px) {
   .quote-container {
-    padding: 10px;
+    padding: 12px;
     margin: 15px 0;
-    margin-right: 110px; /* Adjust for larger image */
+    margin-right: 110px;
   }
-  
   .quote-container p {
     font-size: 0.9em;
   }
-  
   .image-right {
     width: 100px;
     margin-left: 8px;
   }
-  
   .image-left {
     width: 85px;
     margin-right: 8px;

@@ -1,6 +1,7 @@
 title: "Lars Nørtoft Reiter"
 author:  "Lars Nørtoft Reiter"
 description: "<i>Posts about philosophy and statistics.</i>"
+tagline: "philosophy &amp; statistics"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"

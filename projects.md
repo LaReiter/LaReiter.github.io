@@ -3,40 +3,41 @@ layout: default
 title: Projects
 ---
 <style>
-/* Projects grid styling */
 .projects-container {
   margin-top: 20px;
 }
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 30px;
-  margin-top: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  margin-top: 24px;
 }
 .project-card {
-  background: #fff;
-  border-radius: 12px;
+  background: rgba(13, 17, 23, 0.8);
+  border: 1px solid rgba(56, 189, 248, 0.12);
+  border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
   text-decoration: none;
   color: inherit;
 }
 .project-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 32px rgba(56, 189, 248, 0.12);
+  border-color: rgba(56, 189, 248, 0.35);
   text-decoration: none;
   color: inherit;
 }
 .project-image-container {
   width: 100%;
-  height: 200px;
-  background: #f8f9fa;
+  height: 190px;
+  background: rgba(7, 9, 15, 0.9);
   display: flex;
   align-items: center;
   justify-content: flex-start;
   overflow: hidden;
-  padding: 10px;
+  padding: 12px;
+  border-bottom: 1px solid rgba(56, 189, 248, 0.08);
 }
 .project-image {
   max-width: 100%;
@@ -45,52 +46,56 @@ title: Projects
   display: block;
 }
 .project-content {
-  padding: 20px;
+  padding: 18px 20px;
 }
 .project-title {
-  font-size: 1.3em;
+  font-size: 1.1em;
   font-weight: 600;
-  margin: 0 0 10px 0;
-  color: #2c3e50;
+  margin: 0 0 8px 0;
+  color: #f1f5f9;
+  letter-spacing: -0.01em;
 }
 .project-date {
-  font-size: 0.9em;
-  color: #7f8c8d;
-  margin-bottom: 15px;
+  font-size: 0.74em;
+  font-family: "JetBrains Mono", "Fira Code", monospace;
+  color: rgba(56, 189, 248, 0.52);
+  margin-bottom: 12px;
+  letter-spacing: 0.04em;
 }
 .project-excerpt {
-  font-size: 0.95em;
-  line-height: 1.5;
-  color: #34495e;
+  font-size: 0.9em;
+  line-height: 1.6;
+  color: rgba(196, 212, 224, 0.7);
   margin: 0;
 }
 .projects-intro {
-  font-size: 1.3em;
-  line-height: 1.6;
-  color: #2c3e50;
-  margin-bottom: 40px;
-  margin-top: 30px;
-  font-weight: 500;
+  font-size: 1.05em;
+  line-height: 1.65;
+  color: rgba(196, 212, 224, 0.8);
+  margin-bottom: 32px;
+  margin-top: 24px;
   text-align: center;
   padding: 0 20px;
 }
-/* Mobile responsiveness */
+.projects-intro a {
+  color: #38bdf8;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(56, 189, 248, 0.3);
+  transition: border-color .15s;
+}
+.projects-intro a:hover {
+  border-bottom-color: #38bdf8;
+}
 @media (max-width: 768px) {
   .projects-grid {
     grid-template-columns: 1fr;
-    gap: 20px;
+    gap: 16px;
   }
-  
   .project-image-container {
     height: 150px;
   }
-  
   .project-content {
-    padding: 15px;
-  }
-  
-  .project-title {
-    font-size: 1.2em;
+    padding: 14px 16px;
   }
 }
 </style>
