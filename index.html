@@ -3,8 +3,181 @@ layout: default
 title: "Home"
 ---
 
-{% if site.show_excerpts %}
-  {% include home.html %}
-{% else %}
-  {% include archive.html title="Posts" %}
-{% endif %}
+<style>
+.home-intro {
+  padding: 0.5em 0 2em;
+}
+
+.home-intro h1 {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #c4d4e0;
+  margin: 0 0 0.25em;
+  letter-spacing: -0.01em;
+}
+
+.home-tagline {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.78em;
+  color: rgba(56, 189, 248, 0.7);
+  letter-spacing: 0.06em;
+  text-transform: lowercase;
+  margin-bottom: 2em;
+}
+
+.home-section {
+  margin-bottom: 2.5em;
+}
+
+.home-section-label {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.7em;
+  color: rgba(56, 189, 248, 0.5);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(56, 189, 248, 0.1);
+  padding-bottom: 0.5em;
+  margin-bottom: 1em;
+}
+
+.cv-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cv-list li {
+  display: flex;
+  align-items: baseline;
+  gap: 1.2em;
+  padding: 0.75em 0;
+  border-bottom: 1px solid rgba(56, 189, 248, 0.06);
+}
+
+.cv-list li:last-child {
+  border-bottom: none;
+}
+
+.cv-year {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.75em;
+  color: rgba(56, 189, 248, 0.5);
+  white-space: nowrap;
+  flex-shrink: 0;
+  min-width: 3em;
+}
+
+.cv-body {
+  color: #c4d4e0;
+  font-size: 0.95em;
+  line-height: 1.5;
+}
+
+.cv-body strong {
+  color: #dce9f3;
+  font-weight: 500;
+}
+
+.cv-body .cv-sub {
+  display: block;
+  font-size: 0.87em;
+  color: rgba(196, 212, 224, 0.5);
+  margin-top: 0.2em;
+}
+
+.cv-body .cv-link {
+  display: inline-block;
+  margin-top: 0.3em;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.78em;
+  color: #38bdf8;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(56, 189, 248, 0.25);
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.cv-body .cv-link:hover {
+  color: #7dd3fc;
+  border-bottom-color: rgba(56, 189, 248, 0.6);
+}
+
+.cv-body .cv-forthcoming {
+  display: inline-block;
+  margin-top: 0.3em;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.75em;
+  color: rgba(56, 189, 248, 0.4);
+  font-style: italic;
+}
+
+@media (max-width: 600px) {
+  .cv-list li {
+    flex-direction: column;
+    gap: 0.2em;
+  }
+}
+</style>
+
+<article class="home-intro">
+
+  <h1>{{ site.author }}</h1>
+  <div class="home-tagline">{{ site.tagline }}</div>
+
+  <div class="home-section">
+    <div class="home-section-label">Education</div>
+    <ul class="cv-list">
+      <li>
+        <span class="cv-year">2025</span>
+        <div class="cv-body">
+          <strong>PhD in Statistics</strong>
+        </div>
+      </li>
+      <li>
+        <span class="cv-year">2018</span>
+        <div class="cv-body">
+          <strong>MSc in Physics</strong>
+          <span class="cv-sub">Minor subject in Mathematics</span>
+          <a class="cv-link" href="https://drive.google.com/file/d/13RZmLVqVX8BkE1TnJpC9IhIJ2uPgZ06w/view" target="_blank" rel="noopener">↗ Master thesis: Investigating stability properties for characteristic electric power systems based on a heuristic classification scheme</a>
+        </div>
+      </li>
+      <li>
+        <span class="cv-year"></span>
+        <div class="cv-body">
+          <strong>BSc in Physics</strong>
+          <a class="cv-link" href="https://drive.google.com/file/d/1NnDCExpDJ8ay58soWB-E2cWZ5FaBzlmv/view" target="_blank" rel="noopener">↗ Bachelor thesis: Stability analysis of power grid topologies</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <div class="home-section">
+    <div class="home-section-label">Publications</div>
+    <ul class="cv-list">
+      <li>
+        <span class="cv-year">2026</span>
+        <div class="cv-body">
+          <strong>A time warping model for seasonal data with application to age estimation from narwhal tusks</strong>
+          <span class="cv-sub">Annals of Applied Statistics</span>
+          <span class="cv-forthcoming">to appear</span>
+        </div>
+      </li>
+      <li>
+        <span class="cv-year">2025</span>
+        <div class="cv-body">
+          <strong>Chronicles in ivory: estimating the age of narwhals (<em>Monodon monoceros</em>) through stochastic modeling of seasonally varying trace elements</strong>
+          <span class="cv-sub">Frontiers in Marine Science</span>
+          <a class="cv-link" href="https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2025.1655427/full" target="_blank" rel="noopener">↗ read</a>
+        </div>
+      </li>
+      <li>
+        <span class="cv-year">2023</span>
+        <div class="cv-body">
+          <strong>Using quantile regression and relative entropy to assess the period of anomalous behavior of marine mammals following tagging</strong>
+          <span class="cv-sub">Ecology and Evolution</span>
+          <a class="cv-link" href="https://onlinelibrary.wiley.com/doi/10.1002/ece3.9967" target="_blank" rel="noopener">↗ read</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+</article>
