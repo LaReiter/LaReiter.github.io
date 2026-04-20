@@ -16,15 +16,6 @@ title: "Home"
   letter-spacing: -0.01em;
 }
 
-.home-tagline {
-  font-family: "JetBrains Mono", monospace;
-  font-size: 0.78em;
-  color: rgba(56, 189, 248, 0.7);
-  letter-spacing: 0.06em;
-  text-transform: lowercase;
-  margin-bottom: 2em;
-}
-
 .home-section {
   margin-bottom: 2.5em;
 }
@@ -120,9 +111,6 @@ title: "Home"
 
 <article class="home-intro">
 
-  <h1>{{ site.author }}</h1>
-  <div class="home-tagline">{{ site.tagline }}</div>
-
   <div class="home-section">
     <div class="home-section-label">Education</div>
     <ul class="cv-list">
@@ -130,6 +118,7 @@ title: "Home"
         <span class="cv-year">2025</span>
         <div class="cv-body">
           <strong>PhD in Statistics</strong>
+          <a class="cv-link" href="https://researchprofiles.ku.dk/en/publications/statistical-ecology-an-ecological-archive-in-narwhal-tusks/" target="_blank" rel="noopener">↗ PhD thesis: Statistical Ecology: An ecological archive in narwhal tusks</a>
         </div>
       </li>
       <li>
@@ -141,9 +130,10 @@ title: "Home"
         </div>
       </li>
       <li>
-        <span class="cv-year"></span>
+        <span class="cv-year">2015</span>
         <div class="cv-body">
           <strong>BSc in Physics</strong>
+          <span class="cv-sub">Minor subject in Mathematics</span>
           <a class="cv-link" href="https://drive.google.com/file/d/1NnDCExpDJ8ay58soWB-E2cWZ5FaBzlmv/view" target="_blank" rel="noopener">↗ Bachelor thesis: Stability analysis of power grid topologies</a>
         </div>
       </li>
