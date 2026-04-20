@@ -58,14 +58,14 @@ title: Projects
 .project-date {
   font-size: 0.74em;
   font-family: "JetBrains Mono", "Fira Code", monospace;
-  color: rgba(56, 189, 248, 0.52);
+  color: rgba(56, 189, 248, 0.78);
   margin-bottom: 12px;
   letter-spacing: 0.04em;
 }
 .project-excerpt {
   font-size: 0.9em;
   line-height: 1.6;
-  color: rgba(196, 212, 224, 0.7);
+  color: rgba(196, 212, 224, 0.85);
   margin: 0;
 }
 .projects-intro {
