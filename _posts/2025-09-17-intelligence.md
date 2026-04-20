@@ -1,5 +1,5 @@
 ---
-title: "Intelligence and the Flynn effect"
+title: "Intelligence and the Flynn effect (Published in Forum Mentum)"
 mathjax: true
 layout: post
 categories: media
