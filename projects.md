@@ -99,8 +99,8 @@ title: Projects
   }
 }
 </style>
-<div class="projects-container">
-  <article><header><h1>Projects</h1></header></article>
+<article>
+  <header><h1>Projects</h1></header>
 
   <div class="projects-grid">
     {% for project in site.projects %}
@@ -116,4 +116,4 @@ title: Projects
       </a>
     {% endfor %}
   </div>
-</div>
+</article>
