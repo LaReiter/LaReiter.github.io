@@ -69,7 +69,7 @@ The idea of the game was conceived one early evening. The next evening, the game
   <img src="/assets/projects/DinosaurMaze4.png" alt="Dinosaur Maze final screen" width="600">
 </figure>
 
-### How do we go from here?
+### A lesson learned
 
 Our role as a developer of software has changed fundamentally. 
 
