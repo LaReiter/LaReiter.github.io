@@ -73,7 +73,7 @@ The idea of the game was conceived one early evening. The next evening, the game
 
 Our role as a developer of software has changed fundamentally. 
 
-The core tasks have been outsourced to AI, and coding skills is no longer necessary to succeed: The AI can code and build, and quite remarkably so. 
+The core tasks have been outsourced to AI, and coding skills are no longer necessary to succeed: The AI can code and build, and quite remarkably so. 
 
 Instead the developer must see himself as an orchestrator and a judge.
 
