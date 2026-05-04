@@ -12,7 +12,7 @@ date: 2026-05-04
 
 With the creation of this game, I wanted first and foremost to explore the potential of vibe coding using [Claude Code](https://claude.ai/code), Anthropic's AI-powered coding assistant. Secondly, I wanted to make a fun kids game that I like, and hopefully my son too.
 
-If you are curious about the game, please find the source code, game files and description <a href="https://github.com/LaReiter/PLACEHOLDER" target="_blank">on my Github</a>.
+If you are curious about the game, please find the source code, game files and description <a href="https://github.com/LaReiter/Pygame-DinosaurLabyrint" target="_blank">on my Github</a>.
 
 Here I will not go into details with the game, but rather explain my process of software development through collaboration with an AI.
 
@@ -24,7 +24,7 @@ I wrote down my thoughts on how I imagined this game, from the visuals to the ga
 
 My thoughts - the game manifest - was saved as a .txt file inside a folder titled **Dinosaur Maze**. Based on this manifest, I already knew what this folder would eventually contain, and I began creating the subfolders.
 
-**Note** My game manifest can also be found <a href="https://github.com/LaReiter/PLACEHOLDER" target="_blank">on my Github</a>.
+**Note** My game manifest can also be found <a href="https://github.com/LaReiter/Pygame-DinosaurLabyrint" target="_blank">on my Github</a>.
 
 ### The graphics 
 
