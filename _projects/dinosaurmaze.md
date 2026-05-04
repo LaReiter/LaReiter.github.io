@@ -71,6 +71,6 @@ The idea of the game was conceived one early evening. The next evening, the game
 
 ### How do we go from here?
 
-The core tasks have been outsorced to AI. It can code and build, and quite remarkably so. The human is then the orchestrator and the judge.
+The core tasks have been outsourced to AI. It can code and build, and quite remarkably so. The human is then the orchestrator and the judge.
 
 We imagine. The AI Build. We scrutinize and put our verdict forth. 
