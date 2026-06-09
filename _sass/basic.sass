@@ -21,22 +21,37 @@ b, strong, th
   font-weight: $font-weight + 200
 
 p
-  text-align: justify
+  text-align: left
+
+*::selection
+  background: rgba(56, 189, 248, 0.25)
+  color: #f1f5f9
 
 a
   color: $link-color
   text-decoration: inherit
-  transition: .15s color, .15s opacity
+  transition: .15s color
   &:hover
     text-decoration: none
-    opacity: .85
+    color: #7dd3fc
+
+*:focus-visible
+  outline: 2px solid rgba(56, 189, 248, 0.6)
+  outline-offset: 2px
+  border-radius: 2px
+
+@supports (scrollbar-width: thin)
+  *
+    scrollbar-width: thin
+    scrollbar-color: rgba(56, 189, 248, 0.25) transparent
 
 header a, footer a, aside a
   color: inherit
 
 header time
-  color: reduce(100)
+  color: rgba(125, 211, 252, 0.85)
   font-family: $mono-family
+  font-size: .85em
 
 hr
   border: none

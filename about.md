@@ -51,9 +51,9 @@ layout: page
 }
 
 .content-text {
-  text-align: justify;
+  text-align: left;
   line-height: 1.75;
-  color: #c4d4e0;
+  color: #cfdce7;
 }
 
 @media (min-width: 768px) {
