@@ -115,9 +115,167 @@ title: "Home"
     gap: 0.2em;
   }
 }
+
+/* --- Hero --- */
+.home-hero {
+  margin: 0.5em 0 2.2em;
+}
+
+.home-hero h1 {
+  font-size: 2.4em;
+  font-weight: 700;
+  color: #c4d4e0;
+  letter-spacing: -0.03em;
+  line-height: 1.15;
+  margin: 0 0 0.35em;
+}
+
+.home-hero h1 .accent {
+  color: #38bdf8;
+}
+
+.home-hero-subtitle {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.82em;
+  font-weight: 500;
+  color: rgba(125, 211, 252, 0.95);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+/* --- Intro row (story + portrait) --- */
+.intro-row {
+  display: grid;
+  grid-template-columns: 1fr 230px;
+  gap: 2.5em;
+  align-items: center;
+  margin: 0 0 3em;
+}
+
+.intro-text {
+  line-height: 1.75;
+  color: #cfdce7;
+}
+
+.intro-text p {
+  margin: 0 0 1em;
+}
+
+.intro-text p:last-child {
+  margin-bottom: 0;
+}
+
+.intro-text a {
+  color: #4cc3f7;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(56, 189, 248, 0.35);
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.intro-text a:hover {
+  color: #7dd3fc;
+  border-bottom-color: rgba(125, 211, 252, 0.7);
+}
+
+.intro-aside {
+  margin: 0;
+}
+
+.intro-photo {
+  display: block;
+  width: 100%;
+  margin: 0 0 1.1em;
+  border-radius: 8px;
+  border: 1px solid rgba(56, 189, 248, 0.18);
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.intro-photo:hover {
+  border-color: rgba(56, 189, 248, 0.45);
+  box-shadow: 0 0 16px rgba(56, 189, 248, 0.1);
+}
+
+.intro-social {
+  display: flex;
+  gap: 1.3em;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro-social a {
+  color: rgba(196, 212, 224, 0.65);
+  font-size: 1.3em;
+  line-height: 1;
+  display: inline-flex;
+  transition: color 0.15s;
+}
+
+.intro-social a:hover {
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+.intro-social .icon {
+  height: 1em;
+  width: 1em;
+  fill: currentColor;
+  display: inline-block;
+}
+
+/* divider between intro and CV */
+.intro-divider {
+  border: 0;
+  height: 1px;
+  margin: 0 0 2.5em;
+  background: linear-gradient(to right, rgba(56, 189, 248, 0.45), rgba(56, 189, 248, 0.05));
+}
+
+@media (max-width: 700px) {
+  .home-hero h1 {
+    font-size: 1.9em;
+  }
+  .intro-row {
+    grid-template-columns: 1fr;
+    gap: 1.5em;
+  }
+  .intro-text {
+    order: 1;
+  }
+  .intro-aside {
+    order: 2;
+    max-width: 240px;
+    margin: 0 auto;
+  }
+}
 </style>
 
 <article class="home-intro">
+
+  <header class="home-hero">
+    <h1>Hi, I'm <span class="accent">Lars Nørtoft Reiter</span></h1>
+    <div class="home-hero-subtitle">Statistician · Physicist · PhD</div>
+  </header>
+
+  <div class="intro-row">
+    {%- assign about_page = site.pages | where: "name", "about.md" | first -%}
+    <div class="intro-text">
+      <p>I'm endlessly curious about how the world works — from the synchronized movements of fish schools and the invisible dark matter filling our universe to the unspoken rules of human behaviour. That curiosity took me through physics and into statistics, where I now build models to make sense of messy, real-world data.</p>
+      <p>Alongside the research, I write essays and reader's letters on science, reasoning, and the quiet ways numbers shape our decisions. Below you'll find my education, publications, and selected writing — and you can read more <a href="{{ about_page.url | relative_url }}">about me here</a>.</p>
+    </div>
+    <aside class="intro-aside">
+      <img class="intro-photo" src="{{ "/assets/mig.png" | relative_url }}" alt="Lars Nørtoft Reiter">
+      <div class="intro-social">
+        <a aria-label="Github" href="https://github.com/LaReiter" target="_blank" rel="noopener noreferrer">
+          <svg aria-hidden="true" class="icon"><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#github"></use></svg>
+        </a>
+        <a aria-label="Linkedin" href="https://www.linkedin.com/in/lars-n%C3%B8rtoft-reiter-01646099/" target="_blank" rel="noopener noreferrer">
+          <svg aria-hidden="true" class="icon"><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#linkedin"></use></svg>
+        </a>
+      </div>
+    </aside>
+  </div>
+
+  <hr class="intro-divider">
 
   <div class="home-section">
     <div class="home-section-label">Education</div>
