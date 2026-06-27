@@ -17,10 +17,10 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
+ - {title: About me, icon: user,  file: "about.md"}
  - {file: "cv.html", title: CV, icon: file-alt}
  - {title: Blog, icon: feather-alt, file: "blog.md"}
  - {title: Projects, icon: lightbulb, file: "projects.md"}
- - {title: About me, icon: user,  file: "about.md"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:lars.reiter.nielsen@gmail.com"}
