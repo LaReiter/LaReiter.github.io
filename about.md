@@ -2,6 +2,7 @@
 title: "About me"
 mathjax: true
 layout: page
+permalink: /
 ---
 
 <style>
