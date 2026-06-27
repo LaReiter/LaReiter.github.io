@@ -19,6 +19,7 @@ minimal: false             # use a dark header
 navigation:                # accepts {file, title, url, icon, sidebaricon}
  - {title: About me, icon: user,  file: "about.md"}
  - {file: "cv.html", title: CV, icon: file-alt}
+ - {title: Media, icon: newspaper, file: "media.html"}
  - {title: Blog, icon: feather-alt, file: "blog.md"}
  - {title: Projects, icon: lightbulb, file: "projects.md"}
 
