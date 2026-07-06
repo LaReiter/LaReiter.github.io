@@ -17,9 +17,9 @@ This mechanism can be complex and contain several interacting components. Take f
 
 ## Our worldview
 
-Many of us see the world in a specific set of colors. By that I mean the way we perceive the world passes through a filter that attenuates or amplifies our experiences. The filter is built continuously, and reinforced by our current understanding.
+Many of us see the world in a specific set of colors. By that I mean that the world - the 'real' world - passes through a filter that attenuates or amplifies our experiences. The filter is built continuously, and reinforced by our current understanding.
 
-For some, this filter can be due to a creative or imaginative mindset: we want the world to be adventurous, and so we weight those phenomena that strengthen such a worldview. For others, it can be due to a judgemental, principled or otherwise narrow state, that allows only certain phenomena to alter our worldview. 
+For some, this filter can be due to a creative or imaginative mindset: we want the world to be adventurous, and so we upweight those phenomena that strengthen such a worldview. For others, it can be due to a judgemental, principled or otherwise narrow state, that allows only certain phenomena to alter our worldview. 
 
 This relation between reality and our subject-specific worldview is illustrated in the Figure below.
 
