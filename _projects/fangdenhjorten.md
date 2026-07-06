@@ -1,5 +1,4 @@
 ---
-layout: default
 title: "Fang Den Hjorten"
 layout: post
 image: "/assets/projects/hjort-thumbnail.png"

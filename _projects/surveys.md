@@ -1,5 +1,4 @@
 ---
-layout: default
 title: "Workplace surveys"
 image: "/assets/projects/survey-thumbnail.png"
 mathjax: true
