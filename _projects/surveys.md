@@ -14,13 +14,13 @@ A workplace well-being survey is repeated at one-year intervals at a workplace w
 
 Let $$x_1$$ be the measured average of respondents in year 1. Let $$n_1$$ be the number of respondents in year 1 (at most $$N$$). Let $$x_2, n_2$$ be the corresponding values for year 2. Let $$y_1$$ and $$y_2$$ be the average well-being score in year 1 and year 2 for the entire workplace, respectively. Note that these are unobserved since not everyone has responded.
 
-Let us define $$\Delta x = x_2 - x_1$$. This is the observed difference (among respondents) from year 1 to year 2. Also define $$\Delta y = y_2 - y_1$$ as the actual difference from year 1 to year 2 for the entire workplace. Note that our best estimate of the latter difference—an estimate we denote $$\widehat{\Delta y}$$—is the measured difference from the well-being analysis:
+Let us define $$\Delta x = x_2 - x_1$$. This is the observed difference (among respondents) from year 1 to year 2. Also define $$\Delta y = y_2 - y_1$$ as the actual difference from year 1 to year 2 for the entire workplace. Note that our best estimate of the latter difference - an estimate we denote $$\widehat{\Delta y}$$ - is the measured difference from the well-being analysis:
 
 $$\widehat{\Delta y} = \Delta x$$
 
 ### Lower Bound
 
-A lower bound for the difference $$\widehat{\Delta y}_{\text{lower}}$$ can be found by imagining that employees who did not answer the survey in year 2 ($$N - n_2$$) would respond as **low** as possible (i.e., a score of 1), while employees who did not answer the survey in year 1 ($$N - n_1$$) would respond as **high** as possible (i.e., a score of 5). Formally:
+A lower bound for the difference $$\widehat{\Delta y}_{\text{lower}}$$ can be found by imagining that employees who did not answer the survey in year 2 (equal to $$N - n_2$$) would respond as **low** as possible (i.e., a score of 1), while employees who did not answer the survey in year 1 (equal to $$N - n_1$$) would respond as **high** as possible (i.e., a score of 5). Formally:
 
 $$\widehat{\Delta y}_{\text{lower}} = \frac{x_2 n_2 + (N-n_2) - (x_1 n_1 + 5(N - n_1))}{N}$$
 
@@ -58,14 +58,14 @@ $$\text{SE}(\hat{s}) = \frac{\hat{\sigma}}{\sqrt{n}} \sqrt{\frac{N-n}{N-1}}$$
 
 where $$N$$ is the population size and $$\hat{\sigma}$$ is the sample standard deviation.
 
-### Defining the Population
+### The workplace population
 
-However, what is the population actually? Do we wish to
+One can now ask: how we actually define the population? Do we wish to
 
 1. Understand well-being among the current employees? Then the population size is $$N = 100$$.
 2. Understand well-being at the workplace (not just among current employees)? Then the population size is theoretically infinite, i.e., $$N = \infty$$.
 
-In situation (1), the correction in the standard error equation becomes $$\sqrt{\frac{100-25}{100-1}} = \frac{75}{99} \approx 0.75$$. In situation (2), the correction becomes $$\sqrt{\frac{\infty-25}{\infty-1}} = 1$$, i.e., no correction. In situation (2), the ratio between the sample and population size thus has no bearing on the uncertainty. So if, for example, some employees fail to respond (assuming they don't fail to respond for reasons related to the survey), it makes no difference.
+In situation (1), the correction in the standard error equation becomes $$\sqrt{\frac{100-25}{100-1}} = \frac{75}{99} \approx 0.75$$. In situation (2), the correction becomes $$\sqrt{\frac{\infty-25}{\infty-1}} = 1$$, i.e., no correction. In situation (2), the ratio between the sample and population size thus has no bearing on the uncertainty. So if, for example, some employees fail to respond (assuming they don't fail to respond for reasons related to the survey), it will not inflate the standard error.
 
 ### Confidence Interval
 
