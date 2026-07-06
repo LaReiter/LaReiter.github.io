@@ -42,7 +42,7 @@ $$\widehat{\Delta y}_{\text{upper}} = \frac{3.8 \times 8 + 5 \times (10 - 8) - (
 
 ---
 
-## Part 2: Uncertainty in Finite Populations—Case Study: Well-being Survey
+## Part 2: Uncertainty in Finite Populations. Case Study: Well-being Survey
 
 Suppose you conduct a well-being survey at a workplace. For the sake of example, let us assume there are $$100$$ employees.
 
