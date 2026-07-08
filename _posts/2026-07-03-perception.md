@@ -21,7 +21,7 @@ Many of us see the world in a specific set of colors. By that I mean that the wo
 
 For some, this filter can be due to a creative or imaginative mindset: we want the world to be adventurous, and so we upweight those phenomena that strengthen such a worldview. For others, it can be due to a judgemental, principled or otherwise narrow state, that allows only certain phenomena to alter our worldview. 
 
-This relation between reality and our subject-specific worldview is illustrated in the Figure below.
+This relation between reality and our subject-specific worldview is illustrated in the Figure below. The left side shows reality, where some underlying mechanism gives rise to a set of phenomena. Each phenomenon has a color, signaling how easily it passes through a filter of the same color. On the right, we see an individual with a green filter: the green phenomena (1 and 3) are amplified and contribute strongly to the worldview, while phenomena 2 and 4 are attenuated. The worldview, in turn, reinforces the filter.
 
 ![Individual Perception Flowchart](/assets/perception_individual.png)
 
