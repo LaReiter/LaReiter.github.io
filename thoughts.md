@@ -23,7 +23,7 @@ favicon: /assets/favicon-thoughts.svg
 }
 .thought-bubble {
   background: rgba(13, 17, 23, 0.85);
-  border: 1px solid rgba(56, 189, 248, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.8);
   border-radius: 32px;
   padding: 2em 2.2em;
   box-shadow: 0 8px 32px rgba(56, 189, 248, 0.08);
@@ -57,7 +57,7 @@ favicon: /assets/favicon-thoughts.svg
   display: block;
   border-radius: 50%;
   background: rgba(13, 17, 23, 0.85);
-  border: 1px solid rgba(56, 189, 248, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.8);
 }
 .thought-trail span:nth-child(1) { width: 20px; height: 20px; }
 .thought-trail span:nth-child(2) { width: 13px; height: 13px; }
