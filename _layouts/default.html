@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="canonical" href="{{ page.url | absolute_url }}">
-<link rel="icon" type="image/svg+xml" href="{{ "/assets/favicon.svg" | relative_url }}">
+<link rel="icon" type="image/svg+xml" href="{{ page.favicon | default: "/assets/favicon.svg" | relative_url }}">
 {% if site.show_frame %}
 <link rel="stylesheet" href="{{ "/assets/css/frame.css" | relative_url }}">
 {% else %}

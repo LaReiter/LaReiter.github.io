@@ -22,6 +22,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
  - {title: Media, icon: newspaper, file: "media.html"}
  - {title: Blog, icon: feather-alt, file: "blog.md"}
  - {title: Projects, icon: lightbulb, file: "projects.md"}
+ - {title: Thoughts, icon: comment, file: "thoughts.md"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:lars.reiter.nielsen@gmail.com"}
