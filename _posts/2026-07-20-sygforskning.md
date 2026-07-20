@@ -11,7 +11,7 @@ Partiklen blev påvist eksperimentelt i 2012 og året efter modtog Higgs Nobelpr
 
 > *"(Oversat) I dag ville jeg ikke blive tilbudt en akademisk stilling. Så simpelt kan det siges. Jeg tror ikke jeg ville blive opfattet som produktiv nok"*
 
-Higgs' ord peger på et grundlæggende problem i forskningsverdenen, som flere stemmer også råber op om herhjemme [[1]](https://videnskab.dk/kultur-samfund/perverst-publiceringsraes-fremavler-tvungne-medforfatterskaber-saadan-kan-vi-bremse-det/), [[2]](https://ugeskriftet.dk/nyhed/videnskabelig-publicering-forskere-skal-males-pa-andet-end-artikler-og-citationer), [[3]](https://royalacademy.dk/kronik-forskningen-er-blevet-et-kaploeb-uden-vindere-nu-er-det-tid-til-et-opgoer/).
+Higgs' ord peger på et grundlæggende problem i forskningsverdenen, som flere stemmer også råber op om herhjemme \[[1](https://videnskab.dk/kultur-samfund/perverst-publiceringsraes-fremavler-tvungne-medforfatterskaber-saadan-kan-vi-bremse-det/),[2](https://ugeskriftet.dk/nyhed/videnskabelig-publicering-forskere-skal-males-pa-andet-end-artikler-og-citationer),[3](https://royalacademy.dk/kronik-forskningen-er-blevet-et-kaploeb-uden-vindere-nu-er-det-tid-til-et-opgoer/)\].
 
 Vi har nemlig skabt et system, der ikke nødvendigvis fremmer den bedste forskning, men derimod belønner synlighed, hastighed og kvantitet.
 
@@ -39,7 +39,7 @@ Som med al ny teknologi, kan de fremstormende AI modeller bruges både positivt 
 
 Modellerne kan nemlig gøre rigtig mange ting både hurtigere og sikkert mere effektivt end de fleste af os.
 
-Men det kan også have den konsekvens at flere forskere benytter værktøjerne ukritisk til at færdiggøre de artikler, de så gerne vil have udgivet. Et problem der allerede bliver bemærket, og som er med til at undergrave studiernes lødighed samt reducere kvaliteten [[6]](https://videnskab.dk/kultur-samfund/ai-spoeger-i-forskningen-massevis-af-studier-afsloeret-for-skjult-chatbot-brug/), [[7]](https://ing.dk/artikel/mytedraeber-ubrugelig-ai-videnskab-oversvoemmer-tidsskrifter-men-problemet-er-dybere-begravet).
+Men det kan også have den konsekvens at flere forskere benytter værktøjerne ukritisk til at færdiggøre de artikler, de så gerne vil have udgivet. Et problem der allerede bliver bemærket, og som er med til at undergrave studiernes lødighed samt reducere kvaliteten \[[6](https://videnskab.dk/kultur-samfund/ai-spoeger-i-forskningen-massevis-af-studier-afsloeret-for-skjult-chatbot-brug/),[7](https://ing.dk/artikel/mytedraeber-ubrugelig-ai-videnskab-oversvoemmer-tidsskrifter-men-problemet-er-dybere-begravet)\].
 
 Når forskere overlader for meget af arbejdet til en sprogmodel, kan der også opstå decideret forkert indhold i artiklen. Det er fx blevet påvist at flere medicinske studier brugte falske kilder [[8]](https://videnskab.dk/kultur-samfund/fandt-2-800-falske-kilder-i-medicinske-studier/), og tilmed at en dansk professor har fået sit navn påklistret opdigtede artikler [[9]](https://videnskab.dk/kultur-samfund/professors-navn-misbrugt-i-studier-ai-fusk-aeder-sig-ind-i-videnskaben/).
 
