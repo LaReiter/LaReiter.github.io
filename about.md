@@ -70,19 +70,6 @@ permalink: /
   color: #cfdce7;
 }
 
-.soundcloud-card {
-  margin-top: 3em;
-  padding-top: 1.5em;
-  background: linear-gradient(to right, rgba(56, 189, 248, 0.45), rgba(56, 189, 248, 0.05)) no-repeat top / 100% 1px;
-}
-
-.soundcloud-container {
-  width: 100%;
-  border-radius: 8px;
-  overflow: hidden;
-  border: 1px solid rgba(56, 189, 248, 0.15);
-}
-
 @media (max-width: 700px) {
   .about-row,
   .about-row.reverse {
@@ -119,14 +106,5 @@ This was one of the many questions asked in the children's book "Spørge Jørgen
   </figure>
   <div class="about-text">
 The world offers a multitude of intellectual problems that demands critical thinking and analytical skills, leading me to create reader's letters, personal research projects, and various homemade experiments. For example, I sat on my terrace and tracked the movement of a harvestman carefully to understand its movement patterns through stochastic modeling. I made my own survey to identify how parents weight different criteria when naming their kids, and how this has changed over generations. I also made my (first) Python game that was based on a soccer-like game invented during my summer vacation. Here on my homepage you can find a selected (tiny) fraction of my intellectual work.
-  </div>
-</div>
-
-<div class="soundcloud-card">
-  <div class="soundcloud-container">
-    <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/253856343&color=%2338bdf8&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=false"></iframe>
-    <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
-      <a href="https://soundcloud.com/kim-larsen-official" title="Kim Larsen" target="_blank" style="color: #cccccc; text-decoration: none;">Kim Larsen</a> · <a href="https://soundcloud.com/kim-larsen-official/sp-rge-j-rgen-1" title="Spørge Jørgen" target="_blank" style="color: #cccccc; text-decoration: none;">Spørge Jørgen</a>
-    </div>
   </div>
 </div>
