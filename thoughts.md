@@ -104,17 +104,28 @@ favicon: /assets/favicon-thoughts.svg
   var quoteEn = document.getElementById('quote-en');
   var quoteDa = document.getElementById('quote-da');
   var btn = document.getElementById('new-thought-btn');
-  var current = -1;
+  var deck = [];
+  var lastShown = -1;
 
-  function pickIndex() {
-    if (quotes.length <= 1) return 0;
-    var i;
-    do { i = Math.floor(Math.random() * quotes.length); } while (i === current);
-    return i;
+  function reshuffle() {
+    deck = quotes.map(function (_, i) { return i; });
+    for (var i = deck.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var tmp = deck[i]; deck[i] = deck[j]; deck[j] = tmp;
+    }
+    if (deck.length > 1 && deck[0] === lastShown) {
+      var swapWith = 1 + Math.floor(Math.random() * (deck.length - 1));
+      var t = deck[0]; deck[0] = deck[swapWith]; deck[swapWith] = t;
+    }
+  }
+
+  function nextIndex() {
+    if (deck.length === 0) reshuffle();
+    return deck.pop();
   }
 
   function showQuote(i) {
-    current = i;
+    lastShown = i;
     quoteEn.textContent = quotes[i].en;
     quoteDa.textContent = quotes[i].da;
   }
@@ -122,12 +133,12 @@ favicon: /assets/favicon-thoughts.svg
   function newThought() {
     bubble.style.opacity = '0';
     setTimeout(function () {
-      showQuote(pickIndex());
+      showQuote(nextIndex());
       bubble.style.opacity = '1';
     }, 200);
   }
 
-  showQuote(pickIndex());
+  showQuote(nextIndex());
   btn.addEventListener('click', newThought);
 })();
 </script>
