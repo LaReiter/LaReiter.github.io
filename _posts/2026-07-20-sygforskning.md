@@ -5,7 +5,7 @@ layout: post
 categories: media
 ---
 
-I 1960'erne sad en beskeden mand ved navn Peter Higgs og funderede over universet. Hans arbejde førte til forudsigelsen af en elementarpartikel så fundamental, at den senere fik tilnavnet "gudspartiklen."
+I 1960'erne sad en beskeden mand ved navn Peter Higgs og tænkte over universet. Hans arbejde førte til forudsigelsen af en elementarpartikel så fundamental, at den senere fik tilnavnet "gudspartiklen."
 
 Partiklen blev påvist eksperimentelt i 2012 og året efter modtog Higgs Nobelprisen i fysik. Men under fejringen kom en tankevækkende besked fra den store videnskabsmand:
 
