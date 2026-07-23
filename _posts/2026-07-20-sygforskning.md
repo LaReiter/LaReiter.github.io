@@ -44,6 +44,7 @@ Men det kan også have den konsekvens at flere forskere benytter værktøjerne u
 Når forskere overlader for meget af arbejdet til en sprogmodel, kan der også opstå decideret forkert indhold i artiklen. Det er fx blevet påvist at flere medicinske studier brugte falske kilder [[8]](https://videnskab.dk/kultur-samfund/fandt-2-800-falske-kilder-i-medicinske-studier/), og tilmed at en dansk professor har fået sit navn påklistret opdigtede artikler [[9]](https://videnskab.dk/kultur-samfund/professors-navn-misbrugt-i-studier-ai-fusk-aeder-sig-ind-i-videnskaben/).
 
 For nylig kom det frem, at der nu også findes AI værktøjer til at skjule… Ja, at AI værktøjer er blevet brugt [[10]](https://www.berlingske.dk/videnskab/bedragerisk-program-kan-skjule-forskeres-ai-brug-det-er-det-bedste-jeg-nogensinde-har-brugt).
+
 År for år bliver der produceret mere og mere forskning af varierende kvalitet, og flere stemmer mener, at det er for meget [[11]](https://videnskab.dk/kultur-samfund/salamiforskning-forskerne-publicerer-for-meget/). Med AI-modellerne ved hånden ser vi formentlig ind i en fremtid, hvor mængden kun vil vokse yderligere.
 
 ## En appel til handling
