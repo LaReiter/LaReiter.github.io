@@ -52,7 +52,7 @@ Der bliver heldigvis stadig produceret meget god og solid forskning. Derfor skal
 
 Men det er samtidig vigtigt ikke at nedtone problemets alvor: For mere forskning er ikke ensbetydende med et klarere billede af den virkelighed, vi forsøger at beskrive. 
 
-Når mængden af publikationer vokser, og studierne er af ringe kvalitet, mangelfulde eller ligefrem fabrikerede af AI-modeller, så vil de gode studier drukne i støjen af alle de andre, og vi får sværere ved at gennemskue hvad der er op og ned.
+Når mængden af publikationer vokser, og kvaliteten ikke følger med, så kan vi risikere at de gode studier drukner i støjen af alle de andre.
 
 Derfor er Peter Higgs' bemærkning fra tidligere ikke blot en personlig observation, men en advarsel om, at forskningen er blevet syg, og at vi risikerer at kvæle de vigtige tanker og gode idéer.
 
