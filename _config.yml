@@ -16,13 +16,18 @@ minimal: false             # use a dark header
 
 # Menu
 
-navigation:                # accepts {file, title, url, icon, sidebaricon}
- - {title: About me, icon: user,  file: "about.md"}
- - {file: "cv.html", title: CV, icon: file-alt}
- - {title: Media, icon: newspaper, file: "media.html"}
- - {title: Blog, icon: feather-alt, file: "blog.md"}
- - {title: Projects, icon: lightbulb, file: "projects.md"}
- - {title: Thoughts, icon: comment, file: "thoughts.md"}
+# Entries are keyed by `ref`, not by filename: each nav item resolves to the page
+# whose front matter has a matching `ref` AND a `lang` equal to the current page's
+# language. Filename lookup cannot work here — da/about.md and about.md share the
+# name "about.md" and would collide. Titles come from each page's own front matter,
+# so translations live with the page. Also accepts {title, url, icon} for external links.
+navigation:
+ - {ref: about,    icon: user}
+ - {ref: cv,       icon: file-alt}
+ - {ref: media,    icon: newspaper}
+ - {ref: blog,     icon: feather-alt}
+ - {ref: projects, icon: lightbulb}
+ - {ref: thoughts, icon: comment}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:lars.reiter.nielsen@gmail.com"}

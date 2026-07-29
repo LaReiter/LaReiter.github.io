@@ -1,0 +1,34 @@
+{%- comment -%}
+Language switcher. Rendered twice, once per breakpoint, because the two halves of
+this theme's chrome swap at 70em: above it `body > header` is display:none and the
+fixed sidebar is the whole navigation; below it the sidebar is display:none and the
+header takes over. A switcher in only one of them would be invisible half the time.
+
+  - sidebar (>=70em): _includes/sidebar.html, at the foot of .sidebar-header
+  - header  (<70em):  _layouts/default.html, right-aligned after the nav
+
+Every language is always shown; the current one is inert text, the others are links.
+On a page with no translated counterpart (posts, project write-ups) the link falls
+back to the other language's front page rather than disappearing, and says so on hover.
+{%- endcomment -%}
+{%- assign cur_lang = page.lang | default: site.lang | default: "en" -%}
+{%- assign ui = site.data.ui[cur_lang] -%}
+<div class="lang-switch" role="group" aria-label="{{ ui.switch.aria }}">
+{%- for l in site.data.ui.languages -%}
+  {%- unless forloop.first %}<span class="lang-switch-sep" aria-hidden="true">/</span>{% endunless -%}
+  {%- if l.code == cur_lang -%}
+    <span class="lang-switch-current" aria-current="true">{{ l.label }}</span>
+  {%- else -%}
+    {%- if page.ref -%}
+      {%- assign counterpart = site.pages | where: "ref", page.ref | where: "lang", l.code | first -%}
+    {%- else -%}
+      {%- assign counterpart = false -%}
+    {%- endif -%}
+    {%- if counterpart -%}
+      <a href="{{ counterpart.url | relative_url }}" lang="{{ l.code }}" hreflang="{{ l.code }}" title="{{ site.data.ui[l.code].switch.to }}">{{ l.label }}</a>
+    {%- else -%}
+      <a href="{{ l.home | relative_url }}" lang="{{ l.code }}" hreflang="{{ l.code }}" title="{{ ui.switch.no_translation }}" class="lang-switch-fallback">{{ l.label }}</a>
+    {%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+</div>

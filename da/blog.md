@@ -1,8 +1,8 @@
 ---
 title: "Blog"
 layout: default
-permalink: /blog/
-lang: en
+permalink: /da/blog/
+lang: da
 ref: blog
 ---
 

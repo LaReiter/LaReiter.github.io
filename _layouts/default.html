@@ -9,6 +9,21 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="canonical" href="{{ page.url | absolute_url }}">
+{%- comment -%}
+hreflang alternates, so search engines serve the right language. Only emitted for
+pages that actually have a translated counterpart — posts and project write-ups are
+single-language by design and must not claim otherwise.
+{%- endcomment -%}
+{%- if page.ref -%}
+  {%- assign siblings = site.pages | where: "ref", page.ref -%}
+  {%- if siblings.size > 1 -%}
+    {%- for sibling in siblings %}
+<link rel="alternate" hreflang="{{ sibling.lang }}" href="{{ sibling.url | absolute_url }}">
+    {%- endfor -%}
+    {%- assign default_page = siblings | where: "lang", "en" | first %}
+<link rel="alternate" hreflang="x-default" href="{{ default_page.url | absolute_url }}">
+  {%- endif -%}
+{%- endif %}
 <link rel="icon" type="image/svg+xml" href="{{ page.favicon | default: "/assets/favicon.svg" | relative_url }}">
 {% if site.show_frame %}
 <link rel="stylesheet" href="{{ "/assets/css/frame.css" | relative_url }}">
@@ -30,9 +45,12 @@
   {% assign pages = site.pages | where_exp: "item", "item.title and item.sitemap != false" | sort: "order" %}
 {% endif %}
 
+{%- assign cur_lang = page.lang | default: site.lang | default: "en" -%}
+{%- assign home = site.pages | where: "ref", "about" | where: "lang", cur_lang | first -%}
 <header>
-  <a href="{{ "/" | relative_url }}" class="title">{{ site.title | escape }}</a>
+  <a href="{{ home.url | default: "/" | relative_url }}" class="title">{{ site.title | escape }}</a>
   {% include menu.html menu=pages %}
+  {% include lang-switch.html %}
 </header>
 
 {{ content }}

@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Projects
-permalink: /projects/
-lang: en
+title: Projekter
+permalink: /da/projects/
+lang: da
 ref: projects
 ---
 

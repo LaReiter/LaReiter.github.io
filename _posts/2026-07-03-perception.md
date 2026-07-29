@@ -3,6 +3,7 @@ title: "Perception distorts Reality"
 mathjax: true
 layout: post
 categories: media
+lang: en
 ---
 
 ## Reality

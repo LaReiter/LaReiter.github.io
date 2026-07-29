@@ -1,0 +1,110 @@
+{%- comment -%}
+Shared list styling for the CV and Media pages, which use the same visual language.
+Extracted from the two pages' formerly-inline <style> blocks so the Danish and English
+versions cannot drift apart.
+
+Params:
+  year_sizing - CSS for sizing the .cv-year gutter. CV uses a fixed `width` because
+                its year ranges are long ("2026–present"); Media only needs `min-width`.
+{%- endcomment -%}
+<style>
+.home-section {
+  margin-bottom: 2.5em;
+}
+
+.home-section-label {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.76em;
+  font-weight: 500;
+  color: rgba(125, 211, 252, 0.95);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding-bottom: 0.6em;
+  margin-bottom: 1em;
+  background: linear-gradient(to right, rgba(56, 189, 248, 0.45), rgba(56, 189, 248, 0.05)) no-repeat bottom / 100% 1px;
+}
+
+.cv-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cv-list li {
+  display: flex;
+  align-items: baseline;
+  gap: 1.2em;
+  padding: 0.85em 0.7em;
+  margin: 0 -0.7em;
+  border-radius: 6px;
+  border-bottom: 1px solid rgba(56, 189, 248, 0.07);
+  transition: background 0.15s;
+}
+
+.cv-list li:hover {
+  background: rgba(56, 189, 248, 0.045);
+}
+
+.cv-list li:last-child {
+  border-bottom: none;
+}
+
+.cv-year {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.8em;
+  color: rgba(125, 211, 252, 0.95);
+  white-space: nowrap;
+  flex-shrink: 0;
+  {{ include.year_sizing }}
+}
+
+.cv-body {
+  color: #d6e2ec;
+  font-size: 1em;
+  line-height: 1.55;
+}
+
+.cv-body strong {
+  color: #eef4f9;
+  font-weight: 600;
+}
+
+.cv-body .cv-sub {
+  display: block;
+  font-size: 0.92em;
+  color: rgba(207, 220, 231, 0.85);
+  margin-top: 0.25em;
+}
+
+.cv-body .cv-link {
+  display: inline-block;
+  margin-top: 0.35em;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.85em;
+  color: #4cc3f7;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(56, 189, 248, 0.35);
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.cv-body .cv-link:hover {
+  color: #7dd3fc;
+  border-bottom-color: rgba(125, 211, 252, 0.7);
+}
+
+.cv-body .cv-forthcoming {
+  display: inline-block;
+  margin-top: 0.35em;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.8em;
+  color: rgba(125, 211, 252, 0.82);
+  font-style: italic;
+}
+
+@media (max-width: 600px) {
+  .cv-list li {
+    flex-direction: column;
+    gap: 0.2em;
+  }
+}
+</style>

@@ -5,6 +5,7 @@ mathjax: true
 layout: post
 excerpt: "How do we properly analyze workplace surveys?"
 date: 2025-10-18
+lang: en
 ---
 
 ## Part 1: Exact Interval in Workplace Well-being Surveys

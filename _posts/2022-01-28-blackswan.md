@@ -3,6 +3,7 @@ title: "Black Swans"
 mathjax: true
 layout: post
 categories: media
+lang: en
 ---
 
 ![Black Swan](/assets/black swan.jpg)

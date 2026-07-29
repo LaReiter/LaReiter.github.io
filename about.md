@@ -3,89 +3,11 @@ title: "About me"
 mathjax: true
 layout: page
 permalink: /
+lang: en
+ref: about
 ---
 
-<style>
-.about-quote {
-  text-align: center;
-  padding: 1.6em 2em;
-  background: rgba(56, 189, 248, 0.04);
-  border: 1px solid rgba(56, 189, 248, 0.15);
-  border-radius: 8px;
-  margin: 0.5em 0 2.5em;
-  position: relative;
-}
-
-.about-quote::before {
-  content: "\201C";
-  display: block;
-  font-size: 2.6em;
-  line-height: 0.5;
-  color: rgba(56, 189, 248, 0.55);
-  margin-bottom: 0.25em;
-  font-family: Georgia, serif;
-}
-
-.about-quote p {
-  font-size: 1.08em;
-  font-style: italic;
-  color: #cfdce7;
-  margin: 0;
-  line-height: 1.7;
-  text-align: center;
-}
-
-.about-row {
-  display: grid;
-  grid-template-columns: 1fr 230px;
-  gap: 2.5em;
-  align-items: center;
-  margin: 0 0 2.5em;
-}
-
-.about-row.reverse {
-  grid-template-columns: 200px 1fr;
-}
-
-.about-row figure {
-  margin: 0;
-}
-
-.about-row img {
-  display: block;
-  width: 100%;
-  margin: 0;
-  border-radius: 8px;
-  border: 1px solid rgba(56, 189, 248, 0.18);
-  transition: border-color 0.2s, box-shadow 0.2s;
-}
-
-.about-row img:hover {
-  border-color: rgba(56, 189, 248, 0.45);
-  box-shadow: 0 0 16px rgba(56, 189, 248, 0.1);
-}
-
-.about-text {
-  line-height: 1.75;
-  color: #cfdce7;
-}
-
-@media (max-width: 700px) {
-  .about-row,
-  .about-row.reverse {
-    grid-template-columns: 1fr;
-    gap: 1.5em;
-  }
-  .about-row .about-text {
-    order: 1;
-  }
-  .about-row figure {
-    order: 2;
-    max-width: 240px;
-    margin: 0 auto;
-  }
-}
-</style>
+{% include styles/about.html %}
 
 <div class="about-quote">
   <p>"Why is my nail on my finger?" - Spørge Jørgen</p>

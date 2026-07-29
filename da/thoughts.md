@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Thoughts
-permalink: /thoughts/
+title: Tanker
+permalink: /da/thoughts/
 favicon: /assets/favicon-thoughts.svg
-lang: en
+lang: da
 ref: thoughts
 ---
 

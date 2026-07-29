@@ -3,6 +3,7 @@ title: "Intelligence and the Flynn effect (Published in Forum Mentum)"
 mathjax: true
 layout: post
 categories: media
+lang: en
 ---
 <figure>
   <img src="/assets/flynn.png" alt="Flynn effect visualization">

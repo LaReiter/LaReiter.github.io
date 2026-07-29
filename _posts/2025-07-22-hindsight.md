@@ -1,8 +1,9 @@
 ---
-title: "When Hindsight Makes You Blind (in Danish)"
+title: "When Hindsight Makes You Blind"
 mathjax: true
 layout: post
 categories: media
+lang: da
 external_url: /assets/pdfs/hindsight.pdf
 ---
 

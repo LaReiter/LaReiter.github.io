@@ -80,6 +80,34 @@ aside
   letter-spacing: 0.06em
   text-transform: uppercase
 
+// Language switcher, sidebar form (>=70em). Sits at the foot of .sidebar-header,
+// under the tagline and above the nav divider — the sidebar's "top of page", and
+// outside the nav's scroll region so it never scrolls away.
+.sidebar-header .lang-switch
+  display: flex
+  align-items: center
+  gap: .5em
+  margin-top: 1em
+  font-family: "JetBrains Mono", "Fira Code", monospace
+  font-size: 0.72em
+  letter-spacing: 0.06em
+  text-transform: uppercase
+
+  a
+    color: rgba(196, 212, 224, 0.5)
+    text-decoration: none
+    transition: .15s color
+    &:hover
+      color: #38bdf8
+      text-decoration: none
+
+  .lang-switch-current
+    color: #7dd3fc
+    font-weight: 500
+
+  .lang-switch-sep
+    color: rgba(56, 189, 248, 0.25)
+
 article header h1
   font-size: 2.2em
   letter-spacing: -0.03em

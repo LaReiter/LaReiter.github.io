@@ -4,6 +4,7 @@ title: "Dinosaur Maze"
 image: "/assets/projects/DinosaurMaze-thumbnail.png"
 excerpt: 🐍 A PyGame-based 2D maze game where you dodge a T-rex. Vibe coded with Claude Code in VS Code.
 date: 2026-05-04
+lang: en
 ---
 
 <figure>

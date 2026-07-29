@@ -1,0 +1,139 @@
+# UI / chrome strings, keyed by language.
+#
+# Same en/da convention already used by _data/quotes.yml.
+# Consumed as site.data.ui[page.lang] — see _includes/lang.html, which resolves
+# the current language once and exposes it as the `ui` variable.
+#
+# Only strings that are genuinely UI belong here. Page prose lives in the page
+# files themselves (about.md / da/about.md), and proper nouns that do not
+# translate — paper titles, journal names, publishers — stay inline in
+# _includes/cv-body.html and _includes/media-body.html.
+
+# Language registry. Order determines the order of the switcher.
+languages:
+  - {code: "en", label: "EN", name: "English", home: "/"}
+  - {code: "da", label: "DA", name: "Dansk",   home: "/da/"}
+
+en:
+  tagline: "Statistician &amp; Physicist"
+
+  switch:
+    aria: "Choose language"
+    to: "Read this page in English"
+    no_translation: "Only available in English"
+
+  cv:
+    education: "Education"
+    publications: "Publications"
+    experience: "Experience"
+    read: "read"
+    preprint: "preprint"
+    present: "present"
+    minor_math: "Minor subject in Mathematics"
+    phd_thesis: "PhD thesis"
+    master_thesis: "Master thesis"
+    bachelor_thesis: "Bachelor thesis"
+    degrees:
+      phd: "PhD in Statistics"
+      msc: "MSc in Physics"
+      bsc: "BSc in Physics"
+    roles:
+      postdoc: "Postdoctoral Researcher"
+      statistician: "Statistician"
+      phd_student: "PhD Student"
+      research_assistant: "Research Assistant"
+      teaching_assistant: "Teaching Assistant"
+      junior_analyst: "Junior Analyst"
+      assistant_lecturer: "Assistant Lecturer"
+      teacher: "Teacher"
+      student_developer: "Student Developer"
+    orgs:
+      math_ku: "Department of Mathematical Sciences, University of Copenhagen"
+      psychiatry: "Copenhagen Research Centre for Biological and Precision Psychiatry"
+      regulator: "Danish Utility Regulator"
+      itu: "IT University of Copenhagen"
+      gymnasium: "Virum Gymnasium &amp; Frederiksberg Gymnasium"
+
+  media:
+    articles: "Articles"
+    read: "read"
+
+  blog:
+    filter_label: "Language"
+    filter_all: "All"
+    filter_en: "English"
+    filter_da: "Dansk"
+    badge_en_title: "Written in English"
+    badge_da_title: "Written in Danish"
+    no_posts: "No posts in this language yet."
+
+  thoughts:
+    intro: "Since 2024, I have been formulating some of my thoughts and reflections about life in one-liners. These can be found here."
+    button: "New thought"
+
+  notfound:
+    heading: "Page not found"
+    body: "The page you were looking for does not exist."
+    back: "Back to the front page"
+
+da:
+  tagline: "Statistiker &amp; Fysiker"
+
+  switch:
+    aria: "Vælg sprog"
+    to: "Læs denne side på dansk"
+    no_translation: "Findes kun på dansk"
+
+  cv:
+    education: "Uddannelse"
+    publications: "Publikationer"
+    experience: "Erfaring"
+    read: "læs"
+    preprint: "preprint"
+    present: "nu"
+    minor_math: "Sidefag i matematik"
+    phd_thesis: "Ph.d.-afhandling"
+    master_thesis: "Speciale"
+    bachelor_thesis: "Bachelorprojekt"
+    degrees:
+      phd: "Ph.d. i statistik"
+      msc: "Cand.scient. i fysik"
+      bsc: "Bachelor i fysik"
+    roles:
+      postdoc: "Postdoc"
+      statistician: "Statistiker"
+      phd_student: "Ph.d.-studerende"
+      research_assistant: "Videnskabelig assistent"
+      teaching_assistant: "Instruktor"
+      junior_analyst: "Junioranalytiker"
+      assistant_lecturer: "Undervisningsassistent"
+      teacher: "Gymnasielærer"
+      student_developer: "Studenterprogrammør"
+    orgs:
+      math_ku: "Institut for Matematiske Fag, Københavns Universitet"
+      psychiatry: "Copenhagen Research Centre for Biological and Precision Psychiatry"
+      regulator: "Forsyningstilsynet"
+      itu: "IT-Universitetet i København"
+      gymnasium: "Virum Gymnasium &amp; Frederiksberg Gymnasium"
+
+  media:
+    articles: "Artikler"
+    read: "læs"
+
+  blog:
+    filter_label: "Sprog"
+    filter_all: "Alle"
+    filter_en: "Engelsk"
+    filter_da: "Dansk"
+    badge_en_title: "Skrevet på engelsk"
+    badge_da_title: "Skrevet på dansk"
+    no_posts: "Ingen indlæg på dette sprog endnu."
+
+  thoughts:
+    intro: "Siden 2024 har jeg formuleret nogle af mine tanker og betragtninger om livet i enkeltlinjer. De findes her."
+    button: "Ny tanke"
+
+  notfound:
+    heading: "Siden blev ikke fundet"
+    body: "Den side, du ledte efter, findes ikke."
+    back: "Tilbage til forsiden"

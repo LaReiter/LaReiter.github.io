@@ -1,8 +1,9 @@
 ---
-title: "Forskningen er blevet syg (in Danish)"
+title: "Forskningen er blevet syg"
 mathjax: true
 layout: post
 categories: media
+lang: da
 ---
 
 I 1960'erne sad en beskeden mand ved navn Peter Higgs og tænkte over universet. Hans arbejde førte til forudsigelsen af en elementarpartikel så fundamental, at den senere fik tilnavnet "gudspartiklen."

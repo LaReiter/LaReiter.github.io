@@ -5,6 +5,7 @@ mathjax: true
 layout: post
 excerpt: "Origami: Folding paper planes and optimizing number of folds."
 date: 2025-10-18
+lang: en
 ---
 
 <figure style="text-align: center;">

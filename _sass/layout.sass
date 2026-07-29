@@ -26,3 +26,30 @@ nav
 
 nav a
   margin: .5em 1.2em
+
+// Language switcher, header form (<70em). Above 70em `body > header` is hidden and
+// the sidebar variant in assets/css/sidebar.sass takes over instead.
+body > header .lang-switch
+  margin-left: auto
+  display: flex
+  align-items: center
+  gap: .45em
+  font-family: $mono-family
+  font-size: .72em
+  letter-spacing: .08em
+  text-transform: uppercase
+
+  a
+    color: rgba(196, 212, 224, 0.55)
+    text-decoration: none
+    transition: .15s color
+    &:hover
+      color: $link-color
+      text-decoration: none
+
+.lang-switch-current
+  color: $link-color
+  font-weight: 500
+
+.lang-switch-sep
+  color: rgba(56, 189, 248, 0.28)

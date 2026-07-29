@@ -3,6 +3,7 @@ title: "The Overconfident Machine"
 mathjax: true
 layout: post
 categories: media
+lang: en
 ---
 
 ![ML](/assets/ml.PNG)

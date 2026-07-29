@@ -3,8 +3,9 @@ title: "De super populære fornavne er forsvundet"
 image: "/assets/projects/kidsname-thumbnail.png"
 mathjax: true
 layout: post
-excerpt: "A survey-based look at how different generations weigh certain factors when naming their children. Article in Danish."
+excerpt: "A survey-based look at how different generations weigh certain factors when naming their children."
 date: 2025-07-17
+lang: da
 ---
 
 ## Moderne forældre vælger mellem flere børnenavne

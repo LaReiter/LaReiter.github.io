@@ -1,0 +1,155 @@
+{%- comment -%}
+Shared CV body, rendered by both cv.html (/cv/) and da/cv.html (/da/cv/).
+
+Kept as one file on purpose: a duplicated Danish copy would mean editing two files
+every time a publication is added, and the two would drift. Only the labels are
+translated (via _data/ui.yml) — paper titles, journal names and institutions that
+have no Danish form stay inline here, so adding an entry is still a single edit in
+a single file and it appears in both languages automatically.
+{%- endcomment -%}
+{%- assign cur_lang = page.lang | default: site.lang | default: "en" -%}
+{%- assign ui = site.data.ui[cur_lang].cv -%}
+
+{% include styles/cv-list.html year_sizing="width: 7.5em;" %}
+
+<article class="home-intro">
+
+  <header><h1>{{ page.title }}</h1></header>
+
+  <div class="home-section">
+    <div class="home-section-label">{{ ui.education }}</div>
+    <ul class="cv-list">
+      <li>
+        <span class="cv-year">2025</span>
+        <div class="cv-body">
+          <strong>{{ ui.degrees.phd }}</strong>
+          <a class="cv-link" href="https://researchprofiles.ku.dk/en/publications/statistical-ecology-an-ecological-archive-in-narwhal-tusks/" target="_blank" rel="noopener">↗ {{ ui.phd_thesis }}: Statistical Ecology: An ecological archive in narwhal tusks</a>
+        </div>
+      </li>
+      <li>
+        <span class="cv-year">2018</span>
+        <div class="cv-body">
+          <strong>{{ ui.degrees.msc }}</strong>
+          <span class="cv-sub">{{ ui.minor_math }}</span>
+          <a class="cv-link" href="https://drive.google.com/file/d/13RZmLVqVX8BkE1TnJpC9IhIJ2uPgZ06w/view" target="_blank" rel="noopener">↗ {{ ui.master_thesis }}: Investigating stability properties for characteristic electric power systems based on a heuristic classification scheme</a>
+        </div>
+      </li>
+      <li>
+        <span class="cv-year">2015</span>
+        <div class="cv-body">
+          <strong>{{ ui.degrees.bsc }}</strong>
+          <span class="cv-sub">{{ ui.minor_math }}</span>
+          <a class="cv-link" href="https://drive.google.com/file/d/1NnDCExpDJ8ay58soWB-E2cWZ5FaBzlmv/view" target="_blank" rel="noopener">↗ {{ ui.bachelor_thesis }}: Stability analysis of power grid topologies</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <div class="home-section">
+    <div class="home-section-label">{{ ui.publications }}</div>
+    <ul class="cv-list">
+      <li>
+        <span class="cv-year">2026</span>
+        <div class="cv-body">
+          <strong>Walking the Garden: The Hidden Cost of Choices</strong>
+          <span class="cv-sub">{{ ui.preprint }}</span>
+          <a class="cv-link" href="https://github.com/LaReiter/GardenofForkingPaths/blob/master/Choices_Reiter_2026.pdf" target="_blank" rel="noopener">↗ {{ ui.read }}</a>
+        </div>
+      </li>
+      <li>
+        <span class="cv-year">2026</span>
+        <div class="cv-body">
+          <strong>A time warping model for seasonal data with application to age estimation from narwhal tusks</strong>
+          <span class="cv-sub">Annals of Applied Statistics</span>
+          <a class="cv-link" href="https://projecteuclid.org/journals/annals-of-applied-statistics/volume-20/issue-2/A-time-warping-model-for-seasonal-data-with-application-to/10.1214/26-AOAS2177.full" target="_blank" rel="noopener">↗ {{ ui.read }}</a>
+        </div>
+      </li>
+      <li>
+        <span class="cv-year">2025</span>
+        <div class="cv-body">
+          <strong>Chronicles in ivory: estimating the age of narwhals (<em>Monodon monoceros</em>) through stochastic modeling of seasonally varying trace elements</strong>
+          <span class="cv-sub">Frontiers in Marine Science</span>
+          <a class="cv-link" href="https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2025.1655427/full" target="_blank" rel="noopener">↗ {{ ui.read }}</a>
+        </div>
+      </li>
+      <li>
+        <span class="cv-year">2023</span>
+        <div class="cv-body">
+          <strong>Using quantile regression and relative entropy to assess the period of anomalous behavior of marine mammals following tagging</strong>
+          <span class="cv-sub">Ecology and Evolution</span>
+          <a class="cv-link" href="https://onlinelibrary.wiley.com/doi/10.1002/ece3.9967" target="_blank" rel="noopener">↗ {{ ui.read }}</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <div class="home-section">
+    <div class="home-section-label">{{ ui.experience }}</div>
+    <ul class="cv-list">
+      <li>
+        <span class="cv-year">2026–{{ ui.present }}</span>
+        <div class="cv-body">
+          <strong>{{ ui.roles.postdoc }}</strong>
+          <span class="cv-sub">SMARTbiomed</span>
+        </div>
+      </li>
+      <li>
+        <span class="cv-year">2026–{{ ui.present }}</span>
+        <div class="cv-body">
+          <strong>{{ ui.roles.statistician }}</strong>
+          <span class="cv-sub">{{ ui.orgs.psychiatry }}</span>
+        </div>
+      </li>
+      <li>
+        <span class="cv-year">2022–2025</span>
+        <div class="cv-body">
+          <strong>{{ ui.roles.phd_student }}</strong>
+          <span class="cv-sub">{{ ui.orgs.math_ku }}</span>
+        </div>
+      </li>
+      <li>
+        <span class="cv-year">2021–2022</span>
+        <div class="cv-body">
+          <strong>{{ ui.roles.research_assistant }}</strong>
+          <span class="cv-sub">{{ ui.orgs.math_ku }}</span>
+        </div>
+      </li>
+      <li>
+        <span class="cv-year">2020–2022</span>
+        <div class="cv-body">
+          <strong>{{ ui.roles.teaching_assistant }}</strong>
+          <span class="cv-sub">{{ ui.orgs.math_ku }}</span>
+        </div>
+      </li>
+      <li>
+        <span class="cv-year">2020</span>
+        <div class="cv-body">
+          <strong>{{ ui.roles.junior_analyst }}</strong>
+          <span class="cv-sub">{{ ui.orgs.regulator }}</span>
+        </div>
+      </li>
+      <li>
+        <span class="cv-year">2019–2021</span>
+        <div class="cv-body">
+          <strong>{{ ui.roles.assistant_lecturer }}</strong>
+          <span class="cv-sub">{{ ui.orgs.itu }}</span>
+        </div>
+      </li>
+      <li>
+        <span class="cv-year">2018–2020</span>
+        <div class="cv-body">
+          <strong>{{ ui.roles.teacher }}</strong>
+          <span class="cv-sub">{{ ui.orgs.gymnasium }}</span>
+        </div>
+      </li>
+      <li>
+        <span class="cv-year">2014</span>
+        <div class="cv-body">
+          <strong>{{ ui.roles.student_developer }}</strong>
+          <span class="cv-sub">Cubris ApS</span>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+</article>

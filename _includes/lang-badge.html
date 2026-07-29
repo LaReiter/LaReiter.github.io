@@ -1,0 +1,21 @@
+{%- comment -%}
+Language badge for a post or project write-up. Replaces the old "(in Danish)" suffix
+that used to be baked into post titles.
+
+Params:
+  item    - the post or project document
+  ui_lang - language of the surrounding page (for the tooltip wording)
+{%- endcomment -%}
+{%- comment -%}
+Variables here are deliberately prefixed `badge_`: Jekyll includes share the caller's
+scope, so a generic name like `ui` would silently clobber the calling template's own
+`ui` when this is rendered inside a loop.
+{%- endcomment -%}
+{%- assign badge_lang = include.item.lang | default: "en" -%}
+{%- assign badge_ui = site.data.ui[include.ui_lang].blog -%}
+{%- if badge_lang == "da" -%}
+  {%- assign badge_title = badge_ui.badge_da_title -%}
+{%- else -%}
+  {%- assign badge_title = badge_ui.badge_en_title -%}
+{%- endif -%}
+<span class="lang-badge lang-badge-{{ badge_lang }}" title="{{ badge_title }}">{{ badge_lang | upcase }}</span>
