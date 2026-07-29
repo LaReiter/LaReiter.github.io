@@ -1,5 +1,5 @@
 ---
-title: "When Hindsight Makes You Blind"
+title: "Når bagklogskab gør os fremtidsdumme"
 mathjax: true
 layout: post
 categories: media
