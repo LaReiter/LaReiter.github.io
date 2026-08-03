@@ -14,9 +14,13 @@ edge to edge and the text padding below can be expressed against the visible clo
 {%- assign first_quote = site.data.quotes[0][cur_lang] -%}
 <style>
 .thought-hero {
-  /* No-JS fallback reserve. The script replaces this with the exact height the
-     current cloud needs, so short quotes leave no dead space. */
-  padding-top: 6em;
+  /* The cloud is a fixed size at a fixed offset, so the room it needs above the
+     photo is a constant fraction of the column width — no measuring, and nothing
+     below it moves when the quote changes.
+       cloud height  = 0.57 * 77%          = 43.9% of column width
+       cloud bottom  = (1 - 0.81) * 75%    = 14.3% of column width
+       overflow above stage                = 29.6%, rounded up for clearance */
+  padding-top: 30.5%;
 }
 
 .thought-stage {
@@ -40,26 +44,26 @@ edge to edge and the text padding below can be expressed against the visible clo
   border-radius: 4px;
 }
 
-/* Bottom-anchored, so the cloud grows upward as the quote gets longer and the tail
-   attachment point stays put. Width ramps smoothly from 53% of the photo on a full
-   column to 72% on a phone — no breakpoint, one layout at every width — so a long
-   quote never has to squash the cloud toward square to fit. */
+/* Fixed size and fixed position — never reflows, so changing the quote does not
+   move the photo or anything below it. Sized for the longest quote; every shorter
+   one simply centres inside the same cloud. It sits clear of the head: the bottom
+   edge lands above the top of the hair. */
 .thought-cloud {
   position: absolute;
   left: 0;
-  bottom: 72.9%;
-  width: clamp(53%, calc(53% + (660px - 100cqw) * 0.30), 72%);
+  bottom: 81%;
+  width: 77%;
   display: grid;
   transition: opacity .2s ease;
 }
 
-/* Floors the height at the path's own aspect ratio (1/1.698 = 58.9%) measured
-   against the cloud's current width, so a short quote still yields an undistorted
-   cloud at any size. Longer text overflows this and grows the box. */
+/* Sizer: 57% of the cloud's width, matching the artwork's own 1.743 aspect so it
+   is drawn essentially undistorted, and deep enough that even the longest quote
+   fits without ever pushing the box taller. */
 .thought-cloud::before {
   content: "";
   grid-area: 1 / 1;
-  padding-top: 58.9%;
+  padding-top: 57%;
 }
 
 .thought-cloud svg {
@@ -69,13 +73,12 @@ edge to edge and the text padding below can be expressed against the visible clo
   height: 100%;
 }
 
-/* preserveAspectRatio="none" lets the cloud stretch to whatever box the text needs;
-   vector-effect keeps the outline a constant weight while it does. */
-.thought-cloud path {
-  fill: #ffffff;
-  stroke: #0b1220;
-  stroke-width: 2;
-}
+/* The cloud is a union of overlapping circles — that is what gives it shallow
+   notches instead of flower petals. SVG has no boolean union, so it is faked with
+   two stacked flat-filled groups: inflated dark shapes draw the outline, identical
+   white shapes on top cover the interior. No internal edges can show. */
+.thought-cloud .cloud-ink { fill: #0b1220; }
+.thought-cloud .cloud-fill { fill: #ffffff; }
 
 /* Padding measured off the path's flat interior, so text never rides onto a lobe. */
 .thought-quote {
@@ -85,7 +88,7 @@ edge to edge and the text padding below can be expressed against the visible clo
   width: 100%;
   margin: 0;
   box-sizing: border-box;
-  padding: 16% 16% 18%;
+  padding: 14% 16% 16%;
   text-align: center;
   color: #0b1220;
   font-size: max(12px, 2.4cqw);
@@ -153,8 +156,9 @@ edge to edge and the text padding below can be expressed against the visible clo
     <img class="thought-photo" src="/assets/grubler.png" alt="{{ ui.photo_alt }}">
 
     <div class="thought-cloud" id="thought-cloud">
-      <svg viewBox="54.8 1.9 552.6 325.4" preserveAspectRatio="none" aria-hidden="true" focusable="false">
-        <path vector-effect="non-scaling-stroke" d="M 120,120 A 55,55 0 0 1 200,55 A 55,55 0 0 1 300,35 A 53,53 0 0 1 400,40 A 50,50 0 0 1 490,70 A 46,46 0 0 1 560,120 A 37,37 0 0 1 600,175 A 34,34 0 0 1 570,230 A 46,46 0 0 1 490,265 A 54,54 0 0 1 390,285 A 58,58 0 0 1 280,290 A 54,54 0 0 1 180,275 A 48,48 0 0 1 100,235 A 37,37 0 0 1 60,180 A 45,45 0 0 1 120,120 Z"/>
+      <svg viewBox="0 0 624.1 358.1" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+        <g class="cloud-ink"><ellipse cx="308.1" cy="175.9" rx="252.6" ry="114.6"/><circle cx="558.1" cy="175.9" r="68.6"/><circle cx="516.8" cy="114.2" r="59.4"/><circle cx="466.2" cy="89.1" r="73.9"/><circle cx="323.3" cy="64.1" r="62.0"/><circle cx="231.3" cy="69.3" r="71.9"/><circle cx="106.9" cy="109.4" r="57.4"/><circle cx="72.6" cy="138.4" r="75.2"/><circle cx="68.0" cy="207.0" r="60.7"/><circle cx="111.4" cy="245.0" r="71.2"/><circle cx="238.5" cy="283.4" r="63.3"/><circle cx="328.3" cy="287.5" r="73.2"/><circle cx="460.3" cy="264.8" r="58.7"/><circle cx="518.2" cy="236.6" r="67.3"/></g>
+        <g class="cloud-fill"><ellipse cx="308.1" cy="175.9" rx="250.0" ry="112.0"/><circle cx="558.1" cy="175.9" r="66.0"/><circle cx="516.8" cy="114.2" r="56.8"/><circle cx="466.2" cy="89.1" r="71.3"/><circle cx="323.3" cy="64.1" r="59.4"/><circle cx="231.3" cy="69.3" r="69.3"/><circle cx="106.9" cy="109.4" r="54.8"/><circle cx="72.6" cy="138.4" r="72.6"/><circle cx="68.0" cy="207.0" r="58.1"/><circle cx="111.4" cy="245.0" r="68.6"/><circle cx="238.5" cy="283.4" r="60.7"/><circle cx="328.3" cy="287.5" r="70.6"/><circle cx="460.3" cy="264.8" r="56.1"/><circle cx="518.2" cy="236.6" r="64.7"/></g>
       </svg>
       <p class="thought-quote" id="thought-quote" lang="{{ cur_lang }}" aria-live="polite">{{ first_quote }}</p>
     </div>
@@ -175,8 +179,6 @@ edge to edge and the text padding below can be expressed against the visible clo
 (function () {
   var quotes = {{ site.data.quotes | jsonify }};
   var lang = {{ cur_lang | jsonify }};
-  var hero = document.getElementById('thought-hero');
-  var stage = document.getElementById('thought-stage');
   var cloud = document.getElementById('thought-cloud');
   var quoteEl = document.getElementById('thought-quote');
   var btn = document.getElementById('new-thought-btn');
@@ -204,17 +206,9 @@ edge to edge and the text padding below can be expressed against the visible clo
     return deck.pop();
   }
 
-  // Reserve exactly the space the current cloud overflows above the photo, so it
-  // never collides with the page heading and short quotes leave no dead space.
-  function reserveSpace() {
-    var overflow = cloud.offsetHeight - (stage.offsetHeight * 0.271);
-    hero.style.paddingTop = Math.max(0, overflow) + 16 + 'px';
-  }
-
   function showQuote(i) {
     lastShown = i;
     quoteEl.textContent = quotes[i][lang];
-    reserveSpace();
   }
 
   function newThought() {
@@ -227,13 +221,5 @@ edge to edge and the text padding below can be expressed against the visible clo
 
   showQuote(nextIndex());
   btn.addEventListener('click', newThought);
-
-  if (window.ResizeObserver) {
-    new ResizeObserver(reserveSpace).observe(stage);
-  } else {
-    window.addEventListener('resize', reserveSpace);
-  }
-  // The photo drives the stage height; re-measure once it has actually loaded.
-  window.addEventListener('load', reserveSpace);
 })();
 </script>
