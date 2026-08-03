@@ -26,6 +26,7 @@ en:
     education: "Education"
     publications: "Publications"
     experience: "Experience"
+    memberships: "Memberships"
     read: "read"
     preprint: "preprint"
     present: "present"
@@ -53,6 +54,8 @@ en:
       regulator: "Danish Utility Regulator"
       itu: "IT University of Copenhagen"
       gymnasium: "Virum Gymnasium &amp; Frederiksberg Gymnasium"
+      dsts: "Danish Statistical Society"
+      dgfn: "The Green Network for Researchers"
 
   media:
     articles: "Articles"
@@ -89,6 +92,7 @@ da:
     education: "Uddannelse"
     publications: "Publikationer"
     experience: "Erfaring"
+    memberships: "Medlemskaber"
     read: "læs"
     preprint: "preprint"
     present: "nu"
@@ -116,6 +120,8 @@ da:
       regulator: "Forsyningstilsynet"
       itu: "IT-Universitetet i København"
       gymnasium: "Virum Gymnasium &amp; Frederiksberg Gymnasium"
+      dsts: "Dansk Statistisk Selskab"
+      dgfn: "Det Grønne Forskernetværk"
 
   media:
     articles: "Artikler"
