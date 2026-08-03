@@ -22,7 +22,8 @@ ref: about
 
 <div class="about-row">
   <div class="about-text">
-    <p>There is a children's book called "Spørge Jørgen" - it is a tale of a boy whose endless questions drove his parents mad. I loved this book as a kid. I still love it today.</p>
+    <p>There is a children's book called "Spørge Jørgen" - it is a tale of a boy whose endless questions drove his parents mad. </p>
+    <p>I loved this book as a kid. I still love it today.</p>
     <p>"Spørge Jørgen" reminds me that the world is a weird place, and that we should never stop questioning it.</p>
   </div>
   <figure>
@@ -35,8 +36,11 @@ ref: about
     <img src="/assets/mig_mat.png" alt="Personal photo">
   </figure>
   <div class="about-text">
-    <p>Our weird world offers a multitude of intellectual problems that demand critical thinking and analytical skills, leading me to write letters to the editor, personal research projects, and various homemade experiments.</p>
-    <p>For example, I sat on my terrace and carefully tracked a harvestman to understand its movement patterns through stochastic modeling. I made my own survey to identify how parents weigh different criteria when naming their kids, and how this has changed over generations. I also made my (first) Python game, based on a soccer-like game invented during a summer vacation.</p>
+    <p>Our weird world offers a multitude of intellectual problems that demand critical thinking and analytical skills.</p>
+    <p>Over the years I have written letters to the editor, conducted my own independent research projects, and made various homemade experiments.</p>
+    <p>For example, I sat on my terrace and carefully tracked a harvestman to understand its movement patterns through stochastic modeling. </p>
+    <p>I made my own survey to identify how parents weigh different criteria when naming their kids, and how this has changed over generations.</p>
+    <p>I also made my (first) Python game, based on a soccer-like game invented during a summer vacation.</p>
     <p>Here on my homepage you can find a selected (tiny) fraction of my intellectual work, in my endeavor to enjoy, play around in, and denoise the world.</p>
   </div>
 </div>
