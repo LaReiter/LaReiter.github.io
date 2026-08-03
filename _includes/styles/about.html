@@ -10,7 +10,8 @@ copy and cannot drift apart.
   background: rgba(56, 189, 248, 0.04);
   border: 1px solid rgba(56, 189, 248, 0.15);
   border-radius: 8px;
-  margin: 0.5em 0 2.5em;
+  /* Closes the page rather than opening it, so it needs no gap beneath. */
+  margin: 0.5em 0 0;
   position: relative;
 }
 
@@ -66,6 +67,31 @@ copy and cannot drift apart.
 .about-text {
   line-height: 1.75;
   color: #cfdce7;
+}
+
+/* Full-width lead-in above the image rows, for prose that carries no picture. */
+.about-intro {
+  line-height: 1.75;
+  color: #cfdce7;
+  margin: 0 0 2.5em;
+}
+
+/* Both blocks used to hold one unbroken run of text; now they hold real
+   paragraphs, which the page's base <p> rules do not reach inside a raw HTML
+   block. */
+.about-intro p,
+.about-text p {
+  margin: 0 0 1em;
+}
+
+.about-intro p:last-child,
+.about-text p:last-child {
+  margin-bottom: 0;
+}
+
+.about-intro strong {
+  color: #38bdf8;
+  font-weight: 600;
 }
 
 @media (max-width: 700px) {

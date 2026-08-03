@@ -11,13 +11,19 @@ ref: about
 
 {% include thought-hero.html %}
 
-<div class="about-quote">
-  <p>"Why is my nail on my finger?" - Spørge Jørgen</p>
+<div class="about-intro">
+  <p>The world is a noisy place, and what we care to know is often blocked by such a <strong>curtain of noise</strong>.</p>
+  <p>People are noisy. We are biased and irrational, and we often act out of self-interest.</p>
+  <p>Phenomena are noisy. The natural world, and the human-made constructs within it, are full of random variation.</p>
+  <p>So what happens when noisy people try to understand noisy phenomena? Noise compounds, and the curtain becomes more like a brick wall.</p>
+  <p>To make this brick wall penetrable, we need to reduce the noise within ourselves.</p>
+  <p>Therefore, I strive to become a neutral observer of the truth. To self-criticize, to reflect and to always ask questions.</p>
 </div>
 
 <div class="about-row">
   <div class="about-text">
-This was one of the many questions asked in the children's book "Spørge Jørgen" - a tale of a boy whose endless questions drove his parents mad. I loved this book as a kid. I still love it today. "Spørge Jørgen" reminds me that the world is a weird place, and there is much to understand. Like Spørge Jørgen, I love to ask questions and I find myself drawn to everything from the synchronized movements of fish schools to the invisible dark matter that makes up most of our universe, from the unspoken rules that govern social interaction to the mysteries of human consciousness.
+    <p>There is a children's book called "Spørge Jørgen" - it is a tale of a boy whose endless questions drove his parents mad. I loved this book as a kid. I still love it today.</p>
+    <p>"Spørge Jørgen" reminds me that the world is a weird place, and that we should never stop questioning it.</p>
   </div>
   <figure>
     <img src="/assets/spgjrgn.png" alt="Spørge Jørgen illustration">
@@ -29,6 +35,12 @@ This was one of the many questions asked in the children's book "Spørge Jørgen
     <img src="/assets/mig_mat.png" alt="Personal photo">
   </figure>
   <div class="about-text">
-The world offers a multitude of intellectual problems that demands critical thinking and analytical skills, leading me to create reader's letters, personal research projects, and various homemade experiments. For example, I sat on my terrace and tracked the movement of a harvestman carefully to understand its movement patterns through stochastic modeling. I made my own survey to identify how parents weight different criteria when naming their kids, and how this has changed over generations. I also made my (first) Python game that was based on a soccer-like game invented during my summer vacation. Here on my homepage you can find a selected (tiny) fraction of my intellectual work.
+    <p>Our weird world offers a multitude of intellectual problems that demand critical thinking and analytical skills, leading me to write letters to the editor, personal research projects, and various homemade experiments.</p>
+    <p>For example, I sat on my terrace and carefully tracked a harvestman to understand its movement patterns through stochastic modeling. I made my own survey to identify how parents weigh different criteria when naming their kids, and how this has changed over generations. I also made my (first) Python game, based on a soccer-like game invented during a summer vacation.</p>
+    <p>Here on my homepage you can find a selected (tiny) fraction of my intellectual work, in my endeavor to enjoy, play around in, and denoise the world.</p>
   </div>
+</div>
+
+<div class="about-quote">
+  <p>"Why is my nail on my finger?" - Spørge Jørgen</p>
 </div>
