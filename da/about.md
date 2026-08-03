@@ -12,7 +12,7 @@ ref: about
 {% include thought-hero.html %}
 
 <div class="about-intro">
-  <p>Verden støjer, og de vigtigste svar ligger ofte gemt bag et tæppe af støj.</p>
+  <p>Verden støjer, og de vigtigste svar ligger ofte gemt bag dette støjtæppe.</p>
   <p>Mennesker støjer. Vi er fordomsfulde og irrationelle, og vi handler ofte ud fra egeninteresser.</p>
   <p>Fænomener støjer. Naturen omkring os, og de menneskeskabte konstruktioner i den, er fulde af usikkerhed og variation.</p>
   <p>Så hvad sker der, når støjfyldte mennesker prøver at forstå støjfyldte fænomener? Støjen forværres, og hvad der før var et tæppe af støj, bliver en støjmur.</p>
