@@ -24,8 +24,9 @@ edge to edge and the text padding below can be expressed against the visible clo
   container-type: inline-size;
   /* grubler.png carries ~9.6% of its width as invisible matte below the photo.
      Pull most of that back so the button sits a sensible distance under the
-     picture rather than under the canvas. */
-  margin-bottom: -5%;
+     picture rather than under the canvas. Must stay smaller than 9.6% or the
+     button would climb onto the visible photo. */
+  margin-bottom: -6%;
 }
 
 /* Outside .about-row, so the bordered .about-row img rules never reach it. The
@@ -71,7 +72,7 @@ edge to edge and the text padding below can be expressed against the visible clo
 /* preserveAspectRatio="none" lets the cloud stretch to whatever box the text needs;
    vector-effect keeps the outline a constant weight while it does. */
 .thought-cloud path {
-  fill: rgba(255, 255, 255, 0.9);
+  fill: #ffffff;
   stroke: #0b1220;
   stroke-width: 2;
 }
@@ -84,10 +85,10 @@ edge to edge and the text padding below can be expressed against the visible clo
   width: 100%;
   margin: 0;
   box-sizing: border-box;
-  padding: 15% 11% 17%;
+  padding: 16% 16% 18%;
   text-align: center;
   color: #0b1220;
-  font-size: max(12px, 2.6cqw);
+  font-size: max(12px, 2.4cqw);
   line-height: 1.32;
   font-weight: 500;
 }
@@ -99,7 +100,7 @@ edge to edge and the text padding below can be expressed against the visible clo
   aspect-ratio: 1;
   border-radius: 50%;
   box-sizing: border-box;
-  background: rgba(255, 255, 255, 0.9);
+  background: #ffffff;
   border: 2px solid #0b1220;
 }
 .thought-trail span:nth-child(1) { left: 41.8%;  top: 19.2%;  width: 3.2%; }
@@ -109,6 +110,11 @@ edge to edge and the text padding below can be expressed against the visible clo
 .thought-actions {
   text-align: center;
   margin-top: 1.2em;
+  /* .thought-stage is positioned, so it would paint over this statically
+     positioned row where the negative margin above tucks them together, hiding
+     part of the button behind the photo's matte. Lift it into the same layer. */
+  position: relative;
+  z-index: 1;
 }
 
 .new-thought-btn {
