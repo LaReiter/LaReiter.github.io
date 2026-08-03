@@ -12,7 +12,7 @@ ref: about
 {% include thought-hero.html %}
 
 <div class="about-intro">
-  <p>The world is a noisy place, and what we care to know is often blocked by such a curtain of noise.</p>
+  <p>The world is a noisy place, and what we care to know is often blocked by this curtain of noise.</p>
   <p>People are noisy. We are biased and irrational, and we often act out of self-interest.</p>
   <p>Phenomena are noisy. The natural world, and the human-made constructs within it, are full of random variation.</p>
   <p>So what happens when noisy people try to understand noisy phenomena? Noise compounds, and the curtain becomes more like a brick wall.</p>
