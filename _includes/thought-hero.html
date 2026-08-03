@@ -1,0 +1,233 @@
+{%- comment -%}
+Thought-cloud hero at the top of the About page, rendered by about.md (/) and
+da/about.md (/da/). Replaces the former standalone Thoughts page.
+
+_data/quotes.yml carries every one-liner in both languages; unlike the old page,
+which stacked both, this shows only the current page's language.
+
+The cloud is drawn here as an inline SVG path — no image asset. Its viewBox is the
+path's own bounding box (measured with getBBox), so the drawn outline fills its box
+edge to edge and the text padding below can be expressed against the visible cloud.
+{%- endcomment -%}
+{%- assign cur_lang = page.lang | default: site.lang | default: "en" -%}
+{%- assign ui = site.data.ui[cur_lang].thoughts -%}
+{%- assign first_quote = site.data.quotes[0][cur_lang] -%}
+<style>
+.thought-hero {
+  /* No-JS fallback reserve. The script replaces this with the exact height the
+     current cloud needs, so short quotes leave no dead space. */
+  padding-top: 6em;
+}
+
+.thought-stage {
+  position: relative;
+  container-type: inline-size;
+  /* grubler.png carries ~9.6% of its width as invisible matte below the photo.
+     Pull most of that back so the button sits a sensible distance under the
+     picture rather than under the canvas. */
+  margin-bottom: -5%;
+}
+
+/* Outside .about-row, so the bordered .about-row img rules never reach it. The
+   image already carries a #070911 matte that matches the page background, so it
+   needs neither a crop nor a border. */
+.thought-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  border-radius: 4px;
+}
+
+/* Bottom-anchored, so the cloud grows upward as the quote gets longer and the tail
+   attachment point stays put. Width ramps smoothly from 53% of the photo on a full
+   column to 72% on a phone — no breakpoint, one layout at every width — so a long
+   quote never has to squash the cloud toward square to fit. */
+.thought-cloud {
+  position: absolute;
+  left: 0;
+  bottom: 72.9%;
+  width: clamp(53%, calc(53% + (660px - 100cqw) * 0.30), 72%);
+  display: grid;
+  transition: opacity .2s ease;
+}
+
+/* Floors the height at the path's own aspect ratio (1/1.698 = 58.9%) measured
+   against the cloud's current width, so a short quote still yields an undistorted
+   cloud at any size. Longer text overflows this and grows the box. */
+.thought-cloud::before {
+  content: "";
+  grid-area: 1 / 1;
+  padding-top: 58.9%;
+}
+
+.thought-cloud svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* preserveAspectRatio="none" lets the cloud stretch to whatever box the text needs;
+   vector-effect keeps the outline a constant weight while it does. */
+.thought-cloud path {
+  fill: rgba(255, 255, 255, 0.9);
+  stroke: #0b1220;
+  stroke-width: 2;
+}
+
+/* Padding measured off the path's flat interior, so text never rides onto a lobe. */
+.thought-quote {
+  grid-area: 1 / 1;
+  align-self: center;
+  position: relative;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 15% 11% 17%;
+  text-align: center;
+  color: #0b1220;
+  font-size: max(12px, 2.6cqw);
+  line-height: 1.32;
+  font-weight: 500;
+}
+
+/* Trail from the head up to the cloud. Sized in % of the photo width with
+   aspect-ratio: 1, so they track the photo at every width. */
+.thought-trail span {
+  position: absolute;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.9);
+  border: 2px solid #0b1220;
+}
+.thought-trail span:nth-child(1) { left: 41.8%;  top: 19.2%;  width: 3.2%; }
+.thought-trail span:nth-child(2) { left: 46.95%; top: 22.97%; width: 2.3%; }
+.thought-trail span:nth-child(3) { left: 49.8%;  top: 25.6%;  width: 1.4%; }
+
+.thought-actions {
+  text-align: center;
+  margin-top: 1.2em;
+}
+
+.new-thought-btn {
+  border-radius: 6px;
+  border: 1px solid rgba(56, 189, 248, 0.45);
+  background: transparent;
+  padding: .55em 1.4em;
+  color: #38bdf8;
+  font-size: .95em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: .2s background, .2s color, .2s border-color;
+}
+.new-thought-btn:hover {
+  color: #07090f;
+  background: #38bdf8;
+  border-color: #38bdf8;
+}
+
+.thought-caption {
+  font-size: .95em;
+  line-height: 1.6;
+  color: rgba(196, 212, 224, 0.8);
+  text-align: center;
+  margin: 1em 0 2.5em;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .thought-cloud { transition: none; }
+}
+</style>
+
+<div class="thought-hero" id="thought-hero">
+  <div class="thought-stage" id="thought-stage">
+    <img class="thought-photo" src="/assets/grubler.png" alt="{{ ui.photo_alt }}">
+
+    <div class="thought-cloud" id="thought-cloud">
+      <svg viewBox="54.8 1.9 552.6 325.4" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+        <path vector-effect="non-scaling-stroke" d="M 120,120 A 55,55 0 0 1 200,55 A 55,55 0 0 1 300,35 A 53,53 0 0 1 400,40 A 50,50 0 0 1 490,70 A 46,46 0 0 1 560,120 A 37,37 0 0 1 600,175 A 34,34 0 0 1 570,230 A 46,46 0 0 1 490,265 A 54,54 0 0 1 390,285 A 58,58 0 0 1 280,290 A 54,54 0 0 1 180,275 A 48,48 0 0 1 100,235 A 37,37 0 0 1 60,180 A 45,45 0 0 1 120,120 Z"/>
+      </svg>
+      <p class="thought-quote" id="thought-quote" lang="{{ cur_lang }}" aria-live="polite">{{ first_quote }}</p>
+    </div>
+
+    <div class="thought-trail" aria-hidden="true">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+
+  <div class="thought-actions">
+    <button type="button" class="new-thought-btn" id="new-thought-btn">{{ ui.button }}</button>
+  </div>
+
+  <p class="thought-caption">{{ ui.caption }}</p>
+</div>
+
+<script>
+(function () {
+  var quotes = {{ site.data.quotes | jsonify }};
+  var lang = {{ cur_lang | jsonify }};
+  var hero = document.getElementById('thought-hero');
+  var stage = document.getElementById('thought-stage');
+  var cloud = document.getElementById('thought-cloud');
+  var quoteEl = document.getElementById('thought-quote');
+  var btn = document.getElementById('new-thought-btn');
+  var deck = [];
+  var lastShown = -1;
+
+  // Shuffled deck dealt to exhaustion: every quote is seen once before any repeats.
+  function reshuffle() {
+    deck = quotes.map(function (_, i) { return i; });
+    for (var i = deck.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var tmp = deck[i]; deck[i] = deck[j]; deck[j] = tmp;
+    }
+    // Guard the card that will actually be dealt next. nextIndex() pops from the
+    // end, so this has to check the last element, not the first.
+    var last = deck.length - 1;
+    if (deck.length > 1 && deck[last] === lastShown) {
+      var swapWith = Math.floor(Math.random() * last);
+      var t = deck[last]; deck[last] = deck[swapWith]; deck[swapWith] = t;
+    }
+  }
+
+  function nextIndex() {
+    if (deck.length === 0) reshuffle();
+    return deck.pop();
+  }
+
+  // Reserve exactly the space the current cloud overflows above the photo, so it
+  // never collides with the page heading and short quotes leave no dead space.
+  function reserveSpace() {
+    var overflow = cloud.offsetHeight - (stage.offsetHeight * 0.271);
+    hero.style.paddingTop = Math.max(0, overflow) + 16 + 'px';
+  }
+
+  function showQuote(i) {
+    lastShown = i;
+    quoteEl.textContent = quotes[i][lang];
+    reserveSpace();
+  }
+
+  function newThought() {
+    cloud.style.opacity = '0';
+    setTimeout(function () {
+      showQuote(nextIndex());
+      cloud.style.opacity = '1';
+    }, 200);
+  }
+
+  showQuote(nextIndex());
+  btn.addEventListener('click', newThought);
+
+  if (window.ResizeObserver) {
+    new ResizeObserver(reserveSpace).observe(stage);
+  } else {
+    window.addEventListener('resize', reserveSpace);
+  }
+  // The photo drives the stage height; re-measure once it has actually loaded.
+  window.addEventListener('load', reserveSpace);
+})();
+</script>

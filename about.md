@@ -9,6 +9,8 @@ ref: about
 
 {% include styles/about.html %}
 
+{% include thought-hero.html %}
+
 <div class="about-quote">
   <p>"Why is my nail on my finger?" - Spørge Jørgen</p>
 </div>

@@ -27,7 +27,6 @@ navigation:
  - {ref: media,    icon: newspaper}
  - {ref: blog,     icon: feather-alt}
  - {ref: projects, icon: lightbulb}
- - {ref: thoughts, icon: comment}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:lars.reiter.nielsen@gmail.com"}

@@ -68,8 +68,9 @@ en:
     no_posts: "No posts in this language yet."
 
   thoughts:
-    intro: "Since 2024, I have been formulating some of my thoughts and reflections about life in one-liners. These can be found here."
+    caption: "Since 2024 I have been formulating some of my thoughts as one-liners, which you can find here."
     button: "New thought"
+    photo_alt: "Lars sitting among ancient ruins, deep in thought"
 
   notfound:
     heading: "Page not found"
@@ -130,8 +131,9 @@ da:
     no_posts: "Ingen indlæg på dette sprog endnu."
 
   thoughts:
-    intro: "Siden 2024 har jeg formuleret nogle af mine tanker og betragtninger om livet i enkeltlinjer. De findes her."
+    caption: "Fra 2024 begyndte jeg at formulere nogle af mine tanker som one-liners. Dem kan du finde her."
     button: "Ny tanke"
+    photo_alt: "Lars sidder blandt antikke ruiner, dybt i tanker"
 
   notfound:
     heading: "Siden blev ikke fundet"
