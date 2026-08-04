@@ -28,5 +28,6 @@
 - en: "Small p-values are subject to Goodhart's law. The chase for significance makes them poor measures of exactly that."
   da: "Små p-værdier lider under Goodharts lov. Jagten på signifikans gør dem til dårlige mål for netop det."
 
-- en: "Between-clinician variance and within-patient (day-to-day) variance makes realiable diagnosis difficult."
-  da: "Variation mellem klinikere og dag-til-dag variation for patienten gør pålidelig diagnostik svær."
+- en: "Reliable diagnosis is difficult due to a combination of between-clinician variance, within-clinician variance, day-to-day within-patient variance, and a probe effect."
+  da: "Pålidelig diagnostik er svært på grund af en kombination af variation mellem klinikere, klinikerens egen usikkerhed, dag-til-dag variation for patienten og probe effekten."
+
