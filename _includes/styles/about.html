@@ -54,8 +54,10 @@ copy and cannot drift apart.
   margin: 0 0 2.6em;
 }
 
-/* A float only wraps the text that follows it, so .reverse keeps <figure> first
-   in source; the mobile rules below put it back underneath. */
+/* A float only wraps content that FOLLOWS it — a figure placed after .about-text
+   is pushed below the whole block instead of being wrapped. So <figure> comes
+   first in source in BOTH rows, and .reverse only flips which side it floats to.
+   The mobile rules below reorder it back underneath the text. */
 .about-row figure {
   float: right;
   width: 200px;

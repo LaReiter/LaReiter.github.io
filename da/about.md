@@ -23,14 +23,14 @@ ref: about
 </div>
 
 <div class="about-row">
+  <figure>
+    <img src="/assets/spgjrgn.png" alt="Spørge Jørgen-illustration" width="603" height="733" loading="lazy">
+  </figure>
   <div class="about-text">
     <p>Børnebogen "Spørge Jørgen" er en historie om en dreng, hvis endeløse spørgsmål drev hans forældre til vanvid.</p> 
     <p>Jeg elskede bogen som barn. Jeg elsker den stadig i dag.</p>
     <p>"Spørge Jørgen" minder mig om, at verden er et mærkeligt sted, og at vi aldrig må stoppe med at stille spørgsmål.</p>
   </div>
-  <figure>
-    <img src="/assets/spgjrgn.png" alt="Spørge Jørgen-illustration" width="603" height="733" loading="lazy">
-  </figure>
 </div>
 
 <div class="about-row reverse">

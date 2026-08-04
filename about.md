@@ -23,14 +23,14 @@ ref: about
 </div>
 
 <div class="about-row">
+  <figure>
+    <img src="/assets/spgjrgn.png" alt="Spørge Jørgen illustration" width="603" height="733" loading="lazy">
+  </figure>
   <div class="about-text">
     <p>There is a children's book called "Spørge Jørgen" - it is a tale of a boy whose endless questions drove his parents mad. </p>
     <p>I loved this book as a kid. I still love it today.</p>
     <p>"Spørge Jørgen" reminds me that the world is a weird place, and that we should never stop asking questions.</p>
   </div>
-  <figure>
-    <img src="/assets/spgjrgn.png" alt="Spørge Jørgen illustration" width="603" height="733" loading="lazy">
-  </figure>
 </div>
 
 <div class="about-row reverse">
