@@ -4,6 +4,104 @@ so about.md and da/about.md — the only genuinely duplicated prose pages — sh
 copy and cannot drift apart.
 {%- endcomment -%}
 <style>
+/* --- Hero → prose hinge --------------------------------------------------- */
+
+/* .thought-caption's own rule lives in thought-hero.html, which loads AFTER this
+   sheet; the extra class wins on specificity rather than order, so the hero
+   include stays untouched. Tightened because .about-break now does the
+   separating — the gap no longer has to carry it alone. */
+.thought-hero .thought-caption {
+  margin-bottom: 1.7em;
+}
+
+/* Closes the centred hero unit. Fades at both ends so it reads as the end of a
+   centred block rather than a table rule. */
+.about-break {
+  border: none;
+  height: 1px;
+  margin: 0 0 2.4em;
+  background: linear-gradient(to right,
+    rgba(56, 189, 248, 0)    0%,
+    rgba(56, 189, 248, 0.32) 50%,
+    rgba(56, 189, 248, 0)    100%);
+}
+
+/* --- Opening manifesto ---------------------------------------------------- */
+
+/* The page's thesis, so it carries more weight than the prose below it. The
+   left rule is the same gradient-as-rule idiom as .home-section-label in
+   styles/cv-list.html, rotated to run down the edge and fade out as the block
+   ends. */
+.about-intro {
+  font-size: 1.05em;
+  line-height: 1.7;
+  color: #dbe6ef;
+  margin: 0 0 2.8em;
+  padding-left: 1.5em;
+  background: linear-gradient(to bottom,
+    rgba(56, 189, 248, 0.5),
+    rgba(56, 189, 248, 0.06)) no-repeat left / 2px 100%;
+}
+
+/* --- Illustrated prose blocks --------------------------------------------- */
+
+/* flow-root contains the float, so the block's own bottom margin is honoured and
+   the next block can never begin alongside a stranded image. Text reclaims the
+   full measure once it passes the picture, which is what keeps a six-paragraph
+   block from opening a dead column beside a 200px photo. */
+.about-row {
+  display: flow-root;
+  margin: 0 0 2.6em;
+}
+
+/* A float only wraps the text that follows it, so .reverse keeps <figure> first
+   in source; the mobile rules below put it back underneath. */
+.about-row figure {
+  float: right;
+  width: 200px;
+  margin: 0.3em 0 1.1em 2.2em;
+}
+
+.about-row.reverse figure {
+  float: left;
+  margin: 0.3em 2.2em 1.1em 0;
+}
+
+.about-row img {
+  display: block;
+  width: 100%;
+  margin: 0;
+  border-radius: 8px;
+  border: 1px solid rgba(56, 189, 248, 0.18);
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.about-row img:hover {
+  border-color: rgba(56, 189, 248, 0.45);
+  box-shadow: 0 0 16px rgba(56, 189, 248, 0.1);
+}
+
+.about-text {
+  line-height: 1.7;
+  color: #cfdce7;
+}
+
+/* Both blocks used to hold one unbroken run of text; now they hold real
+   paragraphs, which the page's base <p> rules do not reach inside a raw HTML
+   block. The gap is deliberately under one line: every paragraph here is a
+   single sentence, and a full line of air made them read as a list. */
+.about-intro p,
+.about-text p {
+  margin: 0 0 0.6em;
+}
+
+.about-intro p:last-child,
+.about-text p:last-child {
+  margin-bottom: 0;
+}
+
+/* --- Closing quote -------------------------------------------------------- */
+
 .about-quote {
   text-align: center;
   padding: 1.6em 2em;
@@ -34,79 +132,42 @@ copy and cannot drift apart.
   text-align: center;
 }
 
-.about-row {
-  display: grid;
-  grid-template-columns: 1fr 230px;
-  gap: 2.5em;
-  align-items: center;
-  margin: 0 0 2.5em;
-}
-
-.about-row.reverse {
-  grid-template-columns: 200px 1fr;
-}
-
-.about-row figure {
-  margin: 0;
-}
-
-.about-row img {
+/* Mono, cyan and letterspaced like .cv-year and .posts-images figcaption, so the
+   attribution reads in the site's existing voice. */
+.about-quote cite {
   display: block;
-  width: 100%;
-  margin: 0;
-  border-radius: 8px;
-  border: 1px solid rgba(56, 189, 248, 0.18);
-  transition: border-color 0.2s, box-shadow 0.2s;
-}
-
-.about-row img:hover {
-  border-color: rgba(56, 189, 248, 0.45);
-  box-shadow: 0 0 16px rgba(56, 189, 248, 0.1);
-}
-
-.about-text {
-  line-height: 1.75;
-  color: #cfdce7;
-}
-
-/* Full-width lead-in above the image rows, for prose that carries no picture. */
-.about-intro {
-  line-height: 1.75;
-  color: #cfdce7;
-  margin: 0 0 2.5em;
-}
-
-/* Both blocks used to hold one unbroken run of text; now they hold real
-   paragraphs, which the page's base <p> rules do not reach inside a raw HTML
-   block. */
-.about-intro p,
-.about-text p {
-  margin: 0 0 1em;
-}
-
-.about-intro p:last-child,
-.about-text p:last-child {
-  margin-bottom: 0;
-}
-
-.about-intro strong {
-  color: #38bdf8;
-  font-weight: 600;
+  margin-top: 0.9em;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.8em;
+  font-style: normal;
+  letter-spacing: 0.06em;
+  color: rgba(125, 211, 252, 0.9);
 }
 
 @media (max-width: 700px) {
-  .about-row,
-  .about-row.reverse {
-    grid-template-columns: 1fr;
-    gap: 1.5em;
+  /* Float is ignored on flex items, so this both unfloats the figure and
+     re-enables `order` — which is what puts .reverse's source-first figure back
+     underneath its text. */
+  .about-row {
+    display: flex;
+    flex-direction: column;
   }
+
   .about-row .about-text {
     order: 1;
   }
+
   .about-row figure {
     order: 2;
+    width: 100%;
     max-width: 240px;
-    margin: 0 auto;
+    margin: 1.4em auto 0;
+  }
+
+  /* The left rule would eat too much of a narrow measure at full size. */
+  .about-intro {
+    font-size: 1.02em;
+    padding-left: 1.1em;
   }
 }
 </style>

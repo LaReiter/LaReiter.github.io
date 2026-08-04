@@ -11,6 +11,8 @@ ref: about
 
 {% include thought-hero.html %}
 
+<hr class="about-break">
+
 <div class="about-intro">
   <p>The world is a noisy place, and what we care to know is often blocked by this curtain of noise.</p>
   <p>People are noisy. We are biased and irrational, and we often act out of self-interest.</p>
@@ -27,13 +29,13 @@ ref: about
     <p>"Spørge Jørgen" reminds me that the world is a weird place, and that we should never stop asking questions.</p>
   </div>
   <figure>
-    <img src="/assets/spgjrgn.png" alt="Spørge Jørgen illustration">
+    <img src="/assets/spgjrgn.png" alt="Spørge Jørgen illustration" width="603" height="733" loading="lazy">
   </figure>
 </div>
 
 <div class="about-row reverse">
   <figure>
-    <img src="/assets/mig_mat.png" alt="Personal photo">
+    <img src="/assets/mig_mat.png" alt="Personal photo" width="279" height="373" loading="lazy">
   </figure>
   <div class="about-text">
     <p>Our weird world offers a multitude of intellectual problems that demand critical thinking and analytical skills.</p>
@@ -46,5 +48,6 @@ ref: about
 </div>
 
 <div class="about-quote">
-  <p>"Why is my nail on my finger?" - Spørge Jørgen</p>
+  <p>Why is my nail on my finger?</p>
+  <cite>Spørge Jørgen</cite>
 </div>

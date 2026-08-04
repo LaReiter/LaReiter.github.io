@@ -11,6 +11,8 @@ ref: about
 
 {% include thought-hero.html %}
 
+<hr class="about-break">
+
 <div class="about-intro">
   <p>Verden støjer, og de vigtigste svar ligger ofte gemt bag dette støjtæppe.</p>
   <p>Mennesker støjer. Vi er fordomsfulde og irrationelle, og vi handler ofte ud fra egeninteresser.</p>
@@ -27,13 +29,13 @@ ref: about
     <p>"Spørge Jørgen" minder mig om, at verden er et mærkeligt sted, og at vi aldrig må stoppe med at stille spørgsmål.</p>
   </div>
   <figure>
-    <img src="/assets/spgjrgn.png" alt="Spørge Jørgen-illustration">
+    <img src="/assets/spgjrgn.png" alt="Spørge Jørgen-illustration" width="603" height="733" loading="lazy">
   </figure>
 </div>
 
 <div class="about-row reverse">
   <figure>
-    <img src="/assets/mig_mat.png" alt="Privat billede">
+    <img src="/assets/mig_mat.png" alt="Privat billede" width="279" height="373" loading="lazy">
   </figure>
   <div class="about-text">
     <p>Vores mærkelige verden byder på et væld af intellektuelle problemer, der kræver kritisk tænkning og analytisk sans.</p>
@@ -46,5 +48,6 @@ ref: about
 </div>
 
 <div class="about-quote">
-  <p>"Hvorfor sidder neglen på min finger?" - Spørge Jørgen</p>
+  <p>Hvorfor sidder neglen på min finger?</p>
+  <cite>Spørge Jørgen</cite>
 </div>
