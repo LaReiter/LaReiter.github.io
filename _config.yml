@@ -1,6 +1,13 @@
 title: "Lars Nørtoft Reiter"
 author:  "Lars Nørtoft Reiter"
 description: "<i>AI. Statistics. Philosophy.</i>"
+# GitHub Pages fills these in on its own, but link-preview scrapers need
+# absolute URLs, so `absolute_url` must resolve correctly in every build.
+url: "https://lareiter.github.io"
+baseurl: ""
+# Preview card shown when a page is pasted into a messenger, Slack or LinkedIn.
+# Must be 1200x630 and reasonably small — see the og: block in _layouts/default.html.
+og_image: "/assets/og-image.jpg"
 tagline: "Statistician &amp; Physicist"
 permalink: /:title/
 lang: "en"
