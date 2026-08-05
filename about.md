@@ -14,9 +14,9 @@ ref: about
 <hr class="about-break">
 
 <div class="about-intro">
-  <p>Our world is a noisy place.</p>
+  <p>The world is noisy.</p>
   <p>People are noisy. We are biased, capricious, and often act out of self-interest.</p>
-  <p>Phenomena are noisy. The natural world, and the human-made constructs within it, are full of randomness.</p>
+  <p>Phenomena are noisy. Both the natural world and the constructs we have built on top of it are shot through with randomness.</p>
   <p>So what happens when noisy people try to understand noisy phenomena? Noise compounds, and the noise curtain surrounding our world becomes more like a brick wall.</p>
   <p>To make this brick wall penetrable, we need to reduce the noise within ourselves.</p>
   <p>I am reminded of this each day, where I strive to become a neutral observer of the truth. To self-criticize, to reflect and to always ask questions.</p>
