@@ -42,7 +42,7 @@ ref: about
     <p>Over årene har jeg skrevet flere læserbreve, gennemført min egne personlige projekter og udført hjemmelavede eksperimenter.</p>
     <p>Jeg har for eksempel siddet på min terrasse og studeret en mejers vandring i et forsøg på at beskrive dens bevægelsesmønster ved brug af stokastiske modeller.</p>
     <p>Jeg har lavet min egen spørgeskemaundersøgelse for at finde ud af, hvordan forældre vægter forskellige kriterier, når de skal navngive deres børn, og hvordan det har ændret sig over generationer.</p>
-    <p>Jeg har også lavet et spil i Python, løst baseret på en fodboldvariant, der blev opfundet i en sommerferie.</p>
+    <p>Jeg har også skabt flere spil (i Unity og Python), inklusiv et spil baseret på en fodboldvariant jeg udtænkte i en sommerferie.</p>
     <p>Her på min hjemmeside kan du finde et lille udvalg af mit private arbejde i mine bestræbelser på at nyde verden og bryde dens støjmur.</p>
   </div>
 </div>
