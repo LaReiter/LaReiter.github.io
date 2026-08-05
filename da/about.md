@@ -15,7 +15,7 @@ ref: about
 
 <div class="about-intro">
   <p>Verden støjer.</p>
-  <p>Mennesker støjer. Vi er fordomsfulde, inkosekvente og handler ofte ud fra egeninteresser.</p>
+  <p>Mennesker støjer. Vi er fordomsfulde, inkonsekvente og handler ofte ud fra egeninteresser.</p>
   <p>Fænomener støjer. Naturen omkring os, og de menneskeskabte konstruktioner i den, er fulde af usikkerhed og variation.</p>
   <p>Så hvad sker der, når støjfyldte mennesker prøver at forstå støjfyldte fænomener? Støjen forværres, og det støjtæppe der omsluttede vores verden, bliver nu en betonmur.</p>
   <p>For at bryde denne mur må vi reducere støjen i os selv.</p>
