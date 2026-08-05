@@ -14,12 +14,12 @@ ref: about
 <hr class="about-break">
 
 <div class="about-intro">
-  <p>The world is a noisy place, and what we care to know is often blocked by this curtain of noise.</p>
-  <p>People are noisy. We are biased and irrational, and we often act out of self-interest.</p>
-  <p>Phenomena are noisy. The natural world, and the human-made constructs within it, are full of random variation.</p>
-  <p>So what happens when noisy people try to understand noisy phenomena? Noise compounds, and the curtain becomes more like a brick wall.</p>
+  <p>Our world is a noisy place.</p>
+  <p>People are noisy. We are biased, capricious, and often act out of self-interest.</p>
+  <p>Phenomena are noisy. The natural world, and the human-made constructs within it, are full of randomness.</p>
+  <p>So what happens when noisy people try to understand noisy phenomena? Noise compounds, and the noise curtain surrounding our world becomes more like a brick wall.</p>
   <p>To make this brick wall penetrable, we need to reduce the noise within ourselves.</p>
-  <p>Therefore, I strive to become a neutral observer of the truth. To self-criticize, to reflect and to always ask questions.</p>
+  <p>I am reminded of this each day, where I strive to become a neutral observer of the truth. To self-criticize, to reflect and to always ask questions.</p>
 </div>
 
 <div class="about-row">
@@ -27,7 +27,7 @@ ref: about
     <img src="/assets/spgjrgn.png" alt="Spørge Jørgen illustration" width="603" height="733" loading="lazy">
   </figure>
   <div class="about-text">
-    <p>There is a children's book called "Spørge Jørgen" - it is a tale of a boy whose endless questions drove his parents mad. </p>
+    <p>The children's book "Spørge Jørgen" is a tale of a boy whose endless questions drove his parents mad. </p>
     <p>I loved this book as a kid. I still love it today.</p>
     <p>"Spørge Jørgen" reminds me that the world is a weird place, and that we should never stop asking questions.</p>
   </div>

@@ -14,12 +14,12 @@ ref: about
 <hr class="about-break">
 
 <div class="about-intro">
-  <p>Verden støjer, og de vigtigste svar ligger ofte gemt bag dette støjtæppe.</p>
-  <p>Mennesker støjer. Vi er fordomsfulde og irrationelle, og vi handler ofte ud fra egeninteresser.</p>
+  <p>Verden støjer.</p>
+  <p>Mennesker støjer. Vi er fordomsfulde, inkosekvente og handler ofte ud fra egeninteresser.</p>
   <p>Fænomener støjer. Naturen omkring os, og de menneskeskabte konstruktioner i den, er fulde af usikkerhed og variation.</p>
-  <p>Så hvad sker der, når støjfyldte mennesker prøver at forstå støjfyldte fænomener? Støjen forværres, og hvad der før var et tæppe af støj, bliver en støjmur.</p>
-  <p>For at bryde denne støjmur må vi reducere støjen i os selv.</p>
-  <p>Derfor forsøger jeg hver dag at blive en neutral observatør af sandheden. At udøve selvkritik, reflektere og stille spørgsmål.</p>
+  <p>Så hvad sker der, når støjfyldte mennesker prøver at forstå støjfyldte fænomener? Støjen forværres, og det støjtæppe der omsluttede vores verden, bliver nu en betonmur.</p>
+  <p>For at bryde denne mur må vi reducere støjen i os selv.</p>
+  <p>Det bliver jeg dagligt mindet om og jeg forsøger hele tiden at blive en mere neutral observatør af sandheden. At udøve selvkritik, reflektere og stille spørgsmål.</p>
 </div>
 
 <div class="about-row">
