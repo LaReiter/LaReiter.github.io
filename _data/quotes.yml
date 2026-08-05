@@ -1,5 +1,5 @@
-- en: "We all fool ourselves, but few of us know we're the fool."
-  da: "De fleste lyver over for sig selv, men kun få af os ved, at vi faktisk gør det."
+- en: "We all learn by induction. But nobody gets a random sample."
+  da: "Vi lærer alle induktivt. Men ingen får en tilfældig stikprøve."
 
 - en: "We all believe so strongly in our concept of reality, that we are completely oblivious to the illusion that it presents."
   da: "Vi lever os så meget ind i vores egen virkelighed, at vi bliver blinde over for den illusion, den faktisk er."
@@ -13,21 +13,23 @@
 - en: "Predicting 'something' before it happens can be hard. Predicting that same 'something' in hindsight is often easy. When we look back, life therefore appears predictable."
   da: "At forudsige 'noget' før det sker kan være svært. At forudsige det samme 'noget' i bagklogskabens lys er ofte nemt. Når vi kigger tilbage, fremstår livet derfor helt forudsigeligt."
 
-- en: "For many, the inclination to agree depends largely on who said it, and how it was said, more than what was said."
-  da: "For mange, vil tilbøjeligheden til at gøre sig enige afhænge af, hvem der sagde det, og hvordan det blev sagt, snarere end hvad der blev sagt."
+- en: "We like to think we weigh the argument. Mostly we weigh the person making it."
+  da: "Vi bilder os ind, at vi vejer argumentet. For det meste vejer vi den, der fremfører det."
 
 - en: "As we grow older, we question less and assume more. A child's curiosity can remind us just how little we know."
   da: "Når vi bliver ældre, stiller vi færre spørgsmål og antager mere. Et barns nysgerrighed kan få os til at indse, præcis hvor lidt vi faktisk ved."
 
-- en: "Sometimes the big things leave you empty, and the small things leave you full."
+- en: "Sometimes the big things leave you empty and the small things leave you full."
   da: "Nogle gange er det de store ting der dræner os, og de små ting der fylder os op."
 
-- en: "When the 'I' in 'what I do' becomes more important than the 'what', you need to ask why you do what you do."
-  da: "Når 'jeg' i 'hvad jeg laver' bliver vigtigere end 'hvad', bør du spørge dig selv hvorfor du gør, som du gør."
+- en: "When the 'I' in 'what I do' matters more than the 'what', it is time to ask why you do it."
+  da: "Når 'jeg' i 'hvad jeg laver' betyder mere end 'hvad', er det tid til at spørge, hvorfor du gør, som du gør."
 
-- en: "Small p-values are subject to Goodhart's law. The chase for significance makes them poor measures of exactly that."
-  da: "Små p-værdier lider under Goodharts lov. Jagten på signifikans gør dem til dårlige mål for netop det."
+- en: "P-values are subject to Goodhart's law. Once significance became the target, they stopped measuring evidence."
+  da: "P-værdier er underlagt Goodharts lov. Da signifikans blev målet, holdt de op med at måle evidens."
 
-- en: "Reliable diagnosis is difficult due to a combination of between-clinician variance, within-clinician variance, day-to-day within-patient variance, and a probe effect."
-  da: "Pålidelig diagnostik er svært på grund af en kombination af variation mellem klinikere, klinikerens egen usikkerhed, dag-til-dag variation for patienten og probe effekten."
+- en: "Diagnosis is unreliable because clinicians disagree with each other, disagree with themselves, meet patients who differ from day to day, and change what they measure by measuring it."
+  da: "Diagnostik er upålidelig, fordi klinikere er uenige med hinanden, er uenige med sig selv, møder patienter, der varierer fra dag til dag, og ændrer det, de måler, ved at måle det."
 
+- en: "I am convinced that an average person is quite different from everyone else."
+  da: "Jeg er overbevist om, at en gennemsnitlig person er ganske forskellig fra alle andre."
