@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 {%- assign cur_lang = page.lang | default: site.lang | default: "en" -%}
 <html lang="{{ cur_lang }}">
+<head>
 <meta charset="{{ site.encoding }}">
 <title>{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -85,6 +86,16 @@ head in frame, resize to 1200x630, save as JPEG at ~85% quality.
 {% endif %}
 {% if site.comments.disqus_shortname and page.layout == "post" %}<script src="//{{ site.comments.disqus_shortname }}.disqus.com/embed.js" async></script>{% endif %}
 {% if site.comments.isso_domain and page.layout == "post" %}<script data-isso="http://{{ site.comments.isso_domain }}" src="//{{ site.comments.isso_domain }}/js/embed.min.js"></script>{% endif %}
+{%- comment -%}
+The sidebar's own stylesheet is hoisted up here so it lands in <head> with the
+rest of them; the include below emits only the <aside> markup, which is body
+content. Head and body are written out explicitly rather than left to the
+browser's implicit insertion, so that strict parsers — link-preview scrapers
+especially — see the meta tags above unambiguously inside <head>.
+{%- endcomment -%}
+{% if site.show_sidebar or site.sidebar %}<link rel="stylesheet" href="{{ "/assets/css/sidebar.css" | relative_url }}" media="screen and (min-width: 70em)">{% endif %}
+</head>
+<body>
 {% if site.show_sidebar or site.sidebar %}{% include sidebar.html %}{% endif %}
 {% if site.navigation %}
   {% assign pages = site.navigation %}
@@ -106,4 +117,5 @@ head in frame, resize to 1200x630, save as JPEG at ~85% quality.
   {% include menu.html menu=site.external %}
 </footer>
 {% endif %}
+</body>
 </html>

@@ -1,6 +1,9 @@
 {%- assign cur_lang = page.lang | default: site.lang | default: "en" -%}
 {%- assign ui = site.data.ui[cur_lang] -%}
-<link rel="stylesheet" href="{{ "/assets/css/sidebar.css" | relative_url }}" media="screen and (min-width: 70em)">
+{%- comment -%}
+Body markup only. sidebar.css is linked from _layouts/default.html, inside <head>,
+because this include is emitted after </head>.
+{%- endcomment -%}
 <aside style="display: none">
   <div class="sidebar-header">
     {%- assign home = site.pages | where: "ref", "about" | where: "lang", cur_lang | first -%}
