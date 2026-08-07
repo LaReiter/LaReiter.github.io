@@ -20,6 +20,8 @@ Studies suggest that the effect is environmentally determined, and that it is fl
 
 If we nonetheless assume a positive Flynn effect that is strongest in the lower and middle percentiles, Mensa members may have to get used to the idea that a relatively larger proportion of the population will resemble “us” in terms of cognitive abilities (at least those described by IQ scores). So even though a person in the top 2% and a person in the top 50% intuitively must be different, it could theoretically end up being the case that the real difference is quite modest. Under such a scenario, one might ask whether the current division of intelligence levels is meaningful at all — or whether it would make more sense to think in terms of just two broad classes: the gifted and the less gifted.
 
+## References
+
 1. Trahan, Lisa H., et al. "The Flynn effect: a meta-analysis." Psychological Bulletin 140.5 (2014): 1332. <br/>
 2. Williams, Robert L. "Overview of the Flynn effect." Intelligence 41.6 (2013): 753–764. <br/>
 3. Pietschnig, Jakob, and Martin Voracek. "One century of global IQ gains: A formal meta-analysis of the Flynn effect (1909–2013)." Perspectives on Psychological Science 10.3 (2015): 282–306. <br/>
