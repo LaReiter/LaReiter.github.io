@@ -15,7 +15,7 @@ ref: about
 
 <div class="about-lead">
   <p>Velkommen til min personlige hjemmeside.</p>
-  <p>Her kan du lære lidt om hvem jeg, og hvad jeg laver.</p>
+  <p>Her kan du få et indblik i hvem jeg er.</p>
   <p>Du kan læse mit <a href="/da/cv/">CV</a> for at udforske den professionelle side af mig.</p>
   <p>Du kan læse min <a href="/da/blog/">blog</a> for at dykke ned i mine tanker om filosofi og videnskab.</p>
   <p>Du kan besøge <a href="/da/media/">Medier</a> for at læse mine artikler og debatindlæg i pressen.</p>

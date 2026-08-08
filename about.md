@@ -15,7 +15,7 @@ ref: about
 
 <div class="about-lead">
   <p>Welcome to my personal homepage.</p>
-  <p>Here you can get a small glimpse of who I am.</p>
+  <p>Here you can get a glimpse of who I am.</p>
   <p>You can read my <a href="/cv/">CV</a> to explore the professional side of me.</p>
   <p>You can read my <a href="/blog/">blog</a> to engage with my thoughts on philosophy and science.</p>
   <p>You can browse my <a href="/media/">media</a> to read my articles and op-eds in the press.</p>
