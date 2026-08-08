@@ -13,41 +13,43 @@ ref: about
 
 <hr class="about-break">
 
-<div class="about-intro">
+<div class="about-lead">
+  <p>Velkommen til min personlige hjemmeside.</p>
+  <p>Her kan du lære lidt om hvem jeg, og hvad jeg laver.</p>
+  <p>Du kan læse mit <a href="/da/cv/">CV</a> for at udforske den professionelle side af mig.</p>
+  <p>Du kan læse min <a href="/da/blog/">blog</a> for at dykke ned i mine tanker om filosofi og videnskab.</p>
+  <p>Du kan besøge <a href="/da/media/">Medier</a> for at læse mine artikler og debatindlæg i pressen.</p>
+  <p>Endelig kan du finde et lille udvalg af mine egne uafhængige <a href="/da/projects/">projekter</a>.</p>
+</div>
+
+<section class="about-prelude">
+  <h2 class="about-label">Præludium</h2>
   <p>Verden støjer.</p>
   <p>Mennesker støjer. Vi er fordomsfulde, inkonsekvente og handler ofte ud fra egeninteresse.</p>
   <p>Fænomener støjer. Både naturen og de konstruktioner, vi har bygget oven på den, er gennemsyret af tilfældigheder.</p>
   <p>Så hvad sker der, når støjfyldte mennesker prøver at forstå støjfyldte fænomener? Støjen forstærkes. Det støjtæppe, der lå over verden, bliver til en mur.</p>
   <p>For at bryde denne mur må vi reducere støjen i os selv.</p>
   <p>Det bliver jeg dagligt mindet om og jeg forsøger hele tiden at blive en mere neutral observatør af sandheden. At udøve selvkritik, reflektere og stille spørgsmål.</p>
-</div>
+</section>
 
-<div class="about-row">
+<div class="about-figures">
   <figure>
     <img src="/assets/spgjrgn.png" alt="Spørge Jørgen-illustration" width="603" height="733" loading="lazy">
+    <figcaption>
+    <p>Børnebogen "Spørge Jørgen" er en historie om en dreng, hvis endeløse spørgsmål drev hans forældre til vanvid.</p>
+    <p>Den var en af mine yndlingsbøger som barn.</p>
+    </figcaption>
   </figure>
-  <div class="about-text">
-    <p>Børnebogen "Spørge Jørgen" er en historie om en dreng, hvis endeløse spørgsmål drev hans forældre til vanvid.</p> 
-    <p>Jeg elskede bogen som barn. Jeg elsker den stadig i dag.</p>
-    <p>"Spørge Jørgen" minder mig om, at verden er et mærkeligt sted, og at vi aldrig må stoppe med at stille spørgsmål.</p>
-  </div>
-</div>
-
-<div class="about-row reverse">
   <figure>
-    <img src="/assets/mig_mat.png" alt="Privat billede" width="279" height="373" loading="lazy">
+    <img src="/assets/mig_mat.png" alt="Mig i toget med en bog om matematiske gåder" width="279" height="373" loading="lazy">
+    <figcaption>
+    <p>Inden jeg formelt begyndte at studere naturvidenskab, var jeg allerede fascineret af matematikkens skønhed.</p>
+    <p>Her sidder jeg i toget til Jylland og læser om de sværeste matematiske problemer, løste som uløste.</p>
+    </figcaption>
   </figure>
-  <div class="about-text">
-    <p>Vores mærkelige verden byder på et væld af intellektuelle problemer, der kræver kritisk tænkning og analytisk sans.</p>
-    <p>Over årene har jeg skrevet flere læserbreve, gennemført min egne personlige projekter og udført hjemmelavede eksperimenter.</p>
-    <p>Jeg har for eksempel siddet på min terrasse og studeret en mejers vandring i et forsøg på at beskrive dens bevægelsesmønster ved brug af stokastiske modeller.</p>
-    <p>Jeg har lavet min egen spørgeskemaundersøgelse for at finde ud af, hvordan forældre vægter forskellige kriterier, når de skal navngive deres børn, og hvordan det har ændret sig over generationer.</p>
-    <p>Jeg har også skabt flere spil (i Unity og Python), inklusiv et spil baseret på en fodboldvariant jeg udtænkte i en sommerferie.</p>
-    <p>Her på min hjemmeside kan du finde et lille udvalg af mit private arbejde i mine bestræbelser på at nyde verden og bryde dens støjmur.</p>
-  </div>
 </div>
 
 <div class="about-quote">
-  <p>Hvorfor sidder neglen på min finger?</p>
-  <cite>Spørge Jørgen</cite>
+  <p>The first principle is that you must not fool yourself and you are the easiest person to fool.</p>
+  <cite>Richard Feynman</cite>
 </div>
