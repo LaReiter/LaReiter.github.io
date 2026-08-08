@@ -9,12 +9,46 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
 
 
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+{%- comment -%}
+One symbol per icon named in _config.yml, taken straight from the Font Awesome
+data. Icons listed in `custom` are skipped here and written out by hand below,
+either because Font Awesome has no such icon or because the stock one needs
+adjusting.
+{%- endcomment -%}
+{% assign custom = 'linkedin,google-scholar' | split: ',' %}
 {% assign keys = 'navigation,external' | split: ',' %}
 {% for key in keys %}
 {% for link in site[key] %}
   {% assign icon = link.icon %}
+  {% unless custom contains icon %}
   {% assign svg = site.data.font-awesome.icons[icon].svg | first %}
+  {% if svg %}
   <symbol id="{{ icon }}" viewBox="0 0 {{ svg[1].width }} {{ svg[1].height }}"><path d="{{ svg[1].path }}" /></symbol>
+  {% endif %}
+  {% endunless %}
 {% endfor %}
 {% endfor %}
+
+<!--
+LinkedIn. The stock mark is a single path: a rounded square with the "in" carved
+out of it, so the letters take whatever is behind the icon — the near-black page,
+in our case. The rect restores the white letters by sitting behind the path,
+showing through only where the glyph is cut away.
+
+It is inset 32 units from the square (which spans x 0-448, y 32-480), which both
+clears the 32-unit corner radius and stays well outside the letters themselves
+(x 64-384, y 96-416), so no white can escape past the blue. Its `fill` is a
+presentation attribute, which beats the CSS `fill` the icon inherits from
+_sass/social.sass — that one goes on to colour the path.
+-->
+  {%- assign li = site.data.font-awesome.icons.linkedin.svg.brands %}
+  <symbol id="linkedin" viewBox="0 0 {{ li.width }} {{ li.height }}"><rect x="32" y="64" width="384" height="384" fill="#fff" /><path d="{{ li.path }}" /></symbol>
+
+<!--
+Google Scholar is not part of Font Awesome Free, so the mark is spelled out here.
+Any other icon missing from the Font Awesome set can be added the same way: name
+it in `custom` above and give the link a matching `icon:` in _config.yml.
+Source: Simple Icons (CC0) - https://simpleicons.org/?q=google+scholar
+-->
+  <symbol id="google-scholar" viewBox="0 0 24 24"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z" /></symbol>
 </svg>

@@ -150,17 +150,15 @@ nav a.selected
   padding: 1.4em 1.8em
   border-top: 1px solid rgba(56, 189, 248, 0.08)
   display: flex
-  gap: 1.4em
+  gap: 1.15em
   align-items: center
 
+// The icons themselves are styled in _sass/social.sass, which index.css already
+// carries; only the spacing differs between the sidebar and the mobile footer.
 .sidebar-external a
-  color: rgba(196, 212, 224, 0.65)
-  transition: .15s color
-  font-size: 1.1em
   line-height: 1
   display: inline-flex
   &:hover
-    color: #38bdf8
     text-decoration: none
 
 .icon
