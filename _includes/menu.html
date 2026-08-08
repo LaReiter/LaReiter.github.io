@@ -18,7 +18,7 @@ Renders a nav list. Two kinds of entry are supported:
     {%- assign title = item.title -%}
   {%- endif -%}
   {%- if url -%}
-  <a href="{{ url | relative_url }}" {% if item.brand %}data-brand="{{ item.brand }}" {% endif %}{% if url == page.url %}class="selected"{% endif %}>
+  <a href="{{ url | relative_url }}" {% if url == page.url %}class="selected"{% endif %}>
     {%- if item.icon -%}<svg aria-label="{{ title }}" class="icon"><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#{{ item.icon }}"></use></svg>{%- else -%}{{ title }}{%- endif -%}
   </a>
   {%- endif -%}

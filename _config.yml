@@ -36,11 +36,11 @@ navigation:
  - {ref: projects, icon: lightbulb}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-                           # `brand` picks the icon colour in _sass/social.sass; drop it for a plain icon
-  - {title: Mail, icon: envelope, brand: mail, url: "mailto:lars.reiter.nielsen@gmail.com"}
-  - {title: Github, icon: github, brand: github, url: "https://github.com/LaReiter"}
-  - {title: Linkedin, icon: linkedin, brand: linkedin, url: "https://www.linkedin.com/in/lars-n%C3%B8rtoft-reiter-01646099/"}
-  - {title: Google Scholar, icon: google-scholar, brand: scholar, url: "https://scholar.google.com/citations?user=7aTvfU0AAAAJ&hl=da"}
+                           # google-scholar is not in Font Awesome; see assets/fontawesome/icons.svg
+  - {title: Mail, icon: envelope, url: "mailto:lars.reiter.nielsen@gmail.com"}
+  - {title: Github, icon: github, url: "https://github.com/LaReiter"}
+  - {title: Linkedin, icon: linkedin, url: "https://www.linkedin.com/in/lars-n%C3%B8rtoft-reiter-01646099/"}
+  - {title: Google Scholar, icon: google-scholar, url: "https://scholar.google.com/citations?user=7aTvfU0AAAAJ&hl=da"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/

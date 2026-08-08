@@ -14,10 +14,16 @@ body > header
   z-index: 100
   backdrop-filter: blur(8px)
 
+// This one colour is inherited by everything in the footer — the tagline and the
+// social icons alike, the latter via `footer a { color: inherit }` in
+// _sass/basic.sass and `fill: currentColor` on .icon. So raising the alpha
+// 0.5 -> 0.65 lifts both by exactly the same amount, which is the point: the
+// icons get easier to spot without the tagline falling behind them. The sidebar
+// icons in assets/css/sidebar.sass take the same +0.15.
 body > footer
   background: rgba(7, 9, 15, 0.97)
   border-top: 1px solid rgba(56, 189, 248, 0.1)
-  color: rgba(196, 212, 224, 0.5)
+  color: rgba(196, 212, 224, 0.65)
   font-size: .88em
 
 a.title

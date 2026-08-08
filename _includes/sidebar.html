@@ -39,7 +39,7 @@ because this include is emitted after </head>.
     {%- assign url = item.url -%}
     {%- assign title = item.title -%}
     {%- assign icon = item.icon -%}
-    <a aria-label="{{ title }}" href="{{ url }}" {% if item.brand %}data-brand="{{ item.brand }}" {% endif %}target="_blank" rel="noopener noreferrer">
+    <a aria-label="{{ title }}" href="{{ url }}" target="_blank" rel="noopener noreferrer">
       <svg aria-hidden="true" class="icon"><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#{{ icon }}"></use></svg>
     </a>
   {%- endfor -%}
