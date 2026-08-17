@@ -24,7 +24,7 @@ Finally, the very act of bringing a patient to a clinic might not be representat
 
 Putting this all together and the complexity becomes apparent.
 
-Because patients differ from each other, care has to (ideally) be built around the individual. But even when we zoom in on the individual, the assessment rests on shifting ground: which days we observed the patient and how the patient’s presentation changes in the clinic. Which clinician was used and what state the clinician was in.
+Because patients differ from each other, care has to (ideally) be built around the individual. But even when we zoom in on the individual, the assessment rests on shifting ground: which days we observed the patient and how the patient’s presentation changes in the clinic. Which clinician saw the patient and what state the clinician was in.
 
 Getting to the right diagnosis, and matching that diagnosis to the right treatment, is to put it mildly, a difficult task.
 
