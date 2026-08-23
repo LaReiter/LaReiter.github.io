@@ -29,3 +29,10 @@ Because patients differ from each other, care has to (ideally) be built around t
 Getting to the right diagnosis, and matching that diagnosis to the right treatment, is to put it mildly, a difficult task.
 
 It is also one I look forward to studying, with care and precision.
+
+## References
+
+1. Boberg M, Henriksen MG, Berge J, Fascendini N, Jandl M, Karakuła-Juchnowicz H, Madeira L, Rossi Grauenfels D, Soloey-Nilsen H, Giurgiuca A, Studart I, Messas G, Ojeda Uribe T, Varela L, Corral R, Cermolacce M, Gozé T, Franzen L, Borgwardt S, Huarcaya-Victoria J, Karkala K, Mazaliauskiene R, Eberhard J, Schmidt T, Micoulaud-Franchi J-A, Skodlar B and Nordgaard J (2026) Reliability of psychiatric diagnoses in the 21st century. Front. Psychiatry 17:1891625. doi: 10.3389/fpsyt.2026.1891625
+2. Xie W, Nordgaard J, Sheldrick RC, et al. Test-Retest Reliability of Standardized Diagnostic Interviews for Common Adult Psychiatric Disorders: A Systematic Review and Meta-Analysis. JAMA Netw Open. 2026;9(5):e2615039. doi:10.1001/jamanetworkopen.2026.15039
+3. Myin-Germeys I, Oorschot M, Collip D, Lataster J, Delespaul P, van Os J. Experience sampling research in psychopathology: opening the black box of daily life. Psychological Medicine. 2009;39(9):1533-1547. doi:10.1017/S0033291708004947
+4. McCambridge J, Witton J, Elbourne DR. Systematic review of the Hawthorne effect: new concepts are needed to study research participation effects. J Clin Epidemiol. 2014 Mar;67(3):267-77. doi: 10.1016/j.jclinepi.2013.08.015. Epub 2013 Nov 22. PMID: 24275499; PMCID: PMC3969247.
