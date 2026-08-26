@@ -41,7 +41,7 @@ Inspireret af bogen (se billede nedenfor) besluttede jeg mig at undersøge en h�
 <figure style="text-align: center;">
  <img src="/assets/projects/how_to_get_big_things_done.png" alt="Bog om megaprojekter af Bent Flyvbjerg" width="400">
  <figcaption style="text-align: center;">
-   Bent Flyvbjerg og Dan Gardner beskriver i bogen her hvorfor (mega)projekter sjældent forløber gnidningsfrit.
+   Bogens forfattere beskriver hvorfor (mega)projekter sjældent forløber gnidningsfrit.
  </figcaption>
 </figure>
 
@@ -203,5 +203,5 @@ Det samme princip kan formuleres statistisk. De fleste er bekendt med begrebet *
 ### Prisindeks fra Økonomistyrelsen
 
 -   [Økonomistyrelsen -- Regulering af
-    anlægsprojekter][prisindeks](https://oes.dk/statsregnskab/finanslov-og-udgiftsopfoelgning/indeks/regulering-af-anlaegsprojekter/)
-
+    anlægsprojekter](https://oes.dk/statsregnskab/finanslov-og-udgiftsopfoelgning/indeks/regulering-af-anlaegsprojekter/)
+[prisindeks]: https://oes.dk/statsregnskab/finanslov-og-udgiftsopfoelgning/indeks/regulering-af-anlaegsprojekter/
