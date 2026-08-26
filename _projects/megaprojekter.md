@@ -55,7 +55,7 @@ Udvalget omfatter dog de største og mest omtalte projekter på dansk jord, med 
 
 For hvert projekt forsøgte vi at identificere det oprindelige og endelige budget samt den oprindelige og senest kendte deadline i kalender år. Hvis der ikke fandtes en troværdig kilde til budgettet, registrerede vi det ikke. Samme princip gjaldt for projektets deadline.
 
-Priserne blev reguleret efter [prisindekset][økonomistyrelsens prisindeks] og angivet i 2025 priser.
+Priserne blev reguleret efter [økonomistyrelsens prisindeks](https://oes.dk/statsregnskab/finanslov-og-udgiftsopfoelgning/indeks/regulering-af-anlaegsprojekter/) og angivet i 2025 priser.
 
 ## Over budget, over time - under benefit?
 
@@ -204,4 +204,3 @@ Det samme princip kan formuleres statistisk. De fleste er bekendt med begrebet *
 
 -   [Økonomistyrelsen -- Regulering af
     anlægsprojekter](https://oes.dk/statsregnskab/finanslov-og-udgiftsopfoelgning/indeks/regulering-af-anlaegsprojekter/)
-[prisindeks]: https://oes.dk/statsregnskab/finanslov-og-udgiftsopfoelgning/indeks/regulering-af-anlaegsprojekter/
