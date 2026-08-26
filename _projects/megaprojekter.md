@@ -4,53 +4,15 @@ image: "/assets/projects/megaprojekter-thumbnail-2.png"
 mathjax: true
 layout: post
 excerpt: "Store danske IT- og anlægsprojekter har været ramt af forsinkelser og fordyrelser. Her undersøger jeg tallene."
-date: 2025-07-17
+date: 2026-08-26
 lang: da
 ---
 
 ## Jernloven 
 
-<style>
-.post-quote {
-  text-align: center;
-  padding: 1.6em 2em;
-  margin: 1.6em 0;
-  background: rgba(56, 189, 248, 0.04);
-  border: 1px solid rgba(56, 189, 248, 0.15);
-  border-radius: 8px;
-  position: relative;
-}
-
-.post-quote::before {
-  content: "\201C";
-  display: block;
-  font-size: 2.6em;
-  line-height: 0.5;
-  color: rgba(56, 189, 248, 0.55);
-  margin-bottom: 0.25em;
-  font-family: Georgia, serif;
-}
-
-.post-quote p {
-  font-size: 1.08em;
-  font-style: italic;
-  color: #cfdce7;
-  margin: 0;
-  line-height: 1.7;
-  text-align: center;
-}
-
-@media (max-width: 700px) {
-  .post-quote {
-    padding: 1.3em 1.2em;
-  }
-}
-</style>
-
-<div class="about-quote">
-  <p>Over budget, over time, under benefit. Over and over again.</p>
-  <cite>Bent Flyvbjerg</cite>
-</div>
+> Over budget, over time, under benefit. Over and over again.
+>
+> — Bent Flyvbjerg
 
 Dette citat tilskrives professor Bent Flyvbjerg, og indfanger det som han kalder Jernloven for megaprojekter. I følge Bent Flyvbjerg, er det nemlig sådan at projekter gang på gang overskrider både budget- og tidsramme, samt sjældent indfrier forventninger til fulde.
 
