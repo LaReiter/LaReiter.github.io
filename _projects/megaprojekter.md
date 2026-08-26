@@ -27,27 +27,47 @@ lang: da
 }
 </style>
 
-## Jernloven 
-
 > Over budget, over time, under benefit. Over and over again.
 >
 > — Bent Flyvbjerg
 
-Dette citat tilskrives professor Bent Flyvbjerg, og indfanger det som han kalder Jernloven for megaprojekter. I følge Bent Flyvbjerg, er det nemlig sådan at projekter gang på gang overskrider både budget- og tidsramme, samt sjældent indfrier forventninger til fulde.
+Citatet af professor Bent Flyvbjerg beskriver det som han kalder **Jernloven for megaprojekter**. I følge Bent Flyvbjerg, er det nemlig sådan at projekter gang på gang overskrider både budget- og tidsramme, samt sjældent indfrier målsætningerne.
 
-I bogen **How To Get Big Things Done** skrevet sammen med Dan Gardner, går Bent Flyvbjerg i dybden med de psykologiske og beslutningsmæssige problemer der har fået ham til at slutte at der er tale en egentlig lov i projektplanlægning.
+I bogen **How To Get Big Things Done** går Bent Flyvbjerg og Dan Gardner i dybden med de psykologiske og beslutningsmæssige problemer der driver denne såkaldte lov inden for projektplanlægning.
 
 Inspireret af bogen (se billede nedenfor) besluttede jeg mig at undersøge en håndfuld danske megaprojekter, for at se om jeg kunne genkende lovmæssigheden, og for at undersøge hvor galt det egentlig er gået.
 
 
 <figure style="text-align: center;">
- <img src="/assets/projects/how_to_get_big_things_done.png" alt="Bog om megaprojekter af Bent Flyvbjerg" width="600">
+ <img src="/assets/projects/how_to_get_big_things_done.png" alt="Bog om megaprojekter af Bent Flyvbjerg" width="400">
  <figcaption style="text-align: center;">
    Bent Flyvbjerg og Dan Gardner beskriver i bogen her hvorfor (mega)projekter sjældent forløber gnidningsfrit.
  </figcaption>
 </figure>
 
-## Danske megaprojekter
+## Datagrundlaget: megaprojekterne
+
+Jeg gik på jagt online efter store, velbeskrevne danske projekter. Set med pressens øjne er store projekter ikke som udgangspunkt spændende at omtale, medmindre der er noget at kritisere, som fx hvis budgetrammen sprænges. Man kan selvfølgelig indvende, at megaprojekter ofte er af samfundsmæssig interesse (fx supersygehuse og broer) og derfor må forventes at få mediedækning omkring tidspunktet for projektets tilblivelse.
+
+Min søgning tog udgangspunkt i projekter, jeg på forhånd havde et vist kendskab til. Kendskab hænger typisk sammen med omtale, og hvis omtale samtidig hænger sammen med, hvorvidt et projekt er skandaleramt, vil udvalget af projekter naturligvis være biased mod projekter med mangler.
+
+Udvalget omfatter dog de største og mest omtalte projekter på dansk jord, med milliardindsprøjtninger. Selv hvis de ikke er repræsentative for projekter af mindre størrelsesorden, er forsinkelser og fordyrelser i netop disse megaprojekter af betydelig samfundsmæssig interesse.
+
+For hvert projekt forsøgte vi at identificere det oprindelige og endelige budget samt den oprindelige og senest kendte deadline i kalender år. Hvis der ikke fandtes en troværdig kilde til budgettet, registrerede vi det ikke. Samme princip gjaldt for projektets deadline.
+
+Priserne blev reguleret efter [prisindekset][økonomistyrelsens prisindeks] og angivet i 2025 priser.
+
+## Over budget, over time - under benefit?
+
+Resultatet af undersøgelsen, som omfattede 18 IT- og anlægsprojekter, viste konsekvente overskridelser i både budget og tid (Se Figur nedenfor). Den eneste undtagelse Det Nye Universitetshospital Aarhus (DNU) der efter kilderne at dømme blev færdig planmæssigt. 
+
+Ét projekt skiller sig særligt ud, og det er ejendomsvurderingssystemet ICE, der præsterede at gå fra et startbudget på 116 millionar og til 4.9 milliarder, svarende til en procentvis overskridelse på over 4000%. Projektet blev også forsinket med hele 8 år, fra 2017 til 2025.
+
+Af andre markante fordyrelser og forsinkelser finder man Niels Bohr bygningen med et budgetoverskridelse på 149% og 8 års forsinkelse samt Nyt Hospital Nordsjælland med en foreløbiog overskridelse på 103% og forsinkelse på 7 år.
+
+Medianen for den procentvise overskridelse af et projekts budget ligger på 39%, mens medianen for et projekts forsinkelse ligger på 5 år.
+
+Hvorvidt de færdige projekter indfrier forventningerne, er svært at kvantificere entydigt. For ejendomsvurderingssystemet er der dog ingen tvivl. Adskillige fejl og astronomiske ejendomsvurderinger har gjort det aldeles upopulært blandt borgerne og givet grå hår i Vurderingsstyrelsen. Trods forsinkelser og milliardoverskridelser kan projektet altså ikke siges at have indfriet de målsætninger, der blev opstillet. For de andre færdige projekter er det endnu for tidligt at afgøre. Dog er der indikationer på, at passagertallet i Hovedstadens Letbane er langt under det niveau, der var anslået forud for projektets start.
 
 <figure class="fig-bred udbrud">
   <picture>
@@ -57,7 +77,24 @@ Inspireret af bogen (se billede nedenfor) besluttede jeg mig at undersøge en h�
   </picture>
 </figure>
 
-## Psykologien bag
+Tallene skal tages med en række forbehold:
+
+* **Kildeafvigelser:** I nogle tilfælde findes der kilder der er uenige om de oprindelige budgetter, prisindeks samt hvad rammen præcis dækker. Kun de mest troværdige og detaljerede kilder er anvendt, og projekter med stor diskrepans er sorteret fra.
+* **Forskellige baselines:** Det allokerede budget varierer alt efter, om der tages udgangspunkt i den første politiske aftale, anlægsloven eller kontraktindgåelsen. Korrektionsreserven (den budgetmæssige buffer) er størst tidligt og falder, efterhånden som projektet tager form. Det kan få enkelte projekter til at fremstå uforholdsmæssigt dyre tidligt i forløbet.
+* **Regnskabsmæssige og projektmæssige tilpasninger:** Tallene kan påvirkes, hvis projektdele skrottes for at overholde budgettet, eller hvis omkostninger bogføres uden om anlægsrammen. Eksempler er Aarhus' nye fodboldstadion, hvor man skar pladser væk for at undgå budgetoverskridelser, Banedanmark, der bogførte en ekstraomkostning på 2,2 mia. kr. til Signalsystemet som drift, samt DNU, hvor en engangsudgift på 1 mia. kr. blev holdt uden for anlægsrammen.
+* **Etapevis ibrugtagning:** Flere projekter forløber i etaper/faser. I sådanne tilfælde benyttes det samlede projekts afslutningsår som målestok.
+
+## Den sorte svane
+
+Nobelprismodtageren og psykologen Daniel Kahnemann blev blandt andet kendt for sin bog **Thinking, Fast and Slow** hvori han beskriver system 1 hjernen (den hurtige tænkning) og system 2 hjernen (den langsomme tænkning). Når opgaver er komplekse er det nødvendigt at vi aktiverer system 2.
+
+I bogen **How To Get Big Things Done** bliver læseren introduceret til mantraet 'Think Slow, Act Fast' med henvisning til Kahnemanns system 2. Idéen er at megaprojekter er komplekse og kræver omhyggelig planlægning. Det siger næsten sig selv. Men i en verden, hvor tid er penge, har langsom tænkning ikke høj salgsværdi hos ejerkredsen. For jo hurtigere vi kommer i gang, desto hurtigere er vi færdige.
+
+Det er også en besnærende tanke, som dog overser, at når vi først er igang, er risikoen størst. Flyvbjerg og Gardner beskriver det som et vindue der står åbent. Mens projektet pågår, kan der ryge alverdens ting ind og forstyrre projektet, herunder en sort svane.
+
+Den sorte svane er billedet på noget yderst sjældent. Det kan være en pandemi eller en recession, som påvirker projektets tidshorisont og økonomi. Det siger sig selv, at jo længere et vindue (projektet) er åbent, desto større er risikoen for at en sort svane flyver ind. 
+
+Det samme princip kan formuleres statistisk. De fleste er bekendt med begrebet *regression to the mean* der fortæller at når du oplever noget usædvanligt, skal du ikke regne med at det bliver ved: det hverdagslige er normalen. Men det omvendte gælder også. Selvom dine dage ligner hinanden, så kan du godt regne med at før eller siden så sker det usædvanlige. Det kalder vi *regression to the tail*. Med tail, menes yderligheden i en sandsynlighedsfordeling. Det er her den sorte svane holder til.
 
 <figure class ="fig-bred">
   <picture>
@@ -95,6 +132,7 @@ Inspireret af bogen (se billede nedenfor) besluttede jeg mig at undersøge en h�
 
 -   <https://www.rm.dk/siteassets/om-os/aktuelt/2017/februar-17/rigsrevision/fakta-om-byggeriet-af-dnv-skejby-aarhus.pdf>
 -   <https://www.ft.dk/samling/20222/almdel/fiu/bilag/54/2658783.pdf>
+-   <https://www.rm.dk/siteassets/om-os/aktuelt/2019/05-maj/udgifter-til-indflytning-og-ibrugtagning-af-dnu-070519.pdf>
 
 ### Storstrømsbroen (Dronning Margrethe II's Bro)
 
@@ -113,9 +151,10 @@ Inspireret af bogen (se billede nedenfor) besluttede jeg mig at undersøge en h�
 
 -   <https://byoghavn.dk/wp-content/uploads/2019/04/Bilag-vedr.-samlet-anlaegsbudget-og-businesscase-for-etab-lering-af-Lynetteholm_2022.pdf>
 
-### Energiø Bornholm (Landanlæg)
+### Energiø Bornholm
 
 -   <https://www.dr.dk/nyheder/indland/byggeriet-af-landanlaeg-til-energioe-bornholm-spraenger-budgettet>
+-   <https://www.dr.dk/nyheder/politik/pausen-er-aflyst-regeringen-giver-groent-lys-til-stor-kontrakt-om-energioe-bornholm>
 
 ### Odense Letbane (etape 1)
 
@@ -136,6 +175,7 @@ Inspireret af bogen (se billede nedenfor) besluttede jeg mig at undersøge en h�
 
 -   <https://www.tv2ostjylland.dk/aarhus/nyt-stort-millionbelob-til-skandaleramt-stadionbyggeri-fe138>
 -   <https://dansk-byudvikling.dk/nyt-stadion-i-aarhus-endnu-en-forsinkelse-truer/>
+-   <https://www.dr.dk/nyheder/indland/millionbesparelser-paa-aarhus-nye-stadion-enighed-om-faerre-siddepladser-men-vip>
 
 ### Tunnel under Marselis Boulevard, Aarhus
 
@@ -151,13 +191,17 @@ Inspireret af bogen (se billede nedenfor) besluttede jeg mig at undersøge en h�
 ### Hovedstadens Letbane
 
 -   <https://dinletbane.dk/da/nyheder/anlaegsbudget-for-hovedstadens-letbane-er-nu-kortlagt/>
+-   <https://www.tv2kosmopol.dk/koebenhavn/ramt-af-saerlige-udfordringer-letbanestraekning-i-hovedstaden-forsinkes>
+-   <https://www.dr.dk/nyheder/indland/nyaabnet-letbane-forventer-langt-faerre-passagerer-end-da-det-blev-besluttet-bygge-den>
 
 ### Signalprogrammet (ERTMS)
 
 -   <https://ing.dk/artikel/milliarder-over-budget-og-12-aar-forsinket-ny-kaempe-check-skal-redde-kriseramte-togsignaler>
+-   <https://bane.dk/da/Presse/Pressemeddelelser/Ny-udrulningsplan-paa-plads-for-det-digitale-signalsystem-i-OEstdanmark>
+-   <https://nyheder.tv2.dk/trafik/2026-07-22-nye-tal-afsloerer-hundredvis-af-signalfejl-ekspert-er-rystet>
 
-### Fælles reference -- prisindeks
+### Prisindeks fra Økonomistyrelsen
 
 -   [Økonomistyrelsen -- Regulering af
-    anlægsprojekter](https://oes.dk/statsregnskab/finanslov-og-udgiftsopfoelgning/indeks/regulering-af-anlaegsprojekter/)
+    anlægsprojekter][prisindeks](https://oes.dk/statsregnskab/finanslov-og-udgiftsopfoelgning/indeks/regulering-af-anlaegsprojekter/)
 
