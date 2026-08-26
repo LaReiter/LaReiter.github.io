@@ -29,13 +29,13 @@ lang: da
 
 > Over budget, over time, under benefit. Over and over again.
 >
-> — Bent Flyvbjerg
+> — Bent Flyvbjerg, Professor Emeritus
 
-Citatet af professor Bent Flyvbjerg beskriver det som han kalder **Jernloven for megaprojekter**. I følge Bent Flyvbjerg, er det nemlig sådan at projekter gang på gang overskrider både budget- og tidsramme, samt sjældent indfrier målsætningerne.
+Citatet indrammer det som Bent Flyvbjerg - ekspert i Project Management - har kaldt  **Jernloven for megaprojekter**. I følge Bent Flyvbjerg overskrider langt størstedelen af projekter deres budget- og tidsramme, og bliver af ringe kvalitet.
 
 I bogen **How To Get Big Things Done** går Bent Flyvbjerg og Dan Gardner i dybden med de psykologiske og beslutningsmæssige problemer der driver denne såkaldte lov inden for projektplanlægning.
 
-Inspireret af bogen (se billede nedenfor) besluttede jeg mig at undersøge en håndfuld danske megaprojekter, for at se om jeg kunne genkende lovmæssigheden, og for at undersøge hvor galt det egentlig er gået.
+Inspireret af bogen satte jeg mig for at efterprøve Jernloven på en række danske megaprojekter.
 
 
 <figure style="text-align: center;">
@@ -47,27 +47,27 @@ Inspireret af bogen (se billede nedenfor) besluttede jeg mig at undersøge en h�
 
 ## Datagrundlaget: megaprojekterne
 
-Jeg gik på jagt online efter store, velbeskrevne danske projekter. Set med pressens øjne er store projekter ikke som udgangspunkt spændende at omtale, medmindre der er noget at kritisere, som fx hvis budgetrammen sprænges. Man kan selvfølgelig indvende, at megaprojekter ofte er af samfundsmæssig interesse (fx supersygehuse og broer) og derfor må forventes at få mediedækning omkring tidspunktet for projektets tilblivelse.
+Jeg gik på jagt online efter store, velbeskrevne danske projekter. Som udgangspunkt har medierne ikke interesse i at beskrive megaprojekter, medmindre der er forhold at kritisere, som når budgetrammen sprænges. Den helt store undtagelse er tiden omkring projektets tilblivelse, i det megaprojekter som supersygehuse og broer trods alt er af samfundsmæssig interesse.
 
-Min søgning tog udgangspunkt i projekter, jeg på forhånd havde et vist kendskab til. Kendskab hænger typisk sammen med omtale, og hvis omtale samtidig hænger sammen med, hvorvidt et projekt er skandaleramt, vil udvalget af projekter naturligvis være biased mod projekter med mangler.
+Min søgning tog udgangspunkt i projekter, jeg på forhånd havde et vist kendskab til. Da kendskab typisk hænger sammen med omtale, og omtale formodes at hænge sammen med kritisable forhold, vil mit udvalg af projekter naturligvis være biased mod dem der udviser mangler.
 
-Udvalget omfatter dog de største og mest omtalte projekter på dansk jord, med milliardindsprøjtninger. Selv hvis de ikke er repræsentative for projekter af mindre størrelsesorden, er forsinkelser og fordyrelser i netop disse megaprojekter af betydelig samfundsmæssig interesse.
+Mit datagrundlag omfatter imidlertid de største og mest omtalte projekter på dansk jord med milliardindsprøjtninger. Selv hvis de ikke er repræsentative for projekter af mindre størrelsesorden, er forsinkelser og fordyrelser i netop disse megaprojekter af betydelig samfundsmæssig interesse.
 
-For hvert projekt forsøgte vi at identificere det oprindelige og endelige budget samt den oprindelige og senest kendte deadline i kalender år. Hvis der ikke fandtes en troværdig kilde til budgettet, registrerede vi det ikke. Samme princip gjaldt for projektets deadline.
+For hvert projekt forsøgte jeg at identificere det oprindelige og endelige budget samt den oprindelige og senest kendte deadline i kalender år. Hvis der ikke fandtes en troværdig kilde til budgettet, registrerede jeg det ikke. Samme princip gjaldt for projektets deadline.
 
 Priserne blev reguleret efter [økonomistyrelsens prisindeks](https://oes.dk/statsregnskab/finanslov-og-udgiftsopfoelgning/indeks/regulering-af-anlaegsprojekter/) og angivet i 2025 priser.
 
 ## Over budget, over time - under benefit?
 
-Resultatet af undersøgelsen, som omfattede 18 IT- og anlægsprojekter, viste konsekvente overskridelser i både budget og tid (Se Figur nedenfor). Den eneste undtagelse Det Nye Universitetshospital Aarhus (DNU) der efter kilderne at dømme blev færdig planmæssigt. 
+Resultatet af undersøgelsen, som omfattede 18 IT- og anlægsprojekter, viste konsekvente overskridelser i både budget og tid (Se Figur nedenfor). Den eneste undtagelse var Det Nye Universitetshospital Aarhus (DNU) der efter kilderne at dømme blev færdig planmæssigt. 
 
-Ét projekt skiller sig særligt ud, og det er ejendomsvurderingssystemet ICE, der præsterede at gå fra et startbudget på 116 millionar og til 4.9 milliarder, svarende til en procentvis overskridelse på over 4000%. Projektet blev også forsinket med hele 8 år, fra 2017 til 2025.
+Ét projekt skiller sig særligt ud, og det er ejendomsvurderingssystemet (ICE), der præsterede at gå fra et startbudget på 116 millionar og til 4.9 milliarder, svarende til en procentvis overskridelse på ca. 4124%. Tilmed blev ejendomsvurderingssystemet forsinket med hele 8 år, fra 2017 til 2025.
 
-Af andre markante fordyrelser og forsinkelser finder man Niels Bohr bygningen med et budgetoverskridelse på 149% og 8 års forsinkelse samt Nyt Hospital Nordsjælland med en foreløbiog overskridelse på 103% og forsinkelse på 7 år.
+Af andre betydelige fordyrelser og forsinkelser finder man Niels Bohr bygningen med et budgetoverskridelse på 149% og 8 års forsinkelse samt Nyt Hospital Nordsjælland med en foreløbiog overskridelse på 103% og forsinkelse på 7 år.
 
 Medianen for den procentvise overskridelse af et projekts budget ligger på 39%, mens medianen for et projekts forsinkelse ligger på 5 år.
 
-Hvorvidt de færdige projekter indfrier forventningerne, er svært at kvantificere entydigt. For ejendomsvurderingssystemet er der dog ingen tvivl. Adskillige fejl og astronomiske ejendomsvurderinger har gjort det aldeles upopulært blandt borgerne og givet grå hår i Vurderingsstyrelsen. Trods forsinkelser og milliardoverskridelser kan projektet altså ikke siges at have indfriet de målsætninger, der blev opstillet. For de andre færdige projekter er det endnu for tidligt at afgøre. Dog er der indikationer på, at passagertallet i Hovedstadens Letbane er langt under det niveau, der var anslået forud for projektets start.
+Hvorvidt de færdige projekter indfrier forventningerne, er svært at fastslå entydigt. For ejendomsvurderingssystemet er der dog ingen tvivl. Adskillige fejl og astronomiske ejendomsvurderinger har gjort det aldeles upopulært blandt borgere og givet grå hår i Vurderingsstyrelsen. Trods forsinkelser og milliardoverskridelser kan projektet altså ikke siges at have indfriet de målsætninger, der blev opstillet. For de andre færdige projekter er det endnu for tidligt at afgøre. Dog er der indikationer på, at passagertallet i Hovedstadens Letbane er langt under det niveau, der var anslået forud for projektets start.
 
 <figure class="fig-bred udbrud">
   <picture>
