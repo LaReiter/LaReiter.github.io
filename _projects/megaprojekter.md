@@ -8,6 +8,25 @@ date: 2026-08-26
 lang: da
 ---
 
+<style>
+.fig-bred {margin: 1.5em 0; text-align:center; }
+.fig-bred img { max-width: 100%; height: auto; }
+/* Ved under 280 px vises mobiludgaven */
+@media (max-width: 820px) {
+  .fig-bred img{ max-width: min(100%, 460px); }
+}
+/* Uden sidebar */
+@media (min-width: 821px) and (max-width: 69.99em) {
+  .fig-bred.udbrud { width: min(1200px, calc(100vw - 4em));
+                     margin-left: 50%; transform: translateX(-50%); }
+}
+/* Med sidebar */
+@media (min-width: 70em) {
+  .fig-bred.udbrud { width: min(1200px, calc(100vw - 21em));
+                     margin-left: 50%; transform:translateX(-50%); }
+}
+</style>
+
 ## Jernloven 
 
 > Over budget, over time, under benefit. Over and over again.
@@ -30,14 +49,22 @@ Inspireret af bogen (se billede nedenfor) besluttede jeg mig at undersøge en h�
 
 ## Danske megaprojekter
 
-<figure style="text-align: center;">
- <img src="/assets/projects/jernloven_danske_projekter.png" alt="Budget- og tidsoverskridelser for en række danske megaprojekter" width="800">
+<figure class="fig-bred udbrud">
+  <picture>
+    <source media="(max-width: 820px)" srcset="/assets/projects/jernloven_danske_projekter_mobil.png>
+    <img src="/assets/projects/jernloven_danske_projekter.png"
+         alt="Budget- og tidsoverskridelser for en række danske megaprojekter">
+  </picture>
 </figure>
 
 ## Psykologien bag
 
-<figure style="text-align: center;">
- <img src="/assets/projects/think_slow_act_fast.png" alt="Plot med to scenarier der viser at god planlægning er bedre end hurtig eksekvering" width="800">
+<figure class ="fig-bred">
+  <picture>
+    <source media="(max-width: 820px)" srcset="/assets/projects/think_slow_act_fast_mobil.png>
+    <img src="/assets/projects/think_slow_act_fast.png"
+         alt="Plot med to scenarier der viser at god planlægning er bedre end hurtig eksekvering">
+  </picture>
 </figure>
 
 ## Referencer
