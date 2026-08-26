@@ -51,7 +51,7 @@ Inspireret af bogen (se billede nedenfor) besluttede jeg mig at undersøge en h�
 
 <figure class="fig-bred udbrud">
   <picture>
-    <source media="(max-width: 820px)" srcset="/assets/projects/jernloven_danske_projekter_mobil.png>
+    <source media="(max-width: 820px)" srcset="/assets/projects/jernloven_danske_projekter_mobil.png">
     <img src="/assets/projects/jernloven_danske_projekter.png"
          alt="Budget- og tidsoverskridelser for en række danske megaprojekter">
   </picture>
@@ -61,7 +61,7 @@ Inspireret af bogen (se billede nedenfor) besluttede jeg mig at undersøge en h�
 
 <figure class ="fig-bred">
   <picture>
-    <source media="(max-width: 820px)" srcset="/assets/projects/think_slow_act_fast_mobil.png>
+    <source media="(max-width: 820px)" srcset="/assets/projects/think_slow_act_fast_mobil.png">
     <img src="/assets/projects/think_slow_act_fast.png"
          alt="Plot med to scenarier der viser at god planlægning er bedre end hurtig eksekvering">
   </picture>
