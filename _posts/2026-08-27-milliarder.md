@@ -1,5 +1,5 @@
 ---
-title: "Vi ødsler med milliarder"
+title: "Vi ødsler milliarder væk"
 mathjax: true
 layout: post
 categories: media
