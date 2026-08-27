@@ -10,7 +10,7 @@ Forleden kom det frem, at Nakskov Sukkerfabrik lukker fra 2027 [[1]](https://www
 
 Det første spørgsmål, der melder sig, er naturligvis, om det var nødvendigt med en 1,5 milliard dyr gasledning til Nakskov?
 
-Men et større og mere generelt spørgsmål er, om vi skal acceptere, at vi bruger milliarder af kroner på dyre IT- og anlægsprojekter, der ofte går langt over budget, eller ikke leverer på de målsætninger, der blev sat.
+Men et større og mere generelt spørgsmål er, om vi skal acceptere, at vi bruger milliarder af kroner på dyre IT- og anlægsprojekter, der ofte går langt over budget, eller ikke leverer på de målsætninger, der bliver sat.
 
 Man er efterladt med den følelse, at der bliver skaltet og valtet med de penge, der kunne gøre reelle forskelle, hvis de bare blev brugt lidt mere klogt.
 
