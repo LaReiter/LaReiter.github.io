@@ -29,7 +29,10 @@ Jeg håber derfor, at der er mere tid til refleksion og omtanke, når de næste 
 ## Kilder
 
 [1] [dr.dk – Gasrøret skulle sikre fremtiden nu står en milliardregning tilbage](https://www.dr.dk/nyheder/indland/gasroeret-skulle-sikre-fremtiden-nu-staar-en-milliardregning-tilbage) 
+
 [2] [information.dk – Milliarddyr gasledning skulle sikre arbejdspladserne i Nakskov. Nu lukker sukkerfabrikken](https://www.information.dk/indland/2026/08/milliarddyr-gasledning-sikre-arbejdspladserne-nakskov-lukker-sukkerfabrikken)
+
 [3] [rigsrevisionen.dk – Skatteministeriets styring af det nye ejendomsvurderingssystem](https://cdn.rigsrevisionen.dk/rigsrevisionen/Media/638998268925610237/1509-25.pdf)
+
 [4] [e-tank.dk – Problemerne fortsætter: supersygehusene har nu kostet 12,1 mia. kr. mere end ventet](https://static1.squarespace.com/static/6556194e9cc0e30b3030a441/t/664743b6c2bfdb0fab75827f/1715946423700/Supersygehusene)    
 
