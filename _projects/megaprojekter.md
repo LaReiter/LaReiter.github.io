@@ -8,25 +8,6 @@ date: 2026-08-26
 lang: da
 ---
 
-<style>
-.fig-bred {margin: 1.5em 0; text-align:center; }
-.fig-bred img { max-width: 100%; height: auto; }
-/* Ved under 280 px vises mobiludgaven */
-@media (max-width: 820px) {
-  .fig-bred img{ max-width: min(100%, 460px); }
-}
-/* Uden sidebar */
-@media (min-width: 821px) and (max-width: 69.99em) {
-  .fig-bred.udbrud { width: min(1200px, calc(100vw - 4em));
-                     margin-left: 50%; transform: translateX(-50%); }
-}
-/* Med sidebar */
-@media (min-width: 70em) {
-  .fig-bred.udbrud { width: min(1200px, calc(100vw - 21em));
-                     margin-left: 50%; transform:translateX(-50%); }
-}
-</style>
-
 > Over budget, over time, under benefit. Over and over again.
 >
 > — Bent Flyvbjerg, Professor Emeritus
@@ -69,7 +50,7 @@ Medianen for den procentvise overskridelse af et projekts budget ligger på 39%,
 
 Hvorvidt de færdige projekter indfrier forventningerne, er svært at fastslå entydigt. For ejendomsvurderingssystemet er der dog ingen tvivl. Adskillige fejl og astronomiske ejendomsvurderinger har gjort det aldeles upopulært blandt borgere og givet grå hår i Vurderingsstyrelsen. Trods forsinkelser og milliardoverskridelser kan projektet altså ikke siges at have indfriet de målsætninger, der blev opstillet. For de andre færdige projekter er det endnu for tidligt at afgøre. Dog er der indikationer på, at passagertallet i Hovedstadens Letbane er langt under det niveau, der var anslået forud for projektets start.
 
-<figure class="fig-bred udbrud">
+<figure style="text-align; center;">
   <picture>
     <source media="(max-width: 820px)" srcset="/assets/projects/jernloven_danske_projekter_mobil.png">
     <img src="/assets/projects/jernloven_danske_projekter.png"
@@ -96,7 +77,7 @@ Den sorte svane er billedet på noget yderst sjældent. Det kan være en pandemi
 
 Det samme princip kan formuleres statistisk. De fleste er bekendt med begrebet *regression to the mean* der fortæller at når du oplever noget usædvanligt, skal du ikke regne med at det bliver ved: det hverdagslige er normalen. Men det omvendte gælder også. Selvom dine dage ligner hinanden, så kan du godt regne med at før eller siden så sker det usædvanlige. Det kalder vi *regression to the tail*. Med tail, menes yderligheden i en sandsynlighedsfordeling. Det er her den sorte svane holder til.
 
-<figure class ="fig-bred">
+<figure style="text-align; center;">
   <picture>
     <source media="(max-width: 820px)" srcset="/assets/projects/think_slow_act_fast_mobil.png">
     <img src="/assets/projects/think_slow_act_fast.png"
