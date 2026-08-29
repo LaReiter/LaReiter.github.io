@@ -18,7 +18,7 @@ For eksempel valgte man at fratage danskerne en helligdag for at øge det økono
 
 Eksemplerne er mange, og man kan bl.a. læse at supersygehusene har overskredet deres samlede budget med over 12 milliarder [[4]](https://static1.squarespace.com/static/6556194e9cc0e30b3030a441/t/664743b6c2bfdb0fab75827f/1715946423700/Supersygehusene) - et beløb der kunne have betalt for et par ekstra supersygehuse, fristes man til at sige.
 
-Når der netop er så mange eksempler, og beløbene er så store, så må det kræve en selvransagelse blandt politikere og beslutningstagere. 
+Når der netop er så mange eksempler med betydelige fordyrelser og forsinkelser, må det kalde på selvransagelse blandt politikere og beslutningstagere. 
 
 Når budgetterne konsekvent skrider, og gevinsten ved projektet er så usikker, så er det et symptom på at forarbejdet er gået for hurtigt.
 
