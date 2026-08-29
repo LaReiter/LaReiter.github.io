@@ -16,7 +16,7 @@ Man er efterladt med den følelse, at der bliver skaltet og valtet med de penge,
 
 For eksempel valgte man at fratage danskerne en helligdag for at øge det økonomiske råderum med 3 - 4 milliarder, samtidig med at man udrullede et ejendomsvurderingssystem, der endte med at koste 5 milliarder mere end budgetteret [[3]](https://cdn.rigsrevisionen.dk/rigsrevisionen/Media/638998268925610237/1509-25.pdf), og var en hovedpine for både borgere og ansatte i Vurderingsstyrelsen.
 
-Eksemplerne er talrige og der er fx 3 supersygehuse på vej (ét er indviet), der sammenlagt har overskredet deres budget med over 12 milliarder [[4]](https://static1.squarespace.com/static/6556194e9cc0e30b3030a441/t/664743b6c2bfdb0fab75827f/1715946423700/Supersygehusene) - man fristes til at sige, at vi kunne få et par supersygehuse til den pris. 
+Eksemplerne er mange, og man kan bl.a. læse at supersygehusene har overskredet deres samlede budget med over 12 milliarder [[4]](https://static1.squarespace.com/static/6556194e9cc0e30b3030a441/t/664743b6c2bfdb0fab75827f/1715946423700/Supersygehusene) - et beløb der kunne have betalt for et par ekstra supersygehuse, fristes man til at sige.
 
 Når der netop er så mange eksempler, og beløbene er så store, så må det kræve en selvransagelse blandt politikere og beslutningstagere. 
 
