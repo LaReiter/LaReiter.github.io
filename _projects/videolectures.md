@@ -24,9 +24,7 @@ To af dem blev optaget forleden, dagen efter min søns etårs fødselsdag.
 
 Nu kunne han vist godt begynde på de første gange- og divisionsstykker, blev familien enige om.
 
-Men hvilke gange- og divisionsmetoder var det nu vi lærte selv, dengang vi kæmpede med aritmetikken?
-
-Her genopdagede jeg to metoder: den russiske bondealgoritme og slikkepindsmetoden. Se med nedenfor.
+Men hvilke gange- og divisionsmetoder var det nu vi lærte selv, dengang vi kæmpede med aritmetikken? Her genopdagede jeg to metoder.
 
 **Multiplikation: Den russiske bondealgoritme**
 
