@@ -1,6 +1,6 @@
 ---
 title: "Video matematik"
-image: "/assets/projects/videolecture-thumbnail.png"
+image: "/assets/projects/videolec-thumbnail.png"
 mathjax: true
 layout: post
 excerpt: "Korte optagelser af mig selv der forklarer matematik og statistik."
