@@ -6,6 +6,11 @@ layout: post
 excerpt: "Korte optagelser af mig selv der forklarer matematik og statistik."
 date: 2026-10-11
 lang: da
+videos:
+  - id: hj8XWPTayS4
+    title: "Multiplikation: Den russiske bondealgoritme"
+  - id: iLmVePBVn9Y
+    title: "Division: Slikkepindsmetoden"
 ---
 
 Gennem årene har jeg undervist i matematik og statistik på både universitets- og gymnasieniveau.
@@ -26,10 +31,4 @@ Nu kunne han vist godt begynde på de første gange- og divisionsstykker, blev f
 
 Men hvilke gange- og divisionsmetoder var det nu vi lærte selv, dengang vi kæmpede med aritmetikken? Her genopdagede jeg to metoder.
 
-**Multiplikation: Den russiske bondealgoritme**
-
-{% include embed.html url="https://www.youtube-nocookie.com/embed/hj8XWPTayS4" %}
-
-**Division: Slikkepindsmetoden**
-
-{% include embed.html url="https://www.youtube-nocookie.com/embed/iLmVePBVn9Y" %}
+{% include video-grid.html videos=page.videos cols=2 %}

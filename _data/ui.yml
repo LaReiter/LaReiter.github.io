@@ -75,6 +75,10 @@ en:
     button: "New thought"
     photo_alt: "Lars sitting among ancient ruins, deep in thought"
 
+  video_grid:
+    play: "Play video"
+    back: "Back to overview"
+
   notfound:
     heading: "Page not found"
     body: "The page you were looking for does not exist."
@@ -140,6 +144,10 @@ da:
     caption: "Fra 2024 begyndte jeg at formulere nogle af mine tanker som one-liners. Dem kan du finde her."
     button: "Ny tanke"
     photo_alt: "Lars sidder blandt antikke ruiner, dybt i tanker"
+
+  video_grid:
+    play: "Afspil video"
+    back: "Tilbage til oversigten"
 
   notfound:
     heading: "Siden blev ikke fundet"

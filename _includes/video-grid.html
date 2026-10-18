@@ -1,0 +1,279 @@
+{%- comment -%}
+A 16:9 rectangle split into a grid of YouTube videos, one per cell. At rest every
+cell shows its video's thumbnail, dimmed. Hovering a cell (or tabbing to it, or a
+first tap on touch) expands it to fill the whole rectangle at full brightness with
+a play button, so it reads as an ordinary embed. Clicking then swaps in the real
+player, which stays until the back button below the rectangle is used.
+
+Usage, with the list in the page's front matter:
+  videos:
+    - id: hj8XWPTayS4
+      title: "Den russiske bondealgoritme"
+  {% include video-grid.html videos=page.videos cols=2 %}
+
+The cells are facades: no iframe exists until a video is played, so the page does
+not load a YouTube player per video, and hovering back and forth reloads nothing.
+Each cell is positioned from --col/--row out of --cols/--rows, so the same include
+serves a 1x2, a 2x2 or any other grid.
+{%- endcomment -%}
+{%- assign cur_lang = page.lang | default: site.lang | default: "en" -%}
+{%- assign ui = site.data.ui[cur_lang].video_grid -%}
+{%- assign videos = include.videos -%}
+{%- assign cols = include.cols | default: 2 -%}
+{%- if videos.size < cols -%}{%- assign cols = videos.size -%}{%- endif -%}
+{%- assign rows = videos.size | plus: cols | minus: 1 | divided_by: cols -%}
+<style>
+.video-grid-wrap {
+  position: relative;
+  /* Room below the rectangle for the back button, so showing it shifts nothing. */
+  margin: 1.5em 0 2.75em;
+}
+
+.video-grid {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 6px;
+  background: #050709;
+}
+
+/* The closing cell keeps its z-index until it has finished shrinking (the delayed
+   z-index step), so it slides back under nothing; an opening cell jumps on top at
+   once. */
+.vg-cell {
+  position: absolute;
+  left: calc(var(--col) / var(--cols) * 100%);
+  top: calc(var(--row) / var(--rows) * 100%);
+  width: calc(100% / var(--cols));
+  height: calc(100% / var(--rows));
+  z-index: 1;
+  transition: left .35s ease, top .35s ease, width .35s ease, height .35s ease, z-index 0s linear .35s;
+}
+.vg-cell.is-open {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  transition: left .35s ease, top .35s ease, width .35s ease, height .35s ease, z-index 0s;
+}
+
+.vg-facade {
+  position: absolute;
+  inset: 0;
+  display: block;
+  overflow: hidden;
+  color: #fff;
+  cursor: pointer;
+}
+.vg-facade:hover { color: #fff; text-decoration: none; }
+.vg-facade:focus-visible { outline: 2px solid #38bdf8; outline-offset: -2px; }
+
+/* Hairline between resting cells, drawn inside each so it needs no per-position rules. */
+.vg-facade::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  box-shadow: inset 0 0 0 1px #050709;
+  pointer-events: none;
+}
+.is-open .vg-facade::after { box-shadow: none; }
+
+.vg-facade img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  max-width: none;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  filter: brightness(.45);
+  transition: filter .35s ease;
+}
+.is-open .vg-facade img { filter: brightness(1); }
+
+.vg-title {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 1.6em .9em .7em;
+  background: linear-gradient(transparent, rgba(0, 0, 0, .65));
+  font-size: .95em;
+  font-weight: 600;
+  line-height: 1.3;
+  text-align: left;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, .6);
+}
+
+.vg-play {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 68px;
+  height: 48px;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity .25s ease;
+}
+.is-open .vg-play { opacity: 1; }
+.vg-play-bg { fill: #212121; fill-opacity: .8; transition: fill .15s, fill-opacity .15s; }
+.vg-facade:hover .vg-play-bg,
+.vg-facade:focus-visible .vg-play-bg { fill: #f00; fill-opacity: 1; }
+
+.vg-cell iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.vg-cell.is-playing .vg-facade { display: none; }
+
+.vg-back {
+  position: absolute;
+  right: 0;
+  top: calc(100% + .45em);
+  visibility: hidden;
+  border: 0;
+  background: none;
+  padding: .2em 0;
+  color: #38bdf8;
+  font: inherit;
+  font-size: .88em;
+  cursor: pointer;
+}
+.vg-back:hover { color: #7dd3fc; }
+.video-grid-wrap.is-playing .vg-back { visibility: visible; }
+
+@media (prefers-reduced-motion: reduce) {
+  .vg-cell, .vg-cell.is-open, .vg-facade img, .vg-play { transition: none; }
+}
+</style>
+
+<div class="video-grid-wrap">
+  <div class="video-grid" style="--cols: {{ cols }}; --rows: {{ rows }};">
+    {%- for v in videos %}
+    {%- assign col = forloop.index0 | modulo: cols -%}
+    {%- assign row = forloop.index0 | divided_by: cols %}
+    <div class="vg-cell" style="--col: {{ col }}; --row: {{ row }};" data-id="{{ v.id | escape }}" data-title="{{ v.title | escape }}">
+      <a class="vg-facade" href="https://www.youtube.com/watch?v={{ v.id | escape }}" aria-label="{{ ui.play }}: {{ v.title | escape }}">
+        <img src="https://i.ytimg.com/vi/{{ v.id | escape }}/maxresdefault.jpg" alt="" loading="lazy">
+        <span class="vg-title">{{ v.title | escape }}</span>
+        <svg class="vg-play" viewBox="0 0 68 48" aria-hidden="true" focusable="false"><path class="vg-play-bg" d="M66.5 7.7c-.8-2.9-2.5-5.4-5.4-6.2C55.8.1 34 0 34 0S12.2.1 6.9 1.6c-3 .7-4.6 3.2-5.4 6.1C.1 13 0 24 0 24s.1 11 1.5 16.3c.8 2.9 2.5 5.4 5.4 6.2C12.2 47.9 34 48 34 48s21.8-.1 27.1-1.5c2.9-.8 4.6-3.3 5.4-6.2C67.9 35 68 24 68 24s-.1-11-1.5-16.3z"/><path d="M45 24 27 14v20z" fill="#fff"/></svg>
+      </a>
+    </div>
+    {%- endfor %}
+  </div>
+  <button type="button" class="vg-back">&larr; {{ ui.back }}</button>
+</div>
+
+<script>
+(function () {
+  document.querySelectorAll('.video-grid-wrap:not([data-vg-ready])').forEach(function (wrap) {
+    wrap.setAttribute('data-vg-ready', '');
+    var grid = wrap.querySelector('.video-grid');
+    var cells = Array.prototype.slice.call(grid.querySelectorAll('.vg-cell'));
+    var back = wrap.querySelector('.vg-back');
+    var openCell = null;
+    var playing = null;
+    // After the back button, the cell under the pointer must not spring straight
+    // open again; hover resumes once the pointer reaches another cell or leaves.
+    var suppressed = null;
+
+    function open(cell) {
+      if (playing || cell === openCell) return;
+      if (openCell) openCell.classList.remove('is-open');
+      openCell = cell;
+      if (cell) cell.classList.add('is-open');
+    }
+
+    function play(cell) {
+      open(cell);
+      var iframe = document.createElement('iframe');
+      iframe.src = 'https://www.youtube-nocookie.com/embed/' + encodeURIComponent(cell.dataset.id) + '?autoplay=1&rel=0';
+      iframe.title = cell.dataset.title;
+      iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen';
+      iframe.allowFullscreen = true;
+      iframe.referrerPolicy = 'strict-origin-when-cross-origin';
+      cell.appendChild(iframe);
+      cell.classList.add('is-playing');
+      wrap.classList.add('is-playing');
+      playing = cell;
+    }
+
+    function stop(refocus) {
+      if (!playing) return;
+      var cell = playing;
+      cell.removeChild(cell.querySelector('iframe'));
+      cell.classList.remove('is-playing');
+      wrap.classList.remove('is-playing');
+      playing = null;
+      suppressed = cell;
+      open(null);
+      if (refocus) cell.querySelector('.vg-facade').focus();
+    }
+
+    // The largest thumbnail is missing for some videos, and YouTube answers that
+    // with a 120px grey placeholder rather than always with an error, so both
+    // cases fall back to hqdefault, which always exists.
+    function checkThumb(img) {
+      if (img.dataset.fallback || !img.complete || img.naturalWidth > 120) return;
+      img.dataset.fallback = '1';
+      img.src = img.src.replace('maxresdefault', 'hqdefault');
+    }
+
+    cells.forEach(function (cell) {
+      var facade = cell.querySelector('.vg-facade');
+      var img = facade.querySelector('img');
+      img.addEventListener('load', function () { checkThumb(img); });
+      img.addEventListener('error', function () { checkThumb(img); });
+      if (img.complete) checkThumb(img);
+
+      facade.addEventListener('click', function (e) {
+        e.preventDefault();
+        // On touch there is no hover: the first tap opens, the second plays.
+        if (openCell !== cell) open(cell);
+        else play(cell);
+      });
+
+      // Only keyboard focus opens a cell. A tap also focuses, and opening on that
+      // would make the very same tap's click start the video.
+      facade.addEventListener('focus', function () {
+        var keyboard = true;
+        try { keyboard = facade.matches(':focus-visible'); } catch (err) {}
+        if (keyboard) open(cell);
+      });
+    });
+
+    grid.addEventListener('pointermove', function (e) {
+      if (e.pointerType !== 'mouse') return;
+      var cell = e.target.closest('.vg-cell');
+      if (cell === suppressed) return;
+      suppressed = null;
+      open(cell);
+    });
+
+    grid.addEventListener('pointerleave', function (e) {
+      if (e.pointerType !== 'mouse') return;
+      suppressed = null;
+      open(null);
+    });
+
+    wrap.addEventListener('focusout', function (e) {
+      if (!wrap.contains(e.relatedTarget)) open(null);
+    });
+
+    wrap.addEventListener('keydown', function (e) {
+      if (e.key !== 'Escape') return;
+      if (playing) stop(true);
+      else open(null);
+    });
+
+    // detail is 0 when the button was activated from the keyboard.
+    back.addEventListener('click', function (e) { stop(e.detail === 0); });
+  });
+})();
+</script>
