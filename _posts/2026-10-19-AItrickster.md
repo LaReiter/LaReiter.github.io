@@ -8,8 +8,8 @@ lang: en
 
 When I first started programming, I learned about two kinds of errors:
 
-- Syntax errors
-- Semantic errors
+* Syntax errors
+* Semantic errors
 
 Syntactically, today's AI models rarely get it wrong.
 
