@@ -32,7 +32,7 @@ lang: en
 
 </figure>
 
-As a kid I loved to fold paper planes. So much, that I bought myself a textbook on the mechanics and aerodynamics of paper planes and templates for complex designs. Now that my kid has reached the same age and independently shown an interest in the subject, I’ve found it deeply satisfying to revisit my old hobby.
+As a kid I loved to fold paper planes. So much, that I bought myself a book on the mechanics and aerodynamics of paper planes and templates for complex designs. Now that my kid has reached the same age and independently shown an interest, I’ve found it deeply satisfying to revisit my old hobby.
 
 Besides my satisfaction in simply folding the planes, the academic within me wanted to do some experimenting. So I decided to test how plane size and the number of wing folds influence flight.
 
@@ -84,9 +84,9 @@ Using Fisher's exact test, I tested the claims formally. I found that adding an 
 
 ## The devils reviewer: bias and variance
 
-As stated earlier, I was not at all happy with this design. But I also love data collection and analysis, so here I are. Also, I realized that this could be a lesson on the importance of a good study design.
+As stated earlier, I was not at all happy with this design. But I also love data collection and analysis, so here we are. Also, I realized that this could be a lesson on the importance of a good study design.
 
-So what is wrong?
+So what is so bad with the design?
 
 For starters, the sample size (20 throws per plane) only allow us to reliably detect large effects, and a formal test on the interaction between fold and size would be underpowered, and was therefore omitted.
 
