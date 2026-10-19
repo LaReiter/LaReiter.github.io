@@ -25,7 +25,7 @@ ref: about
 <section class="about-prelude">
   <h2 class="about-label">Prelude</h2>
   <p>The world is noisy.</p>
-  <p>People are noisy. We are biased, capricious, and often act out of self-interest.</p>
+  <p>People are noisy. We are biased and capricious.</p>
   <p>Phenomena are noisy. Both the natural world and the constructs we have built on top of it are shot through with randomness.</p>
   <p>So what happens when noisy people try to understand noisy phenomena? Noise compounds, and the noise curtain surrounding our world becomes more like a brick wall.</p>
   <p>To make this brick wall penetrable, we need to reduce the noise within ourselves.</p>

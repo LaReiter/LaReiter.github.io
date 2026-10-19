@@ -25,7 +25,7 @@ ref: about
 <section class="about-prelude">
   <h2 class="about-label">Præludium</h2>
   <p>Verden støjer.</p>
-  <p>Mennesker støjer. Vi er fordomsfulde, inkonsekvente og handler ofte ud fra egeninteresse.</p>
+  <p>Mennesker støjer. Vi er fordomsfulde og irrationelle.</p>
   <p>Fænomener støjer. Både naturen og de konstruktioner, vi har bygget oven på den, er gennemsyret af tilfældigheder.</p>
   <p>Så hvad sker der, når støjfyldte mennesker prøver at forstå støjfyldte fænomener? Støjen forstærkes. Det støjtæppe, der lå over verden, bliver til en mur.</p>
   <p>For at bryde denne mur må vi reducere støjen i os selv.</p>
