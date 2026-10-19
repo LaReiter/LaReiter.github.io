@@ -52,8 +52,8 @@ I throw from shoulder height and attempt to use the same force and arm movement 
 <figure style="text-align: center;">
 
   <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; align-items: center;">
-    <img src="/assets/projects/paperplanes.jpg" style="width: 100%; height: auto;">
-    <img src="/assets/projects/paperplane_target.jpg" style="width: 100%; height: auto;">
+    <img src="/assets/projects/paperplanes.png" style="width: 100%; height: auto;">
+    <img src="/assets/projects/paperplane_target.png" style="width: 100%; height: auto;">
   </div>
 
   <figcaption style="margin-top: 12px; font-style: italic; font-size: 0.95em;">
