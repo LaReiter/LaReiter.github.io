@@ -54,7 +54,7 @@ $$\hat{s} = \frac{1}{n} \sum_{i=1}^n s_i = \frac{1}{25} (s_1 + s_2 + \ldots + s_
 
 To measure the uncertainty in our estimate, we can calculate the **standard error**:
 
-$$\text{SE}(\hat{s}) = \frac{\hat{\sigma}}{\sqrt{n}} \sqrt{\frac{N-n}{N-1}}$$
+$$\text{SE}(\hat{s}) = \frac{\hat{\sigma}}{\sqrt{n}} \sqrt{\frac{N-n}{N}}$$
 
 where $$N$$ is the population size and $$\hat{\sigma}$$ is the sample standard deviation.
 
@@ -65,7 +65,7 @@ One can now ask: how we actually define the population? Do we wish to
 1. Understand well-being among the current employees? Then the population size is $$N = 100$$.
 2. Understand well-being at the workplace (not just among current employees)? Then the population size is theoretically infinite, i.e., $$N \to \infty$$.
 
-In situation (1), the correction in the standard error equation becomes $$\sqrt{\frac{100-25}{100-1}} = \sqrt{\frac{75}{99}} \approx 0.87$. In situation (2), the correction becomes $$\lim_{N \to \infty} \sqrt{\frac{N-25}{N-1}} = 1$$, i.e., no correction. In situation (2), the ratio between the sample and population size thus has no bearing on the uncertainty. So if, for example, some employees fail to respond (assuming they don't fail to respond for reasons related to the survey), it will not inflate the standard error.
+In situation (1), the correction in the standard error equation becomes $$\sqrt{\frac{100-25}{100}} = \sqrt{\frac{75}{100}} \approx 0.87$$. In situation (2), the correction becomes $$\lim_{N \to \infty} \sqrt{\frac{N-25}{N}} = 1$$, i.e., no correction. In situation (2), the ratio between the sample and population size thus has no bearing on the uncertainty. So if, for example, some employees fail to respond (assuming they don't fail to respond for reasons related to the survey), it will not inflate the standard error.
 
 ### Confidence Interval
 
