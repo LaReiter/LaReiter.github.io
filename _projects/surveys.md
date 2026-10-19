@@ -63,9 +63,9 @@ where $$N$$ is the population size and $$\hat{\sigma}$$ is the sample standard d
 One can now ask: how we actually define the population? Do we wish to
 
 1. Understand well-being among the current employees? Then the population size is $$N = 100$$.
-2. Understand well-being at the workplace (not just among current employees)? Then the population size is theoretically infinite, i.e., $$N = \infty$$.
+2. Understand well-being at the workplace (not just among current employees)? Then the population size is theoretically infinite, i.e., $$N \to \infty$$.
 
-In situation (1), the correction in the standard error equation becomes $$\sqrt{\frac{100-25}{100-1}} = \frac{75}{99} \approx 0.75$$. In situation (2), the correction becomes $$\sqrt{\frac{\infty-25}{\infty-1}} = 1$$, i.e., no correction. In situation (2), the ratio between the sample and population size thus has no bearing on the uncertainty. So if, for example, some employees fail to respond (assuming they don't fail to respond for reasons related to the survey), it will not inflate the standard error.
+In situation (1), the correction in the standard error equation becomes $$\sqrt{\frac{100-25}{100-1}} = \sqrt{\frac{75}{99}} \approx 0.87$. In situation (2), the correction becomes $$\lim_{N \to \infty} \sqrt{\frac{N-25}{N-1}} = 1$$, i.e., no correction. In situation (2), the ratio between the sample and population size thus has no bearing on the uncertainty. So if, for example, some employees fail to respond (assuming they don't fail to respond for reasons related to the survey), it will not inflate the standard error.
 
 ### Confidence Interval
 
