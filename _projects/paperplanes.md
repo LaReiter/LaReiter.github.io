@@ -56,7 +56,7 @@ If the plane hits/do not hit the target (H), a score of 1/0 is recorded. If the 
   </div>
 
   <figcaption style="margin-top: 12px; font-style: italic; font-size: 0.95em;">
-    Left figure: The four paperplanes of the study (after the trial). Right figure: The experimental area, with definitions of binary variables precision P, range R and hit H. The dashed circle is the target pillow H=1. Planes that landed inside the couch were accurate A=1. Planes that reached the white pillow and beyond had good range R=1.
+    Left figure: The four paperplanes of the study (after the trial). Right figure: The experimental area, with definitions of binary variables accuracy A, range R and hit H. The dashed circle is the target pillow H=1. Planes that landed inside the couch were accurate A=1. Planes that reached the white pillow and beyond had good range R=1.
   </figcaption>
 
 </figure>
