@@ -40,6 +40,15 @@ I quickly realized, that coming up with a proper experimental design (reducing v
 
 ## The experimental design
 
+I stand with my back to the dishwasher. In front of me is a sofa placed against a wall. At one end of the sofa, lying on the armrest, there is a pillow that serves as the target (right image below).
+
+I alternate between throwing the four paper airplanes: (large, small) × (unfolded, folded). See left image below. If the airplane hits/do not hit the target (H), a score of 1/0 is recorded. If the airplane have/do not have a range far enough to reach the target (R), a score of 1/0 is recorded. If the airplane lands within/outside the width of the sofa at the time of landing, it is considered accurate (A), and a score of 1/0 is recorded.
+
+The experiment is repeated 20 times for each plane.
+
+I throw from shoulder height and attempt to use the same force and arm movement for every throw. Prior to each throw, I count down from three before swining my arm forward towards the target.
+
+
 <figure style="text-align: center;">
 
   <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; align-items: center;">
