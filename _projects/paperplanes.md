@@ -3,7 +3,7 @@ title: "Paper planes"
 image: "/assets/projects/paper-thumbnail.png"
 mathjax: true
 layout: post
-excerpt: "Origami: Folding paper planes and optimizing number of folds."
+excerpt: "Origami: Folding paper planes and a bit of statistics."
 date: 2025-10-18
 lang: en
 ---
@@ -52,7 +52,7 @@ I throw from shoulder height and attempt to use the same force and arm movement 
 <figure style="text-align: center;">
 
   <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; align-items: center;">
-    <img src="/assets/projects/paperplanes.png" style="width: 100%; height: auto;">
+    <img src="/assets/projects/paperplanes.jpeg" style="width: 100%; height: auto;">
     <img src="/assets/projects/paperplane_target.png" style="width: 100%; height: auto;">
   </div>
 
