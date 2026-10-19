@@ -26,7 +26,7 @@ lang: en
     <img src="/assets/projects/paper8.jpg"  style="width: 100%; height: auto;">
   </div>
 
-  <figcaption style="margin-top: 12px; font-style: italic; font-size: 0.95em;">
+  <figcaption style="margin-top: 12px; margin-bottom: 1.5em; font-style: italic; font-size: 0.95em;">
     Figure: Some of my (re)creations showing different types of paper planes. Some are small, some are big. Some are pointy, and some have large wingspans. Finally, some are bionic and flaps their wings like a bird or bat. The paper plane with the rockets has limited flight capability but looks amazing.
   </figcaption>
 
@@ -54,10 +54,6 @@ If the plane hits/do not hit the target (H), a score of 1/0 is recorded. If the 
     <img src="/assets/projects/paperplanes.jpeg" style="width: 100%; height: auto;">
     <img src="/assets/projects/paperplane_target.png" style="width: 100%; height: auto;">
   </div>
-
-  <figcaption style="margin-top: 12px; font-style: italic; font-size: 0.95em;">
-    Left figure: The four paperplanes of the study (after the trial). Right figure: The experimental area, with definitions of binary variables precision P, range R and hit H. The dashed circle is the target pillow $H=1$. Planes that landed inside the couch were accurate $A=1$. Planes that reached the white pillow and beyond had good range $R=1$.
-  </figcaption>
 
 </figure>
 
