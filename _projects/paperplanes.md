@@ -56,7 +56,7 @@ If the plane hits/do not hit the target (H), a score of 1/0 is recorded. If the 
   </div>
 
   <figcaption style="margin-top: 12px; font-style: italic; font-size: 0.95em;">
-    Left figure: The four paperplanes of the study (after the trial). Right figure: The experimental area, with definitions of binary variables precision P, range R and hit H. The dashed circle is the target pillow $$H=1$$. Planes that landed inside the couch were accurate $$A=1$$. Planes that reached the white pillow and beyond had good range $$R=1$$.
+    Left figure: The four paperplanes of the study (after the trial). Right figure: The experimental area, with definitions of binary variables precision P, range R and hit H. The dashed circle is the target pillow H=1. Planes that landed inside the couch were accurate A=1. Planes that reached the white pillow and beyond had good range R=1.
   </figcaption>
 
 </figure>
@@ -80,7 +80,7 @@ In the below Figure I have visualized the results of the experiments along with 
 
 </figure>
 
-Using Fisher's exact test, I tested the claims formally. I found that adding an extra wing fold had a significant impact on the outcome of range R ($$p=0.003$$) and hit chance H ($$p = 0.016$$) for large planes only. For other combinations of planes and outcomes, the impact of an extra fold was non-significant. P-values are Holm adjusted. 
+Using Fisher's exact test, I tested the claims formally. I found that adding an extra wing fold had a significant impact on the outcome of range R ($$p=0.003$$) and hit chance H ($$p = 0.016$$) for large planes only. For other combinations of planes and outcomes, the impact of an extra fold was non-significant. P-values were adjusted (Holm-Bonferonni) due to multiple testing. 
 
 ## The devils reviewer: bias and variance
 
@@ -90,7 +90,7 @@ So what is wrong?
 
 For starters, the sample size (20 throws per plane) only allow us to reliably detect large effects, and a formal test on the interaction between fold and size would be underpowered, and was therefore omitted.
 
-Secondly, the measures are poor. I measured the range (R), whether I hit the target (H), and if the plane lands on the couch as a marker of accuracy (A). Obviously, A and R will be predictive of H, making $$H$$ slightly superfluous. Secondly, a plane can follow a chaotic route and still land on the couch, now being labelled accurate $$A=1$$. On the other hand, planes that curve slightly left will hit the wall, and are now inaccurate $$A=0$$ and fall short of the target $$R = H = 0$$. Binary variables also masks useful (quantitative) information: how far did it fly? how accurate was it? 
+Secondly, the measures are poor. I measured the range (R), whether I hit the target (H), and if the plane lands on the couch as a marker of accuracy (A). Obviously, A and R will be predictive of H, making H slightly superfluous. Secondly, a plane can follow a chaotic route and still land on the couch, now being labelled accurate A=1. On the other hand, planes that curve slightly left will hit the wall, and are now inaccurate A=0 and fall short of the target R = H = 0. Binary variables also masks useful (quantitative) information: how far did it fly? how accurate was it? 
 
 Regarding the planes, it seems unreasonable to expect that the planes only differ in the two dimensions "wing folds" and "size". There are neccesarily small deviations in how they are folded, that will have some impact on their ability to fly (well). Ideally, to avoid bias from our four planes with unique features/deviations, the throws should use a new folded paper plane of the type (i.e. size and wing fold). This also removes the risk, that I damage or deform the four planes through repeated throws.
 
