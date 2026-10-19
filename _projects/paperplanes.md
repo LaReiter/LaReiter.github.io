@@ -32,9 +32,9 @@ lang: en
 
 </figure>
 
-As a kid I loved to fold paper planes. So much, that I bought myself a textbook on the mechanics and aerodynamics of paper planes (the book also included several colorful templates). Now that my kid has reached the same age and independently shown an interest in the subject, I’ve found it deeply satisfying to revisit my old hobby.
+As a kid I loved to fold paper planes. So much, that I bought myself a textbook on the mechanics and aerodynamics of paper planes and templates for complex designs. Now that my kid has reached the same age and independently shown an interest in the subject, I’ve found it deeply satisfying to revisit my old hobby.
 
-Besides my satisfaction in simply folding the planes, the academic within me wanted to do some experimenting. So I decided I wanted to test how plane size and the number of wing folds influence flight.
+Besides my satisfaction in simply folding the planes, the academic within me wanted to do some experimenting. So I decided to test how plane size and the number of wing folds influence flight.
 
 I quickly realized, that coming up with a proper experimental design was non-trivial and ideally required several tools. So instead, this project became about executing a simple (naive) study design, and then playing the role of the critical reviewer of my own work.
 
