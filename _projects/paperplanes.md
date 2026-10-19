@@ -32,7 +32,7 @@ lang: en
 
 </figure>
 
-As a kid I loved to fold paper planes. So much, that I bought myself a book on the mechanics and aerodynamics of paper planes and templates for complex designs. Now that my kid has reached the same age and independently shown an interest, I’ve found it deeply satisfying to revisit my old hobby.
+As a kid I loved to fold paper planes. So much, that I bought myself a book on the mechanics and aerodynamics of paper planes, including templates for complex designs. Now that my kid has reached the same age and independently shown an interest, I’ve found it deeply satisfying to revisit my old hobby.
 
 Besides my satisfaction in simply folding the planes, the academic within me wanted to do some experimenting. So I decided to test how plane size and the number of wing folds influence flight.
 
