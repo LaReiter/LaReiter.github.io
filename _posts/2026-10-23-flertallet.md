@@ -3,7 +3,7 @@ title: "Bor sandheden hos flertallet?"
 mathjax: true
 layout: post
 categories: media
-lang: en
+lang: da
 ---
 
 ![Sandheden flytter med flertallet](/assets/Sandheden tilhører flertallet.png)
