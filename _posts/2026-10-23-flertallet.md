@@ -6,8 +6,6 @@ categories: media
 lang: da
 ---
 
-![Sandheden flytter med flertallet](/assets/Sandheden tilhører flertallet.png)
-
 <figure style = "max-width: 320px; margin; 1em auto;">
     <img src = "/assets/flertallet.png"
     alt = "Karikatur: Sandheden flytter med flertallet" width = "1024"
@@ -48,4 +46,6 @@ At tro at vi har forstået verden, fordi vores opfattelse flugter med de fleste 
 
 *Ps. Idéen til karikaturen (billede øverst) kom på vej hjem fra arbejde. Med hjælp fra ChatGPT blev det en realitet.* 
 
-[^1] Interview med Brinkmann i Altinget: [Krænkelsesdebatten er et overfladisk udtryk for opgøret med vores fælles virkelighed](https://www.altinget.dk/artikel/svend-brinkmann-kraenkelsesdebatten-er-et-overfladisk-udtryk-for-opgoeret-med-vores-faelles-virkeligheden)
+## Kilder
+
+[^1]: Interview med Brinkmann i Altinget: [Krænkelsesdebatten er et overfladisk udtryk for opgøret med vores fælles virkelighed](https://www.altinget.dk/artikel/svend-brinkmann-kraenkelsesdebatten-er-et-overfladisk-udtryk-for-opgoeret-med-vores-faelles-virkeligheden)
