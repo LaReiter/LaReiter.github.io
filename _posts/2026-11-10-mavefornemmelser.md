@@ -42,10 +42,16 @@ I modsat fald, kan vi risikere at miste grebet om, hvad der er virkeligt, alt er
 
 ## Kilder
 
-[^1] https://www.dr.dk/nyheder/politik/folkeskolens-parter-regeringen-sparker-en-aaben-doer-ind-med-mobilforbud
-[^2] https://videnskab.dk/kultur-samfund/er-skaerme-skyld-i-at-skoleboern-laeser-daarligere/
-[^3] https://www.altinget.dk/foedevarer/artikel/oekonomer-differentieret-moms-paa-foedevarer-oeger-erhvervslivets-byrder-uden-stoerre-effekt-paa-priserne
-[^4] https://www.dr.dk/nyheder/politik/stoejberg-vil-forbyde-dunjakker-og-faste-paa-uddannelser
-[^5] https://www.dr.dk/nyheder/politik/dumpekarakter-til-folkeskole-reform-hverken-faglighed-eller-trivsel-er-blevet-bedre
-[^6] https://politiken.dk/debat/debatindlaeg/art8228142/Fagfolk-advarede-mod-folkeskolereformen.-Ingen-lyttede
-[^7] https://www.dr.dk/nyheder/politik/19-forskere-underskriver-opraab-med-haard-kritik-af-justitsministeren
+[^1]: https://www.dr.dk/nyheder/politik/folkeskolens-parter-regeringen-sparker-en-aaben-doer-ind-med-mobilforbud
+
+[^2]: https://videnskab.dk/kultur-samfund/er-skaerme-skyld-i-at-skoleboern-laeser-daarligere/
+
+[^3]: https://www.altinget.dk/foedevarer/artikel/oekonomer-differentieret-moms-paa-foedevarer-oeger-erhvervslivets-byrder-uden-stoerre-effekt-paa-priserne
+
+[^4]: https://www.dr.dk/nyheder/politik/stoejberg-vil-forbyde-dunjakker-og-faste-paa-uddannelser
+
+[^5]: https://www.dr.dk/nyheder/politik/dumpekarakter-til-folkeskole-reform-hverken-faglighed-eller-trivsel-er-blevet-bedre
+
+[^6]: https://politiken.dk/debat/debatindlaeg/art8228142/Fagfolk-advarede-mod-folkeskolereformen.-Ingen-lyttede
+
+[^7]: https://www.dr.dk/nyheder/politik/19-forskere-underskriver-opraab-med-haard-kritik-af-justitsministeren
